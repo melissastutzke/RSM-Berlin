@@ -7,7 +7,7 @@
 | **Stand** | 28.09.2026 – die EmpCo-Regeln sind in Deutschland seit dem 27.09.2026 anwendbar |
 | **Zweck** | Inhaltliche und konzeptionelle Grundlage für den internen Debrief. **Keine** Präsentation, **keine** Rechtsberatung im Einzelfall |
 | **Perspektive** | Governance, Compliance, IKS/CMS, Verantwortlichkeiten. ESG nur, soweit es für das Verständnis nötig ist |
-| **Status** | Research-Entwurf v1.0 – ergänzt um Kap. 13 „KI-Einsatz in der Claim-Governance“. Normzitate vor externer Verwendung gegen die Originaltexte prüfen (siehe „Quellenlage“) |
+| **Status** | Research-Entwurf v1.0 – ergänzt um Kap. 13 „KI-Einsatz in der Claim-Governance“ und Kap. 14 „KI im IKS – Stand der Praxis und Übertragung auf die Claim-Governance“. Normzitate vor externer Verwendung gegen die Originaltexte prüfen (siehe „Quellenlage“) |
 | **Denkkette** | Regulation → Requirement → Risk → Governance Implication → Process → Control → Responsibility |
 
 ---
@@ -53,7 +53,7 @@ Die Paragraphen- und Nummernangaben zum UWG n. F. sind plausibilisiert. Vor jede
 
 ---
 
-## Executive Summary – die 16 wichtigsten Erkenntnisse
+## Executive Summary – die 17 wichtigsten Erkenntnisse
 
 1. **Der Stichtag ist erreicht – ohne allgemeine Schonfrist.**
    - Seit dem 27.09.2026 gelten die EmpCo-Regeln über das 3. UWG-Änderungsgesetz vom 12.02.2026 (BGBl. 2026 I Nr. 43) **[G][P3]**.
@@ -135,6 +135,11 @@ Die Paragraphen- und Nummernangaben zum UWG n. F. sind plausibilisiert. Vor jede
     - Ungeeignet ist sie als Freigabeinstanz und als Evidenzquelle („KI-Ausgaben sind Hinweise, keine Belege“) **[E][A]**.
     - Es braucht zwei Freigabeebenen: den **KI-Einsatz** (System mit Validierung und Änderungssteuerung) und die **Ergebnisse** (Claims nach Kompetenzordnung). Die Systemfreigabe ersetzt die Claim-Freigabe nur bei geschlossener Generierung aus bereits freigegebenen Bausteinen **[E]**.
     - Am riskantesten ist KI, die selbst nach außen spricht: generative Produkttexte im großen Umfang, Chatbots (Offenlegungspflicht nach Art. 50 Abs. 1 KI-VO) und Bildwelten **[G/A]**.
+
+17. **Die IKS-Praxis liefert das Werkzeug für die Claim-Kontrolle** (Kap. 14).
+    - Im IKS ist KI vor allem bei Vollerhebung, Anomalieerkennung, Abgleich und kontinuierlicher Überwachung etabliert. Seit 2026 gibt es mit der COSO-Leitlinie zu generativer KI und den IDW-Prüfungshinweisen PH 9.315DE.2/.3 einen konkreten Rahmen für Kontrollen über KI [B21][B22].
+    - Übertragbar ist das Kontrollhandwerk: Vollerhebung, Drei-Wege-Abgleich „Claim ↔ Evidenz ↔ Veröffentlichung“, Ausnahme-Management, Validierung. Nicht übertragbar ist der Wahrheitsmaßstab, denn ob ein Claim irreführt, hängt vom Verbraucherverständnis ab **[A]**.
+    - Die Aufsicht automatisiert bereits: Die britische ASA filtert mit KI über 60 Mio. Anzeigen pro Jahr, Green Claims sind ein Schwerpunkt [B26].
 
 ---
 
@@ -1824,6 +1829,8 @@ KI verändert die Kontrollarchitektur auf zwei Wegen **[A]**:
 1. **Neue Risiken:** Als Claim-Quelle erzeugt KI Aussagen in großer Zahl und in Echtzeit. Das CMS muss KI-generierte Kommunikation deshalb ausdrücklich in den Risikobereich „Claims“ aufnehmen.
 2. **Neue Kontrollabhängigkeit:** Ist KI Teil einer Kontrolle, ist diese nur so verlässlich wie Validierung, Änderungssteuerung und Referenzdaten der KI. Das IKS braucht deshalb eine **„Kontrolle über die Kontrolle“** – vergleichbar mit den IT-generellen Kontrollen, die im Finanzbereich automatisierte Kontrollen absichern.
 
+Wie verbreitet KI im IKS bereits ist und welche Lehren sich auf Claims übertragen lassen, vertieft Kap. 14.
+
 #### 13.4.2 Auswirkungen auf das CMS (Grundelemente nach IDW PS 980)
 
 | Grundelement | Auswirkung durch KI | Maßnahme **[E]** |
@@ -2008,6 +2015,187 @@ KI verändert die Kontrollarchitektur auf zwei Wegen **[A]**:
 
 ---
 
+## 14. Vertiefung: KI im IKS – Stand der Praxis und Übertragung auf die Claim-Governance
+
+> **Fragestellung:** Wie wird KI heute bereits in internen Kontrollsystemen (IKS) eingesetzt? Und wie lässt sich dieses Wissen auf die Claim-Governance übertragen? Das Kapitel ergänzt Kap. 13: Dort geht es um KI aus Sicht der Claims, hier um das, was die Kontrollpraxis im Finanz- und Prüfungsumfeld bereits gelernt hat.
+
+> **Quellenlage:** Web-Recherche mit Stand 09/2026. Die Originaldokumente (u. a. COSO, IDW, BaFin) waren in dieser Arbeitsumgebung nicht direkt abrufbar. Ihr Inhalt ist über mehrere übereinstimmende Zusammenfassungen trianguliert. Studienzahlen sind **Selbstauskünfte** mit unterschiedlichen Definitionen von „KI-Nutzung“; Berater- und Anbieterstudien neigen zur Überzeichnung. Die Zahlen zeigen Richtungen, keine exakten Marktanteile.
+
+### 14.1 Kurzantwort
+
+1. **KI im IKS ist 2026 gelebte Praxis – vor allem im Finanzbereich und in der Prüfung, oft aber noch im Pilotstadium.**
+   - Rund 59 % der Finanzfunktionen nutzen KI (Gartner 2025). Nach KPMG stieg die aktive Nutzung im Finanzbereich von 30 % (2024) auf 75 % (2026) [S38][S39].
+   - In der Breite verankert ist sie seltener: 2024 pilotierten oder nutzten 72 % der Unternehmen KI in der Finanzberichterstattung, aber nur 10 % breitflächig [S39].
+2. **Am reifsten sind Mengen- und Abgleichsaufgaben:**
+   - kontinuierliche Kontrollüberwachung (Continuous Controls Monitoring, CCM) und Process Mining,
+   - Anomalieerkennung bei Buchungen und Zahlungen,
+   - Dokumentenextraktion und Abstimmungen,
+   - im Finanzsektor ML-gestütztes Transaktionsmonitoring.
+
+   Generative KI dient bisher vor allem der Dokumentation, der Recherche und der Testvorbereitung [B24][S39][S40][S41].
+3. **Der Rahmen für „Kontrollen über KI“ ist 2026 konkret geworden:** COSO-Leitlinie zu generativer KI (02/2026), zwei IDW-Prüfungshinweise (07/2026), BaFin-Orientierungshilfe (12/2025) und BaFin-Prinzipien (2021) [B21][B22][B23][B32].
+4. **In Deutschland besteht eine Asymmetrie.** Wer KI nutzt, setzt sie deutlich häufiger in Marketing und Kommunikation ein (57 %) als in Controlling und Rechnungswesen (17 %) [B29]. Claims entstehen also zunehmend KI-gestützt, ihre Kontrolle ist meist noch manuell **[A]**.
+5. **Die Durchsetzung automatisiert bereits.**
+   - Die britische Werbeaufsicht ASA filtert mit KI über 60 Mio. Anzeigen pro Jahr; Green Claims sind ein Schwerpunkt [B26].
+   - Die EU-Kommission stellt dem CPC-Netz KI-Werkzeuge für Online-Untersuchungen bereit [B31].
+   - Wer seine Claims nur stichprobenhaft prüft, hat gegenüber Aufsicht und Mitbewerbern einen Informationsnachteil **[A]**.
+6. **Übertragbar ist das Kontrollhandwerk, nicht der Wahrheitsmaßstab.**
+   - Vollerhebung statt Stichprobe, Abgleich statt Durchsicht, Ausnahme-Management, Validierung und „Kontrolle über die Kontrolle“ passen direkt.
+   - Ob ein Claim irreführt, hängt dagegen vom Verbraucherverständnis ab. Die Forschung zeigt: Umweltaussagen **erkennen** kann KI sehr gut, Greenwashing **beurteilen** nicht zuverlässig [S43][S44] **[A]**.
+7. **Empfehlung:** Claims als weiteren Anwendungsfall in die ohnehin nötige KI-Governance aufnehmen, strukturiert nach der COSO-Roadmap, statt eine eigene KI-Insel zu bauen. Der Einstieg gelingt über Discovery und den Drei-Wege-Abgleich „Claim ↔ Evidenz ↔ Veröffentlichung“ **[E]**.
+
+### 14.2 Stand der Praxis: Wie verbreitet ist KI im IKS?
+
+| Studie | Basis | Kernbefund | Einordnung [A] |
+|---|---|---|---|
+| Gartner AI in Finance Survey 2025 [S38] | 183 CFOs und Finanzleitungen, 05–06/2025 | 59 % der Finanzfunktionen nutzen KI (2024: 58 %, 2023: 37 %) | nach starkem Anstieg 2024 ein Plateau |
+| KPMG Global AI in Finance 2026 [S39] | globale Befragung, veröffentlicht 05/2026 | aktive KI-Nutzung im Finanzbereich 30 % (2024) → 75 %; 71 % sehen den ROI erfüllt oder übertroffen, nur 23 % übertroffen; Unternehmen mit starker Governance und starken Kontrollen berichten drei- bis sechsmal häufiger von deutlichen Verbesserungen | Governance als Erfolgsfaktor, nicht als Bremse |
+| KPMG AI in financial reporting and audit 2024 [S39] | 1.800 Unternehmen | 72 % pilotieren oder nutzen KI in der Finanzberichterstattung, 10 % breitflächig; 64 % erwarten, dass der Abschlussprüfer ihren KI-Einsatz beurteilt | Breite vor Tiefe |
+| IIA Pulse 2025 [B27] | Revisionsleitungen | Nutzung generativer KI in den Prüfungsaktivitäten der Internen Revision von 15 % auf 40 % | schnelle Verbreitung in der 3rd Line |
+| IIA und AuditBoard, 02/2026 [B27] | über 370 Revisionsleitungen, Nordamerika | KI-gestützter Betrug gilt als moderates (58 %) oder hohes (27 %) Risiko; nur etwa vier von zehn fühlen sich vorbereitet; Hindernisse: Technologie (57 %), Fähigkeiten (55 %), Budget (46 %) | Kontrollen über KI hinken hinterher |
+| ACFE und SAS 2024 [B30] | rund 1.200 Fraud Examiner, Ende 2023 | 18 % nutzen KI/ML in der Betrugsbekämpfung, weitere 32 % planen es binnen zwei Jahren; 83 % erwarten den Einsatz generativer KI | ML in der Forensik langsamer als erwartet |
+| PCAOB Staff Spotlight, 07/2024 [B24] | große US-Prüfungsgesellschaften und Emittenten | generative KI in der Prüfung überwiegend für administrative und Recherche-Aufgaben; bei Emittenten Schwerpunkt in operativen und kundennahen Bereichen, nicht in der Rechnungslegung | Schlüsselkontrollen noch selten GenAI-gestützt |
+| Bitkom 2025 [B29] | 604 Unternehmen ab 20 Beschäftigten, Deutschland | 36 % nutzen KI (Vorjahr 20 %); Einsatzbereiche: Kundenkontakt 88 %, Marketing und Kommunikation 57 %, Controlling und Rechnungswesen 17 %; größte Hemmnisse: rechtliche Unsicherheit (53 %), fehlendes Know-how (53 %) | breitere Basis einschließlich Mittelstand; Nutzung deutlich niedriger als in den Studien zu Großunternehmen |
+| DIIR, IIA Austria, IIA Switzerland: Enquete 2026 [B28] | 699 Revisionsleitungen, DACH | KI neben Data Analytics und Cyberrisiken als zentrales Transformationsthema der Internen Revision | Detailzahlen nicht eingesehen |
+
+**Einordnung [A]:**
+
+- **Breite Nutzung, geringe Tiefe.** Viele Unternehmen experimentieren; wenige haben KI in Schlüsselkontrollen verankert.
+- **Governance entscheidet über den Nutzen.** Die KPMG-Daten 2026 zeigen einen deutlichen Zusammenhang zwischen Kontrollen und Ergebnissen. Eine Kausalität belegen sie nicht, die Richtung ist aber plausibel.
+- **Der Mittelstand ist kaum abgebildet.** Die Studien betrachten überwiegend Großunternehmen. Im Referenz-KMU (A3) kommt KI eher über KI-Funktionen in Standardsoftware ins IKS: ERP, Rechnungseingang, Abstimmung, GRC, DAM/PIM. Eigene Modelle sind die Ausnahme.
+
+### 14.3 Wo KI im IKS heute eingesetzt wird
+
+| Einsatzfeld | Typische Anwendungen | Technik | Reifegrad [A] | Wirkung auf die Kontrolle |
+|---|---|---|---|---|
+| **Kontinuierliche Kontrollüberwachung und Process Mining** | Vollerhebung aller Transaktionen statt Stichprobe; Abweichungen vom Soll-Prozess, z. B. Rechnung vor Bestellung oder umgangene Freigaben; seit 05/2026 auch als vorgefertigte SOX- und IKS-App am Markt [S41] | Regeln, Process Mining, ML | hoch | detektiv, nahe an Echtzeit |
+| **Anomalieerkennung** | Buchungen (Journal Entries), Zahlungen, Stammdatenänderungen; Prüfungsplattformen großer Gesellschaften nutzen KI-Agenten u. a. für die Abgrenzung von Grundgesamtheiten und Buchungsanomalien (nach Medienberichten) [S39] | ML | hoch, vor allem in der Abschlussprüfung | detektiv |
+| **Betrugserkennung** | Muster in Zahlungen, Spesen und Lieferantenstammdaten | ML | mittel [B30] | detektiv |
+| **Transaktionsmonitoring im Finanzsektor (Geldwäsche)** | Verdachtsfälle, Sanktionslisten | ML und Regeln | hoch; für Algorithmen gelten aufsichtliche Prinzipien [B32] | detektiv; Alarm → Triage → Entscheidung |
+| **Dokumentenextraktion und Abgleich** | Rechnungen, Verträge, Zertifikate; Drei-Wege-Abgleich; Kontenabstimmungen | Texterkennung, ML, Sprachmodelle | hoch | präventiv und detektiv |
+| **Berechtigungen und Funktionstrennung** | Analyse von Rollenkonflikten (SoD), Rezertifizierung | Regeln, zunehmend ML | mittel bis hoch | präventiv und detektiv |
+| **Generative KI für Kontrolldokumentation und Tests** | Entwürfe für Kontrollbeschreibungen, Risk-Control-Matrizen und Prüfvermerke; Evidenzsammlung; Policy-Fragen | Sprachmodelle | wachsend, oft Pilot [B24][S40] | unterstützend |
+| **Agentische KI** | Steuerung von Kontrolltests und Evidenz-Workflows | Sprachmodelle mit Werkzeugzugriff | früh | neues Risiko: Berechtigungen „nicht-menschlicher Identitäten“ **[I]** |
+| **Regulatorisches Monitoring** | Auswertung von Rechtsänderungen und Leitlinien | Sprachmodelle | mittel | unterstützend |
+
+### 14.4 Der Regelrahmen für KI im IKS (Stand 09/2026)
+
+| Quelle | Kerninhalt | Bedeutung für die Claim-Governance |
+|---|---|---|
+| **COSO: Achieving Effective Internal Control Over Generative AI** (23.02.2026) [B21] | Überträgt das COSO-Rahmenwerk (2013; fünf Komponenten, 17 Prinzipien) auf generative KI. Fähigkeitsbasierter Ansatz mit **acht Fähigkeitstypen**: Ingestion, Transformation, Posting, Orchestration, Judgment, Monitoring, Regulatory Intelligence, Human-AI Interaction. Je Typ **Mindest-Kontrollerwartungen** über alle fünf Komponenten und **Beispielmetriken**. **Roadmap in sechs Schritten:** Govern, Inventory, Assess, Design, Implement, Monitor. Betont laufende Inventare und das Risiko der Schatten-KI | Liefert die Struktur, mit der KI-gestützte Claim-Kontrollen aufgebaut und geprüft werden können (Kap. 14.6.3 und 14.6.4) |
+| **IDW PH 9.315DE.3 (07.2026):** Auswirkungen des Einsatzes von KI auf die risikoorientierte Abschlussprüfung [B22] | Abschlussprüfer sollen KI-Anwendungen im Unternehmen identifizieren und angemessene Prüfungshandlungen ableiten, etwa bei KI in Rechnungswesen, Risikomanagement oder operativen Kontrollen | Signal an den Mittelstand: KI in Kontrollen wird Prüfungsgegenstand. Für Claims wirkt das nur mittelbar, z. B. über Risiken und Rückstellungen aus Abmahnungen **[A]** |
+| **IDW PH 9.315DE.2 (07.2026):** Einsatz generativer KI in der Abschlussprüfung [B22] | Anwendungsfälle je Prüfungsphase; Datenschutz, Berufsrecht, Urheberrecht, Qualitätsmanagement und KI-VO. Kernbotschaft: KI unterstützt, ersetzt aber weder die kritische Grundhaltung noch die abschließende Beurteilung | Entspricht dem Grundsatz „KI ist kein zweites Augenpaar“ (Kap. 13.5.3) |
+| **IDW PS 861 (03.2023)** [B19] | Prüfung von KI-Systemen auf Basis von ISAE 3000 | Maßstab für die Wirksamkeitsprüfung KI-gestützter Claim-Kontrollen |
+| **BaFin: Orientierungshilfe zu IKT-Risiken beim Einsatz von KI** (18.12.2025) [B23] | Ordnet KI-Systeme als Netzwerk- und Informationssysteme im Sinne von DORA ein. Betrachtet den Lebenszyklus von Entwicklung, Test und Betrieb bis zur Außerbetriebnahme. Nicht bindend; adressiert CRR-Institute und Solvency-II-Versicherer | Lebenszyklus-Denken ist übertragbar. Für Finanzinstitute, die mit Nachhaltigkeit werben, gilt zusätzlich der DORA-Rahmen (vgl. [S25]) |
+| **BaFin: Prinzipien für den Einsatz von Algorithmen in Entscheidungsprozessen** (15.06.2021) [B32] | Entwicklungsphase (Datenstrategie, Validierung, Dokumentation) und Anwendungsphase (Interpretation der Ergebnisse, Einbindung von Fachleuten, Kontrollmechanismen, Rückkopplung in die Entwicklung); klare Verantwortlichkeiten | Blaupause für den Kreislauf „KI-Vorschlag → menschliche Entscheidung → Rückkopplung in Negativliste und Regeln“ |
+| **FINRA: 2026 Annual Regulatory Oversight Report** (09.12.2025) [B25] | Erstmals ein eigenes Kapitel zu generativer KI. Nach Zusammenfassungen gelten KI-gestützte Inhalte als Kommunikation des Unternehmens – mit Vorabfreigabe, Offenlegung, Review und Archivierung; sie müssen fair und nicht irreführend sein | Nahezu 1:1 übertragbar: dieselbe Logik wie Kap. 13.5 („keine Veröffentlichung umweltbezogener KI-Inhalte ohne Claim-ID“) |
+| **PCAOB Staff Spotlight** (07/2024) [B24] | Bestandsaufnahme zu generativer KI in Prüfung und Rechnungslegung; betont Aufsicht über den KI-Einsatz und Datensicherheit | Bestätigt: Schlüsselkontrollen werden noch selten an generative KI delegiert |
+
+### 14.5 Was die IKS-Praxis gelernt hat – zehn Lehren [A]
+
+| # | Lehre | Beleg bzw. Herkunft | Konsequenz für Claims |
+|---|---|---|---|
+| L1 | **Nutzen folgt Governance.** Wer Kontrollen, Prüfpfade und Evidenz von Anfang an einplant, skaliert schneller | KPMG 2026 [S39] | Claim-KI von Beginn an mit Register, Protokoll und Validierung aufsetzen |
+| L2 | **Breite vor Tiefe:** viele Piloten, wenige Schlüsselkontrollen | KPMG 2024 [S39]; PCAOB [B24] | mit wenigen, messbaren Anwendungsfällen starten (Quick Wins, Kap. 13.7.3) |
+| L3 | **Vollerhebung ändert die Kontrolllogik:** Aus der Stichprobe wird Ausnahme-Management – mit dem Risiko einer Alarmflut | Praxis von CCM und Transaktionsmonitoring [S41][B32] | Treffer priorisieren, Schwellen kalibrieren, Triage durch den Claim-Owner |
+| L4 | **Daten sind der Engpass:** Process Mining braucht Ereignisprotokolle, CCM saubere Stammdaten | Praxis von CCM und Process Mining [S41] | Das Claim-Register mit Claim-ID und Evidenz-Link ist Voraussetzung, nicht Ergebnis |
+| L5 | **Kontrolle über die Kontrolle:** IT-generelle Kontrollen, Validierung, Änderungssteuerung, Prüfung vom System erzeugter Listen | IDW PH 9.315DE.3 [B22]; COSO [B21] | Kap. 13.4.3 umsetzen: Testset, Regressionstest, Vollständigkeit der KI-Listen prüfen |
+| L6 | **Erklärbarkeit und Rückkopplung:** Ergebnisse müssen interpretierbar sein und in die Weiterentwicklung zurückfließen | BaFin 2021 [B32] | jeder KI-Treffer mit Begründung und Quelle; Fehleinstufungen verbessern die Negativliste |
+| L7 | **Menschen behalten die Verantwortung** | IDW PH 9.315DE.2 [B22]; COSO „Human-AI Interaction“ [B21] | Die Freigabe bleibt bei der Kompetenzordnung (Kap. 6.6) |
+| L8 | **Inventar zuerst:** Die erste Kontrolle besteht darin, zu wissen, wo KI im Einsatz ist | COSO „Inventory“ [B21] | Marketing-KI (Textgeneratoren, Bildwerkzeuge, Agentur-Tools) ins KI-Inventar aufnehmen |
+| L9 | **Fähigkeiten sind knapp** | IIA und AuditBoard 2026 [B27]; Bitkom 2025 [B29] | Schulung zur KI-Kompetenz mit Claim-Beispielen (Art. 4 KI-VO) |
+| L10 | **Agentische KI verschiebt das Risiko auf Berechtigungen** | Fachdiskussion 2026 **[I]** | keine Veröffentlichungs- oder Freigaberechte für KI-Agenten |
+
+### 14.6 Übertragung auf die Claim-Governance
+
+#### 14.6.1 Warum die Übertragung naheliegt [A]
+
+- **Gleiche Kontrollarchitektur:** Claims brauchen dieselben Bausteine wie Finanzinformationen – Beleg, Vollständigkeit, Funktionstrennung, Gültigkeit, Prüfpfad (Kap. 11.1).
+- **Gleiche Problemart:** Die Kernschwierigkeiten der Claim-Governance sind Mengen-, Such- und Abgleichsprobleme (Kap. 13.1). Genau dort ist KI im IKS am reifsten (Kap. 14.3).
+- **Asymmetrie schließen:** KI beschleunigt die Entstehung von Claims im Marketing stärker als ihre Kontrolle (Kap. 14.1, Nr. 4).
+- **Waffengleichheit mit der Aufsicht** [B26][S45]:
+  - Die ASA hat mit ihrem KI-gestützten Monitoring 2024 rund 28 Mio. und 2025 über 60 Mio. Anzeigen erfasst.
+  - Nach ihren Airline-Entscheidungen von 2023 hat sie rund 140.000 Anzeigen von Fluggesellschaften KI-gestützt nachkontrolliert.
+  - In einer Auswertung von über 7 Mio. Online-Anzeigen enthielten rund 1 % Umweltaussagen – häufig absolut formuliert.
+- **Vorbilder aus Nachbarbranchen:**
+  - **Pharma-Werbung (MLR-Review):** Claims-Bibliotheken mit Referenzen sind dort Standard. Anbieter setzen KI ein, um Claims automatisch mit Belegen zu verknüpfen und Material vorab gegen Richtlinien zu prüfen. Nach Anbieterangaben werden rund 80 % der Claims automatisch verknüpft [S42].
+  - **Finanzwerbung:** Die FINRA behandelt KI-gestützte Inhalte wie jede andere Kundenkommunikation, mit Vorabfreigabe und Archivierung [B25].
+
+#### 14.6.2 Übertragungsmatrix: vom IKS-Werkzeug zur Claim-Kontrolle
+
+*Bezug: U = Anwendungsfall aus Kap. 13.2.2; C = Kontrolle aus Kap. 8.2 bzw. 13.4.4.*
+
+| # | IKS-Praxis heute | Entsprechung in der Claim-Governance | Bezug | Voraussetzung | Priorität KMU [E] |
+|---|---|---|---|---|---|
+| T1 | Vollerhebung statt Stichprobe (CCM) | **Claim-Discovery** über alle Kanäle: Website, Shop, Marktplätze, Social Media, PDFs, Verpackungsdateien | U1; C01, C02 | Kanalliste, Zugriffsrechte | **hoch** |
+| T2 | Anomalieerkennung bei Buchungen | **Screening** von Entwürfen und Bestand gegen Negativliste und Risikomuster: absolute Aussagen, Kompensation, Zukunftsziele, Siegel | U2, U3; C03, C18 | Negativliste als Konzeptliste mit Synonymen | **hoch** |
+| T3 | Drei-Wege-Abgleich (Bestellung, Wareneingang, Rechnung) | **Drei-Wege-Abgleich Claim ↔ Evidenz ↔ Veröffentlichung:** gleicher Scope, gleiche Zahl, gültige Evidenz; die veröffentlichte Fassung entspricht der freigegebenen | U4–U6; C05, C11, C12 | Claim-Register mit Claim-ID | **hoch** |
+| T4 | Überwachung von Stammdaten und Verträgen | **Zertifikats- und Lizenzüberwachung:** Ablauf, Geltungsbereich, Produktzuordnung | U4; C12, C14 | Label-Register | **hoch** |
+| T5 | Process Mining im Einkauf | **Process Mining des Freigabe-Workflows:** Veröffentlichung ohne Claim-ID, Selbstfreigabe, Freigabe erst nach Veröffentlichung | C09, C11 | Workflow-Tool mit Ereignisprotokoll | mittel (Ausbaustufe) |
+| T6 | Analyse der Funktionstrennung (SoD) | **Funktionstrennung im Claim-Workflow:** Ersteller ≠ Prüfer ≠ Freigeber; wer die Negativliste pflegt, gibt nicht frei | C09, C10 | Rollenmodell im Tool | mittel |
+| T7 | Alarm-Triage im Transaktionsmonitoring | **Treffer-Workflow:** Triage durch den Claim-Owner, Begründungspflicht, Rückkopplung in Negativliste und Regeln | C26, C27 | Kapazität für die Triage | mittel |
+| T8 | Generative KI für Kontrolldokumentation | **Dossier-Assistenz:** Dossier zusammenstellen, Prüfvermerk vorbereiten, Sachverhalt für die Kanzlei entwerfen | U11; C21 | strukturierte Dossiers | mittel |
+| T9 | Regulatory Intelligence | **Rechts- und Aufsichtsmonitoring:** Urteile, Kommissions-Q&A, § 15b, Sweeps von CPC und ASA | U8; C31 | Quellenliste, Owner | **hoch** |
+| T10 | Claims-Bibliothek im Pharma-MLR | **Claim-Bibliothek mit Evidenz-Links:** KI schlägt die Verknüpfung vor, ein Mensch bestätigt | U7; C28, C29 | freigegebene Formulierungen | mittel bis hoch |
+| T11 | Continuous Auditing der Internen Revision | **Periodischer Register-Review** mit KI-gestützter Marktstichprobe (Website, Regal, Marktplatz) | C02, C22 | Revision oder externer Review | mittel |
+
+**Lesart [A]:** T1–T4 und T9 lassen sich direkt übernehmen: Die Technik ist im IKS erprobt, und die Kontrollfrage ist eindeutig. T5–T8, T10 und T11 setzen ein Workflow-Tool oder ein gepflegtes Register voraus und gehören in die Ausbaustufe (Kap. 6.10).
+
+#### 14.6.3 Die COSO-Fähigkeitstypen, übertragen auf Claims
+
+*Zuordnung, Mindestkontrollen und Metriken sind eigene Vorschläge in der Logik der COSO-Leitlinie, kein COSO-Text **[A][E]**.*
+
+| COSO-Fähigkeitstyp | Claim-Anwendungsfall | Mindestkontrolle | Beispielmetrik |
+|---|---|---|---|
+| **Ingestion** (Aufnahme, Extraktion) | Discovery (U1), Evidenz-Extraktion (U4) | Vollständigkeitsabgleich gegen die Kanalliste; Vier-Augen-Prüfung kritischer Felder | Kanalabdeckung in %; Fehlerquote der Extraktion |
+| **Transformation** | Formulierungshilfe „allgemein → spezifisch“ (U7), Übersetzung | nur aus der Claim-Bibliothek; Zitatpflicht | Anteil der Texte mit Evidenz-Link |
+| **Posting** (Ausführung im System) | Ausspielung in DAM, PIM oder CMS | keine automatische Veröffentlichung umweltbezogener Inhalte; Claim-ID als Gate | Veröffentlichungen ohne Claim-ID (Ziel: 0) |
+| **Orchestration** | Steuerung von Freigabe-Workflow und Ablauf-Triggern | Berechtigungskonzept für Bots; Protokoll | Durchlaufzeit; Anzahl der Eskalationen |
+| **Judgment** | Vorklassifizierung (U2), Scope-Abgleich (U5) | nie alleinige Freigabegrundlage; Begründungspflicht | Quote der Übersteuerungen durch Menschen |
+| **Monitoring** | Kanal- und Marktmonitoring (U9), Ablaufüberwachung | Stichprobe der „unauffälligen“ Fälle | Trefferquote im Testset; offene Treffer älter als 30 Tage |
+| **Regulatory Intelligence** | Rechtsmonitoring (U8) | Originalquelle lesen, bevor Regeln geändert werden | Tage bis zur Aktualisierung der Negativliste |
+| **Human-AI Interaction** | Policy-Assistent (U12), Chatbot (U16) | Offenlegung nach Art. 50 KI-VO, Bindung an die Wissensbasis, Eskalation | Eskalationsquote; beanstandete Antworten |
+
+#### 14.6.4 Die COSO-Roadmap für Claims im KMU
+
+| Schritt | Inhalt für die Claim-Governance [E] | Verknüpfung |
+|---|---|---|
+| **1 Govern** | GF-Beschluss; KI-Nutzungsrichtlinie mit der Claims-Policy verknüpfen; Owner benennen | Kap. 13.3.3, 13.4.5 |
+| **2 Inventory** | KI-Inventar **einschließlich Marketing-KI**: Textgeneratoren, Bildwerkzeuge, KI-Funktionen in Agentur- und Shop-Tools. Dort entsteht die meiste Schatten-KI mit Claim-Bezug **[A]** | Kap. 13.4.4 (C23) |
+| **3 Assess** | Risiko je Anwendungsfall nach Kategorie K1–K5 und nach COSO-Fähigkeitstyp | Kap. 13.5.2, 14.6.3 |
+| **4 Design** | Kontrollen C23–C35 und Übertragungsmatrix T1–T11 | Kap. 13.4.4, 14.6.2 |
+| **5 Implement** | Pilot mit T1, T3, T4 und T9; Validierung mit Testset vor dem Go-live | Kap. 13.5.4, 13.8 |
+| **6 Monitor** | Metriken aus Kap. 14.6.3 im Quartalsbericht an die GF; jährliche Wirksamkeitsprüfung mit IDW PS 861 als Orientierung | Kap. 8.6, 13.4.2 |
+
+#### 14.6.5 Grenzen der Übertragung [A]
+
+1. **Anderer Wahrheitsmaßstab.** Eine Buchung ist nach einem Regelwerk richtig oder falsch. Ob ein Claim irreführt, hängt vom Verständnis des Durchschnittsverbrauchers und vom Gesamteindruck ab (Kap. 11.1).
+2. **Kaum Trainingsdaten.** Im Finanzbereich gibt es Millionen gleichartiger Datensätze. Für Greenwashing gibt es laut aktueller Forschungsübersicht **keinen Datensatz verifizierter Fälle** [S44].
+   - Umweltaussagen zu **erkennen** ist in kontrollierten Tests nahezu gelöst [S43][S44].
+   - Aufgaben mit Mehrdeutigkeit, Subjektivität und Schlussfolgern bleiben schwierig [S44].
+   - Für KMU heißt das: Regeln und quellengebundene Sprachmodelle statt eigens trainierter Klassifikatoren.
+3. **Implizite Claims.** Bilder, Farben, Namen und die Frage „dasselbe Medium“ verlangen eine multimodale, kontextbezogene Beurteilung. Das ist deutlich schwerer als der Abgleich strukturierter Daten.
+4. **Externe Evidenzketten.** Viele Belege kommen von Lieferanten und Zertifizierern. Die Prüfung vom System erzeugter Informationen wird dadurch schwieriger als im Finanzbereich.
+5. **Kein Abschlussrhythmus.** Claims entstehen laufend. Das passt zur CCM-Logik, erhöht aber das Risiko einer Alarmflut (L3).
+6. **Rechtliche Einordnung bleibt Rechtsberatung.** Automatisierte Einzelfallbewertungen für Mandanten berühren das RDG (Kap. 13.9, Nr. 7).
+7. **Beweiswert offen.** Ob Gerichte KI-Protokolle als Nachweis einer angemessenen Organisation anerkennen, ist ungeklärt (Kap. 13.9, Nr. 1).
+
+#### 14.6.6 Denkanstöße für die Beratung [A] (kein Präsentationsinhalt)
+
+- **Anschluss an bestehende Mandate:** Wo IKS- oder KI-Governance-Projekte laufen (COSO-Roadmap, KI-Inventar, Vorbereitung auf IDW PH 9.315DE.3), lässt sich die Claim-Governance als weiterer Anwendungsfall aufnehmen.
+- **Prüfungsnahe Leistungen:** Design- und Wirksamkeitsprüfung KI-gestützter Claim-Kontrollen (IDW PS 861, ISAE 3000). Die Unabhängigkeit ist zu beachten, wenn dieselbe Einheit auch berät.
+- **Werkzeugneutral bleiben:** Für KMU genügen oft Workflow-Funktionen in DAM oder PIM, ein GRC-Tool und ein Sprachmodell mit Quellenbindung. Anbieterangaben zu spezialisierten „EmpCo-Scannern“ sind ungeprüft.
+- **Abgrenzung zur Rechtsberatung** bei jeder automatisierten Einzelfallbewertung.
+
+### 14.7 Offene Fragen
+
+1. Wie weit reicht IDW PH 9.315DE.3 in die Prüfung **nichtfinanzieller** KI-gestützter Kontrollen hinein, etwa über Risiken aus Abmahnungen oder über den Lagebericht **[A]**?
+2. Werden deutsche Behörden oder das CPC-Netz **KI-gestützte Sweeps zu Green Claims** nach dem Vorbild der ASA durchführen? Für irreführende Rabatte setzt das CPC-Netz KI-Werkzeuge des EU eLab bereits ein [B31].
+3. Wie lassen sich **Claim-Metadaten** (Claim-ID, Evidenz-Link, Ablaufdatum) in DAM-, PIM- und Shop-Systemen standardisieren, damit Abgleiche wie T3 automatisierbar werden **[A]**?
+4. Wie belastbar sind **kommerzielle Claim-Scanner**? Unabhängige Leistungsnachweise sind nicht bekannt **[A]**.
+
+---
+
 ## Anhang A – Quellenverzeichnis
 
 > **Hinweis zur Quellenlage:** Primärquellen (P) sind mit Fundstelle angegeben, konnten in dieser Arbeitsumgebung aber **nicht im Original eingesehen** werden (Netzwerkrichtlinie). Ihr Inhalt wurde über die genannten Behörden- (B) und Sekundärquellen (S) trianguliert. **Vor externer Verwendung sind die Primärtexte zu prüfen.**
@@ -2063,6 +2251,18 @@ KI verändert die Kontrollarchitektur auf zwei Wegen **[A]**:
 | B18 | Europäische Kommission: FAQ zu den Transparenzpflichten nach Art. 50 KI-VO | https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act |
 | B19 | IDW PS 861 (03.2023): Prüfung von KI-Systemen | https://www.idw.de/idw/idw-aktuell/neu-idw-pruefungsstandard-fuer-ki-systeme.html |
 | B20 | AI Act Service Desk der Kommission: Anhang III und Art. 50 | https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3 · https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50 |
+| B21 | COSO: Achieving Effective Internal Control Over Generative AI (23.02.2026); Zusammenfassungen u. a. Deloitte Heads Up (03.04.2026), IIA Internal Auditor (03/2026), KPMG US | https://dart.deloitte.com/USDART/home/publications/deloitte/heads-up/2026/coso-internal-controls-generative-ai · https://internalauditor.theiia.org/en/articles/2026/march/coso-issues-genai-guidance/ · https://kpmg.com/us/en/frv/reference-library/2026/coso-releases-roadmap-internal-control-over-generative-ai.html |
+| B22 | IDW: Prüfungshinweise IDW PH 9.315DE.2 (07.2026) „Einsatz generativer Künstlicher Intelligenz in der Abschlussprüfung“ und IDW PH 9.315DE.3 (07.2026) „Auswirkungen des Einsatzes von Künstlicher Intelligenz auf die risikoorientierte Abschlussprüfung“; IDW-Pressemitteilung „Vertrauen in KI setzt unabhängige Prüfung voraus“ (09/2026) | https://www.presseportal.de/pm/115568/6354120 · https://www.idw.de/themen/digitalisierung/kuenstliche-intelligenz/ |
+| B23 | BaFin: Orientierungshilfe zu IKT-Risiken beim Einsatz von KI in Finanzunternehmen (18.12.2025) | https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Meldung/2025/meldung_2025_12_18_orientierungshilfe_ikt_risiken.html |
+| B24 | PCAOB: Staff Spotlight „Staff Update on Outreach Activities Related to the Integration of Generative Artificial Intelligence in Audits and Financial Reporting“ (07/2024) | https://pcaobus.org/documents/generative-ai-spotlight.pdf |
+| B25 | FINRA: 2026 Annual Regulatory Oversight Report, Abschnitt zu generativer KI (09.12.2025) | https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/gen-ai |
+| B26 | Advertising Standards Authority (UK): Active Ad Monitoring system; „Clearing the air: Using AI to monitor sustainability claims“; „Environmental claims remain rare but often absolute“ | https://www.asa.org.uk/about-asa-and-cap/the-work-we-do/active-ad-monitoring-system.html · https://www.asa.org.uk/news/clearing-the-air-using-ai-to-monitor-sustainability-claims.html · https://www.asa.org.uk/news/environmental-claims-remain-rare-but-often-absolute-asa-study-finds.html |
+| B27 | The IIA: „Voice of the CEO: AI and Internal Audit: 5 Global Trends“ (06/2025, mit Daten aus dem Pulse-Bericht); The IIA und AuditBoard: Umfrage zu KI-gestütztem Betrug (17.02.2026) | https://internalauditor.theiia.org/en/articles/2025/june/voice-of-the-ceo-ai-and-internal-audit-5-global-trends/ · https://www.theiia.org/en/content/communications/press-releases/2026/new-survey-from-the-iia-and-auditboard-report-reveals-growing-awareness-of-ai-enabled-fraud-varying-perception-of-audit-preparedness/ |
+| B28 | DIIR, IIA Austria, IIA Switzerland: Enquete 2026 (Benchmark der Internen Revision in DACH) | https://www.diir.de/fachwissen/enquete-studie/ |
+| B29 | Bitkom: Künstliche Intelligenz in Deutschland – Studienbericht (Befragung KW 27–32/2025) | https://www.bitkom.org/sites/main/files/2026-02/bitkom-studienbericht-ki.pdf |
+| B30 | ACFE und SAS: Anti-Fraud Technology Benchmarking Report 2024 | https://www.acfe.com/-/media/files/acfe/pdfs/sas_benchmarkingreport_2024.pdf |
+| B31 | Europäische Kommission: Sweeps und EU eLab (digitale Werkzeuge für Online-Untersuchungen des CPC-Netzes) | https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/sweeps_en |
+| B32 | BaFin: Big Data und künstliche Intelligenz – Prinzipien für den Einsatz von Algorithmen in Entscheidungsprozessen (15.06.2021) | https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Meldung/2021/meldung_210615_Prinzipienpapier_BD_KI.html |
 
 ### Sekundärquellen (Kanzleien, WP-Gesellschaften, Fachmedien) – als solche gekennzeichnet
 
@@ -2105,6 +2305,14 @@ KI verändert die Kontrollarchitektur auf zwei Wegen **[A]**:
 | S35 | Rödl & Partner: Prüfung von KI-Systemen nach IDW PS 861 | https://www.roedl.com/insights/pruefung-ki-systeme-idw-ps-861/ |
 | S36 | Jones Day: Draft Code of Practice on AI Labelling and Transparency (01/2026) | https://www.jonesday.com/en/insights/2026/01/european-commission-publishes-draft-code-of-practice-on-ai-labelling-and-transparency |
 | S37 | Gleiss Lutz; LTO: ArbG Hamburg zu ChatGPT und Mitbestimmung | https://www.gleisslutz.com/de/know-how/arbeitsgericht-hamburg-zu-chatgpt-kein-mitbestimmungsrecht-des-betriebsrats · https://www.lto.de/recht/hintergruende/h/arbg-hamburg-24bvga-1-24-chatgpt-einsatz-arbeit-beteiligung-betriebsrat |
+| S38 | Gartner: Pressemitteilungen zum AI in Finance Survey 2024 (11.09.2024) und 2025 (18.11.2025) | https://www.gartner.com/en/newsroom/press-releases/2024-09-11-gartner-survey-shows-58-percent-of-finance-functions-use-ai-in-2024 · https://www.gartner.com/en/newsroom/press-releases/2025-11-18-gartner-survey-shows-finance-ai-adoption-remains-steady-in-2025 |
+| S39 | KPMG: AI in financial reporting and audit (2024); Global AI in Finance 2026 (Pressemitteilung 05/2026); CFO.com zu KI-Agenten in der Prüfungsplattform KPMG Clara | https://kpmg.com/xx/en/our-insights/ai-and-technology/ai-in-financial-reporting-and-audit.html · https://kpmg.com/xx/en/media/press-releases/2026/05/ai-adoption-in-finance-doubles-but-assurance-readiness-determines-who-wins.html · https://www.cfo.com/news/how-kpmg-thomas-mackenzie-is-using-clara-ai-to-revamp-their-audit-practice-/748316/ |
+| S40 | Protiviti: SOX Compliance Survey 2023; „Calmer Audits, Higher Bar – 2025 SOX Compliance Trends and Update“ (10/2025) | https://www.protiviti.com/sites/default/files/2023-09/2023-sox-compliance-survey-protiviti.pdf · https://blog.protiviti.com/2025/10/29/calmer-audits-higher-bar-2025-sox-compliance-trends-and-update/ |
+| S41 | Celonis und Deloitte: „SOX and Internal Controls Manager“ (Pressemitteilung, 06.05.2026) – Anbieterangabe | https://www.celonis.com/news/press/celonis-and-deloitte-launch-new-app-to-modernize-sox-and-internal-controls |
+| S42 | Veeva: PromoMats Claims Management und Vault AI für den MLR-Review – Anbieterangaben | https://www.veeva.com/products/veeva-promomats/claims-management/ · https://www.veeva.com/products/ai-for-promomats/ |
+| S43 | Stammbach, Webersinke, Bingler, Kraus, Leippold: Environmental Claim Detection (ETH Zürich, Universität Zürich u. a.; Datensatz auf Hugging Face) – wissenschaftlich | https://arxiv.org/pdf/2209.00507 · https://huggingface.co/datasets/climatebert/environmental_claims |
+| S44 | Calamai, Balalau, Le Guenedal, Suchanek: Detecting Greenwashing – A Natural Language Processing Literature Survey (2025) – wissenschaftlich | https://arxiv.org/abs/2502.07541 |
+| S45 | Lewis Silkin (06.07.2026), Travers Smith, Peters & Peters (15.01.2026): Kommentare zur ASA, KI und Green Claims | https://www.lewissilkin.com/insights/2026/07/06/asa-sharpens-its-focus-on-green-advertising-102n7kw · https://www.traverssmith.com/knowledge/knowledge-container/the-asa-ai-and-greenwashing-what-do-businesses-need-to-know/ · https://www.petersandpeters.com/2026/01/15/ai-advertising-and-green-claims-how-the-asa-is-stepping-up-its-game/ |
 
 Nicht gesondert aufgeführt sind allgemein bekannte Normen und Standards, die als Referenz genannt werden, ohne dass daraus Rechtsaussagen abgeleitet werden: ISO 9001, 14001, 14020, 14021, 14024, 14064-1, 14067, 14068-1, 31000, ISO/IEC 42001, 23894 und 17065, NIST AI RMF, ISO 37301, IDW PS 980, EN 13432, EN 45552/45554, GHG Protocol, PEF-Empfehlung (EU) 2021/2279, COSO, IIA Three Lines Model, ESMA-Leitlinien zu Fondsnamen und die HCVO (EG) 1924/2006.
 
@@ -2144,6 +2352,10 @@ Nicht gesondert aufgeführt sind allgemein bekannte Normen und Standards, die al
 | **Prompt Injection** | Manipulation einer KI durch versteckte Anweisungen in verarbeiteten Inhalten (z. B. Webseiten, Dokumente) |
 | **Recall / Precision** | Trefferquote (Anteil gefundener echter Verstöße) bzw. Genauigkeit (Anteil echter Verstöße unter allen Treffern) |
 | **Red-Teaming** | Gezielter Test eines KI-Systems mit Angriffs- und Grenzfall-Eingaben vor dem Go-live |
+| **Continuous Controls Monitoring (CCM)** | Kontinuierliche, meist automatisierte Überwachung aller Transaktionen oder Ereignisse gegen Kontrollregeln statt periodischer Stichproben |
+| **Process Mining** | Rekonstruktion und Analyse tatsächlicher Prozessabläufe aus den Ereignisprotokollen von IT-Systemen, z. B. um umgangene Freigaben zu erkennen |
+| **Drei-Wege-Abgleich** | Im Einkauf der Abgleich von Bestellung, Wareneingang und Rechnung; hier übertragen auf Claim-Text, Evidenz und veröffentlichte Fassung |
+| **MLR-Review** | Medical-Legal-Regulatory-Review: Freigabeprozess für Werbematerial in der Pharmaindustrie mit Claims-Bibliothek und Referenzpflicht |
 
 ---
 
