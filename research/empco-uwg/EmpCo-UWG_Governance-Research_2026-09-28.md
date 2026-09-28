@@ -7,7 +7,7 @@
 | **Stand** | 28.09.2026 – die EmpCo-Regeln sind in Deutschland seit dem 27.09.2026 anwendbar |
 | **Zweck** | Inhaltliche und konzeptionelle Grundlage für den internen Debrief. **Keine** Präsentation, **keine** Rechtsberatung im Einzelfall |
 | **Perspektive** | Governance, Compliance, IKS/CMS, Verantwortlichkeiten. ESG nur, soweit es für das Verständnis nötig ist |
-| **Status** | Research-Entwurf v0.9. Normzitate vor externer Verwendung gegen die Originaltexte prüfen (siehe „Quellenlage“) |
+| **Status** | Research-Entwurf v1.0 – ergänzt um Kap. 13 „KI-Einsatz in der Claim-Governance“. Normzitate vor externer Verwendung gegen die Originaltexte prüfen (siehe „Quellenlage“) |
 | **Denkkette** | Regulation → Requirement → Risk → Governance Implication → Process → Control → Responsibility |
 
 ---
@@ -53,7 +53,7 @@ Die Paragraphen- und Nummernangaben zum UWG n. F. sind plausibilisiert. Vor jede
 
 ---
 
-## Executive Summary – die 15 wichtigsten Erkenntnisse
+## Executive Summary – die 16 wichtigsten Erkenntnisse
 
 1. **Der Stichtag ist erreicht – ohne allgemeine Schonfrist.**
    - Seit dem 27.09.2026 gelten die EmpCo-Regeln über das 3. UWG-Änderungsgesetz vom 12.02.2026 (BGBl. 2026 I Nr. 43) **[G][P3]**.
@@ -129,6 +129,12 @@ Die Paragraphen- und Nummernangaben zum UWG n. F. sind plausibilisiert. Vor jede
     - Überkorrektur vernichtet legitimen Differenzierungswert. Ziel ist deshalb *Enablement*: spezifische, belegte Claims aus einer freigegebenen Claim-Bibliothek **[E]**.
     - Offen oder streitig sind u. a.: § 15b (Inkrafttreten, Unionsrechtskonformität), „gleiches Medium“ und QR-Codes, Marken- und Firmennamen, Kompensation auf Unternehmensebene, Mass-Balance/Book-and-Claim sowie die Anforderungen an Sachverständige.
     - Die Green-Claims-Richtlinie ist formell anhängig, faktisch aber gestoppt **[I][B13][S16]**.
+
+16. **KI kann die Claim-Governance tragen, aber nicht verantworten** (Kap. 13).
+    - Den größten Nutzen hat KI dort, wo es um Menge, Suche, Abgleich und Aktualität geht: vollständige Kanal-Scans, Ablaufüberwachung von Zertifikaten, Konsistenzabgleich, schneller Dossier-Abruf.
+    - Ungeeignet ist sie als Freigabeinstanz und als Evidenzquelle („KI-Ausgaben sind Hinweise, keine Belege“) **[E][A]**.
+    - Es braucht zwei Freigabeebenen: den **KI-Einsatz** (System mit Validierung und Änderungssteuerung) und die **Ergebnisse** (Claims nach Kompetenzordnung). Die Systemfreigabe ersetzt die Claim-Freigabe nur bei geschlossener Generierung aus bereits freigegebenen Bausteinen **[E]**.
+    - Am riskantesten ist KI, die selbst nach außen spricht: generative Produkttexte im großen Umfang, Chatbots (Offenlegungspflicht nach Art. 50 Abs. 1 KI-VO) und Bildwelten **[G/A]**.
 
 ---
 
@@ -852,7 +858,7 @@ Behörden, Gerichte, Wettbewerbsverbände, Verbraucherschützer oder Journaliste
 | **Schulungen** | Claims entstehen verteilt (Marketing, Vertrieb, Produkt, Service, Agenturen) | Zielgruppenspezifisch: Marketing (tief), Vertrieb/Service (mündliche Claims), Produkt (Nr. 23d), GF (Haftung, Zukunftsaussagen) | Teilnahmequote; Wirksamkeitscheck | Compliance/HR |
 | **Verantwortlichkeitsmodell/Kompetenzordnung** | Wer darf was freigeben? | Kompetenzordnung um die Claim-Risikoklassen ergänzen (Kap. 6.6) | Freigabenachweis im Register | GF |
 | **Reporting/Monitoring** | Die GF muss Wirksamkeit überwachen können | Quartals-Dashboard (KPIs/KRIs, Kap. 8.6) | Management-Review | Compliance → GF/Beirat |
-| **KI-Governance** (falls KI-Tools genutzt werden) | KI erzeugt Claims in großem Umfang (Produkttexte, Chatbots) | Prompt- und Output-Guardrails (Negativliste), Freigabe vor Veröffentlichung, Logging | Stichprobe KI-generierter Inhalte; Filtertests | Digital/Marketing; Compliance |
+| **KI-Governance** (falls KI-Tools genutzt werden) | KI erzeugt Claims in großem Umfang (Produkttexte, Chatbots) | Prompt- und Output-Guardrails (Negativliste), Freigabe vor Veröffentlichung, Logging | Stichprobe KI-generierter Inhalte; Filtertests (Vertiefung in Kap. 13) | Digital/Marketing; Compliance |
 | **Interne Revision bzw. externe Prüfung** | 3rd-Line-Assurance; in KMU oft nicht vorhanden | Claims ins Prüfungsuniversum aufnehmen; alternativ jährliche externe Review | Prüfbericht mit Maßnahmen | IR bzw. externe Prüfer; Beirat/Aufsichtsrat |
 
 ### 5.3 Integrationsarchitektur für KMU: das „Claims-Modul“ in der ISO-Grundstruktur
@@ -1233,6 +1239,8 @@ flowchart TD
 | C21 | Verteidigungsunfähigkeit | „48-h-Test“: Dossier-Abruf für zufällige Claims | D/M | halbjährlich | Compliance | Testprotokoll | ✓ |
 | C22 | Wirksamkeit des Systems | Kontrolltest (Stichprobe), Management-Review | D/M | jährlich | IA/extern/GF | Prüfbericht | (✓ Management-Review) |
 
+KI-spezifische Ergänzungen der Matrix (C23–C35) stehen in Kap. 13.4.4.
+
 ### 8.3 Evidenzhierarchie und Qualitätskriterien
 
 | Stufe | Evidenzart | Beispiele | Beweiswert (Einschätzung) [A] |
@@ -1538,6 +1546,7 @@ Wenn ein Claim später gegenüber Behörden, Gerichten, Verbraucherschutzorganis
 - **Chatbots im Kundenservice:** Die Antwort auf „Ist das Produkt nachhaltig?“ ist eine geschäftliche Handlung des Unternehmers. Art. 50 Abs. 1 KI-VO (Offenlegung der KI-Interaktion) und UWG gelten **kumulativ**.
 - **Synthetische Bilder:** KI-generierte Motive, etwa ein „Werk mit Solardach“, das es nicht gibt, können *zugleich* einen Deepfake-Offenlegungsbedarf auslösen (Art. 50 Abs. 4, soweit einschlägig) *und* eine irreführende Umweltaussage (§ 5 UWG) sein.
 - **KI-gestütztes Claim-Screening:** KI-Tools, die Inhalte auf Negativbegriffe prüfen, sind als Kontrollinstrument nützlich. Sie ersetzen aber nicht die Verantwortung und brauchen selbst Governance (Filtertests, Protokollierung).
+- **Vertiefung:** Use Cases, Anforderungen, Auswirkungen auf CMS und IKS, Freigaben sowie Vorteile und Risiken des KI-Einsatzes stehen in Kap. 13.
 
 #### 11.7.6 Ableitbares allgemeines Prinzip [A]
 
@@ -1691,6 +1700,314 @@ Die rationale Reaktion vieler KMU – *nichts mehr sagen* – ist gesamtwirtscha
 
 ---
 
+## 13. Vertiefung: KI-Einsatz in der Claim-Governance
+
+> **Fragestellung:** Wo ergibt der Einsatz von KI im Kontext EmpCo/UWG Sinn? Was muss beachtet werden? Welche Auswirkungen ergeben sich auf CMS und IKS, welche Freigaben sind notwendig, welche Anforderungen sind wesentlich – und welche Vorteile und Risiken stehen sich gegenüber?
+
+### 13.1 Einordnung: KI in zwei Rollen
+
+| Rolle | Beschreibung | Governance-Folge |
+|---|---|---|
+| **KI als Claim-Quelle** (Risikoseite) | Generative KI erstellt Produkttexte, Social-Media-Posts und Bilder oder beantwortet Kundenfragen per Chatbot. Veröffentlichte Ausgaben sind geschäftliche Handlungen des Unternehmens; Umweltaussagen darin unterliegen vollständig dem UWG **[G/I]** | KI-erzeugte Inhalte werden **Gegenstand** der Claim-Governance (Kap. 11.7.5) |
+| **KI als Kontrollinstrument** (Nutzenseite) | KI findet, klassifiziert und vergleicht Claims, extrahiert Evidenz, überwacht Gültigkeiten und stellt Dossiers bereit | KI wird **Teil** der Kontrollen – und braucht selbst Kontrollen („Kontrolle über die Kontrolle“) |
+
+**Leitthese [A]:** KI ergibt dort Sinn, wo die Kernschwierigkeit der Claim-Governance ein **Mengen-, Such-, Abgleichs- oder Aktualitätsproblem** ist. Das betrifft die Kontrollziele Vollständigkeit, Gültigkeit, Konsistenz und Nachvollziehbarkeit (Kap. 8.1). Ungeeignet ist KI als alleinige Instanz überall dort, wo ein **haftungsrelevantes Werturteil** getroffen wird: bei der rechtlichen Einordnung von Grenzfällen, bei der Freigabe und bei der Beurteilung des Verbraucherverständnisses. Und KI darf nie selbst **Evidenz** sein.
+
+**Drei Designregeln [E]:**
+
+1. **„KI schlägt vor, Menschen entscheiden, das Register dokumentiert.“**
+2. **„KI-Ausgaben sind Hinweise, keine Belege.“** Beleg ist immer das Quelldokument (Zertifikat, Messung, Bilanz). Jede Tatsache, die eine KI nennt, braucht einen Quellenverweis.
+3. **„Geschlossene statt offene Generierung.“** Generative KI setzt Umweltaussagen nur aus freigegebenen Claim-Bausteinen zusammen (Claim-Bibliothek mit Evidenz-Link) und formuliert sie nicht frei.
+
+> **Strukturelle Beobachtung [A]:** KI verschiebt das Kontrollproblem von der **einzelnen Aussage** auf das **erzeugende bzw. prüfende System**. Systemkontrollen – Validierung, Änderungssteuerung, Pflege der Referenzdaten – werden damit zu Schlüsselkontrollen. Sie ergänzen die Freigabe einzelner Claims, ersetzen sie aber nur in einer eng begrenzten Konstellation (Kap. 13.5.1).
+
+### 13.2 Wo KI sinnvoll ist
+
+#### 13.2.1 KI entlang des Claim-Lebenszyklus
+
+| Schritt (Kap. 6.3) | Mögliche KI-Unterstützung | Adressiertes Kontrollziel (Kap. 8.1) |
+|---|---|---|
+| 0 Inventar & Baseline | Crawling sowie Text- und Bildanalyse von Website, Shop, Marktplatz-Listings, Social Media und PDFs; Texterkennung auf Verpackungsdateien. Ergebnis ist eine Liste von Claim-Kandidaten | KZ1 Vollständigkeit |
+| 1 Claim Creation | Formulierungsassistent, der allgemeine Begriffe in spezifische, belegte Aussagen übersetzt – ausschließlich aus Claim-Bibliothek und Evidenz | Enablement; KZ4 Darstellung |
+| 2 Klassifizierung | Vorklassifizierung mit Begründung: Negativliste, allgemeine Begriffe, Kompensations- und Zukunftsbezug, Siegel und Icons, Hinweise auf Teil/Ganzes | KZ2 Zulässigkeit |
+| 3 Evidenz | Extraktion aus Zertifikaten und Prüfberichten (Aussteller, Geltungsbereich, Laufzeit, Produktbezug); Abgleich Claim-Scope ↔ Evidenz-Scope; Hinweise auf Lücken | KZ3 Richtigkeit, KZ5 Gültigkeit |
+| 4 Interne Prüfung | Vorprüfung entlang der Assertions (Kap. 4.4); Konsistenzabgleich mit Bericht, Datenblatt und Produktpass; Hinweis auf fehlende Einschränkungen (§ 5a) | KZ3, KZ4 |
+| 5 Freigabe | **Keine KI-Entscheidung.** KI erstellt allenfalls eine Entscheidungsvorlage mit Quellen | KZ6 (nur unterstützend) |
+| 6 Dokumentation | Automatische Zusammenstellung des Dossiers, Metadaten, Versionsvergleich | KZ7 Nachvollziehbarkeit |
+| 7 Veröffentlichung | Filter vor der Veröffentlichung in CMS/DAM/PIM: Abgleich mit der Negativliste, Pflicht zur Claim-ID | KZ2, KZ6 |
+| 8 Monitoring | Markt- und Kanal-Scans, Ablaufüberwachung, Monitoring von Rechtsprechung und Leitlinien, Social Listening | KZ1, KZ5, KZ8 |
+| 9 Incident | Sofortiger Abruf des Dossiers, Suche aller Fundstellen des beanstandeten Claims, Entwurf der Sachverhaltsdarstellung für die Kanzlei | KZ7, KZ8 |
+| Querschnitt | Policy-Assistent für Schulung und Rückfragen; Übersetzung mit Claim-Treue; Plausibilisierung von Lieferantendaten | Organisation, KZ3 |
+
+#### 13.2.2 Bewertung der Use Cases
+
+*Empfehlung: **QW** = Quick Win (hoher Nutzen, beherrschbares Risiko), **MA** = mit Auflagen, **SG** = nur mit starker Governance, **NB** = nicht als Beleg bzw. nicht empfohlen.*
+
+| # | Use Case | Hauptnutzen | Hauptrisiko | Mindeststandard menschlicher Aufsicht | Bezug zur KI-VO | Empf. |
+|---|---|---|---|---|---|---|
+| U1 | Claim-Discovery über alle Kanäle (inkl. PDFs und Verpackungsdateien) | Vollständigkeit bei tausenden Fundstellen | Übersehene implizite Claims (Bilder, Kontext); Fragen zu Crawling und Datenschutz | Stichprobe der „unauffälligen“ Seiten; manuelle Ergänzung für Verpackung und Vertrieb | keine besonderen Pflichten | **QW** |
+| U2 | Vorprüfung von Entwürfen gegen Negativliste und Policy; Vorklassifizierung | Tempo, einheitlicher Maßstab | Automation Bias; falsch eingestufte Grenzfälle | Ein Mensch bestätigt jede Einstufung. Ein KI-Negativbefund ist bei Klasse A/B nie alleinige Grundlage | keine besonderen Pflichten | **MA** |
+| U3 | Erkennung von Icons, Siegeln und Bildsprache | Findet Blätter, Globen, Eigenlogos | Schwache Bewertung des Kontexts | Ein Mensch bewertet Kontext und Gesamteindruck | keine besonderen Pflichten | **MA** |
+| U4 | Evidenz-Extraktion und Ablaufüberwachung (Zertifikate, Lizenzen, Prüfberichte) | Gültigkeit, weniger Handarbeit | Fehler bei Datum, Geltungsbereich, Produktzuordnung | Vier-Augen-Prüfung der kritischen Felder (Scope, Laufzeit) | keine besonderen Pflichten | **QW** |
+| U5 | Abgleich Claim-Scope ↔ Evidenz-Scope | Nr.-4b-Risiken früh erkennen | Semantische Fehleinschätzung | Fachprüfer bestätigt | keine besonderen Pflichten | **MA** |
+| U6 | Konsistenzabgleich zwischen Bericht, Website, Datenblatt und Produktpass | Widersprüche finden, bevor Dritte sie finden | gering (reine Hinweisfunktion) | Prüfung der Treffer | keine besonderen Pflichten | **QW** |
+| U7 | Formulierungsassistent „allgemein → spezifisch“ (quellengebunden) | Enablement, weniger Greenhushing | Erfundene Zahlen oder Belege (Halluzination) | Zahlen nur per Zitat aus der Evidenz; reguläre Claim-Freigabe | keine besonderen Pflichten | **MA** |
+| U8 | Monitoring von Recht und Leitlinien (Urteile, Q&A, IDW, § 15b) | Frühwarnung, aktuelle Negativliste | Fehlerhafte Zusammenfassungen | Originalquelle lesen, bevor Regeln geändert werden | keine besonderen Pflichten | **QW** |
+| U9 | Markt- und Kanalmonitoring inkl. Inhalten von Agenturen und Influencern | Zurechnungsrisiko (§ 8 Abs. 2 UWG) steuern | Personenbezogene Daten; Plattform-AGB | Datenschutzprüfung; Triage der Treffer | keine besonderen Pflichten | **MA** |
+| U10 | Wettbewerber-Monitoring | Marktbild, ggf. eigene Ansprüche | TDM-Vorbehalte und AGB; Fehleinschätzung → unberechtigte Abmahnung mit Kostenrisiko | Rechtliche Prüfung vor jeder Maßnahme | keine besonderen Pflichten | **MA** |
+| U11 | Incident-Assistent (Dossier-Abruf, Fundstellensuche, Sachverhaltsentwurf) | Time-to-Evidence | Vertraulichkeit; Kommunikation mit der Kanzlei | Geschützte Umgebung; die Kanzlei prüft | keine besonderen Pflichten | **MA** |
+| U12 | Policy-Assistent und Schulung | Claim- und KI-Kompetenz, weniger Rückfragen | Falsche Auskünfte | Quellenangabe, Hinweis auf die Verbindlichkeit der Policy, Pflege | Art. 4 (unterstützend) | **QW** |
+| U13 | Plausibilisierung von Lieferantendaten (Rezyklat, Herkunft) | Datenqualität | Fehlalarme bzw. Übersehenes | Fachliche Klärung jeder Abweichung | keine besonderen Pflichten | **MA** |
+| U14 | Unterstützung bei PCF/LCA (z. B. Zuordnung von Materialien zu Emissionsfaktoren) | Effizienz | Methodenfehler mit Breitenwirkung | Eine Expertin oder ein Experte validiert die Zuordnung; Dokumentation | keine besonderen Pflichten | **SG** |
+| U15 | Generative Produkttexte im großen Umfang (E-Commerce) | Skalierung | Massenhafte Verstöße gegen Nr. 4a | Geschlossene Generierung, Output-Filter, Stichproben, Freigabe der Vorlage | ggf. Art. 50 Abs. 2 (Pflicht des Tool-Anbieters) | **SG** |
+| U16 | Kundenservice-Chatbot mit Nachhaltigkeitsfragen | Service rund um die Uhr | Claims in Echtzeit ohne Freigabe; Halluzination | Antworten nur aus freigegebener Wissensbasis; Eskalation an Menschen; Red-Teaming; Monitoring der Dialoge | **Art. 50 Abs. 1** (Offenlegung; das Unternehmen ist regelmäßig Anbieter) | **SG** |
+| U17 | KI-generierte Bildwelten für Kampagnen | Kosten, Tempo | Implizite Claims; fiktive Anlagen, die real wirken; Offenlegungspflicht bei Deepfakes | Freigabe wie Klasse A bei Umweltbezug; keine fiktiven Orte oder Anlagen, die als real erscheinen | **Art. 50 Abs. 4** (soweit Deepfake) | **SG** |
+| U18 | „Synthetisches Verbraucherpanel“ (ein Sprachmodell simuliert den Durchschnittsverbraucher) | Frühe Hinweise auf Missverständnisse | **Scheinbeleg** | Nur explorativ, nie als Nachweis | keine besonderen Pflichten | **NB** (als Beleg) |
+
+**Wo KI nicht (allein) eingesetzt werden sollte [E]:**
+
+- als **Freigabeinstanz** – die Kompetenzordnung (Kap. 6.6) bleibt menschlich;
+- für die **rechtliche Einordnung** von Grenzfällen (Kap. 2.7) und für Entscheidungen über Unterlassungserklärungen oder Rückrufe;
+- als **Beleg** für Verbraucherverständnis, Umweltleistung oder Zahlen;
+- zur **automatischen Veröffentlichung** umweltbezogener Inhalte;
+- zur **Bewertung von Mitarbeitenden** anhand von Claim-Fehlern. Das kann ein Hochrisiko-System nach Anhang III Nr. 4 KI-VO begründen (Pflichten ab 02.12.2027) und ist mitbestimmungspflichtig (Kap. 13.3.1).
+
+### 13.3 Was beachtet werden muss
+
+#### 13.3.1 Rechtlicher Rahmen
+
+*Rechtsgrundlagen: KI-VO in der Fassung des Digital Omnibus [P12]; DSGVO, GeschGehG, UrhG, BetrVG, StGB, BRAO, StBerG und WPO jeweils in geltender Fassung [P22].*
+
+| Regime | Relevanz im Claim-Kontext | Was zu tun ist | Qualität |
+|---|---|---|---|
+| **UWG – Zurechnung** | Veröffentlichte KI-Ausgaben sind geschäftliche Handlungen des Unternehmens. Bei externen Dienstleistern greift § 8 Abs. 2 UWG. „Die KI war es“ entlastet nicht | Für KI- und Menschentexte gilt dieselbe Claim-Governance; Dienstleisterverträge anpassen | **[G/I]** |
+| **UWG – Werbung mit der eigenen KI-Prüfung** | Aussagen wie „KI-geprüfte Nachhaltigkeit“ sind selbst Aussagen, ggf. mit siegelähnlicher Wirkung | Nicht bewerben oder nur, wenn belegbar; kein Pseudo-Siegel | **[I/A]** |
+| **KI-VO Art. 4** | KI-Kompetenz der Beschäftigten; seit dem Digital Omnibus eine Bemühenspflicht [P12][S18] | Schulung zu den Grenzen (Halluzination, Automation Bias) mit Claim-Beispielen | **[G]** |
+| **KI-VO Art. 5** | Verbot manipulativer oder täuschender Techniken; im Marketing etwa bei Personalisierung denkbar | KI-gestützte Personalisierung nicht zur Ausnutzung von Schwächen einsetzen | **[G]** |
+| **KI-VO Art. 6 / Anhang III Nr. 4** | Claim-Compliance-Tools sind regelmäßig **kein** Hochrisiko. **Aber:** Wer Tool-Daten zur Leistungs- oder Verhaltensbewertung von Beschäftigten nutzt, kann ein Hochrisiko-System betreiben (Pflichten nach dem Digital Omnibus ab 02.12.2027) [B20] | Zweckbindung festschreiben; keine Nutzung zur Mitarbeiterbewertung | **[G/I]** |
+| **KI-VO Art. 50** | **Abs. 1:** Offenlegung, dass ein Chatbot KI ist. Das ist eine Pflicht des **Anbieters**; wer einen Bot unter eigenem Namen betreibt, ist regelmäßig Anbieter [S34]. **Abs. 2:** maschinenlesbare Kennzeichnung synthetischer Inhalte (Anbieter generativer Systeme; Übergangsfrist bis 02.12.2026). **Abs. 4:** Offenlegung bei Deepfakes (Betreiber) | Rollen Anbieter/Betreiber klären; Offenlegung und Kennzeichnung sicherstellen. Den finalen Verhaltenskodex (06/2026) und die angekündigten Leitlinien beobachten [B17][B18][S36] | **[G/I]** |
+| **DSGVO** | Personenbezug bei Social Listening, Influencer-Monitoring, Kunden-Chats und Nutzerprotokollen | Rechtsgrundlage (Art. 6), Auftragsverarbeitung (Art. 28), ggf. Datenschutz-Folgenabschätzung (Art. 35), Drittlandtransfer, Löschkonzept | **[G]** |
+| **GeschGehG** | Rezepturen, Lieferantendaten, LCA-Daten und unveröffentlichte Produktinformationen in externen KI-Tools | Der Schutz als Geschäftsgeheimnis setzt **angemessene Geheimhaltungsmaßnahmen** voraus (§ 2 Nr. 1 lit. b). Daher: Datenklassifizierung, zugelassene Tools, keine Nutzung zum Training | **[G/I]** |
+| **Vertraulichkeitsvereinbarungen** | NDAs mit Lieferanten oder Kunden können die Weitergabe an Dritte ausschließen – auch an KI-Anbieter | Verträge prüfen, bevor Daten hochgeladen werden | **[I]** |
+| **UrhG** | Crawling fremder Inhalte (Text und Data Mining, § 44b; Nutzungsvorbehalt); Rechte an KI-Bildern | Opt-outs beachten; Bildrechte klären | **[G/I]** |
+| **BetrVG** | Betrieblich eingeführte KI-Tools mit Nutzungsdaten lösen die Mitbestimmung nach § 87 Abs. 1 Nr. 6 aus (Eignung zur Überwachung). Hinzu kommen Unterrichtung (§ 90) und Sachverständiger (§ 80 Abs. 3). Die bloße Erlaubnis privater Browser-Accounts löst nach ArbG Hamburg (2024) keine Mitbestimmung aus – das ist bei integrierten Claim-Tools aber meist nicht die Konstellation [P20][S37] | Betriebsrat früh einbinden; Betriebsvereinbarung KI mit Zweckbindung | **[G/I]** |
+| **Berufsrecht** (Kanzleien, WP – auch für unsere eigene Beratung) | Mandatsdaten in KI-Tools | § 203 StGB, § 43e BRAO, § 62a StBerG, § 50a WPO: sorgfältige Auswahl der Dienstleister, Verschwiegenheitsverpflichtung in Textform | **[G/I]** |
+| **Sektorrecht** (Finanzinstitute) | KI-Dienstleister als IKT-Drittanbieter | Anforderungen aus DORA bzw. MaRisk an Auslagerung und IKT-Risiko | **[I]** |
+
+#### 13.3.2 Fachlich-technische Punkte
+
+- **Halluzinationen:** KI erfindet plausible Zahlen, Normen und Zertifikate. Deshalb gilt eine **Zitatpflicht**: Keine Tatsache wird ohne verlinkte Quelle übernommen.
+- **Fehlerarten:** Beim Screening sind **übersehene Verstöße** (Fehler 2. Art) kritischer als Fehlalarme, die nur Zeit kosten. Daraus folgt: Trefferquote (Recall) vor Genauigkeit (Precision), konservative Schwellen und Stichproben der „unauffälligen“ Fälle.
+- **Implizite Claims:** Bilder, Farben, Namen und Kontext („dasselbe Medium“, Gesamteindruck) kann KI nur schwer beurteilen. Nötig ist eine hybride Prüfung aus KI und Mensch.
+- **Sprache:** Deutsche Komposita und Varianten („klimaschonend“, „CO₂-optimiert“, „umweltbewusst“) machen reine Wortlisten lückenhaft. Die Negativliste wird daher als **Konzeptliste mit Synonymen** gepflegt, bei mehreren Märkten mehrsprachig.
+- **Prompt Injection:** Gecrawlte Webseiten oder Lieferantendokumente können versteckte Anweisungen enthalten. Eingaben sind als Daten zu behandeln, die Berechtigungen der KI zu begrenzen und ihre Ausgaben zu validieren.
+- **Modelländerungen und Drift:** Updates des Anbieters können das Verhalten ändern. Daher: Versionierung und nach jeder Änderung Regressionstests mit dem Testset.
+- **Nachvollziehbarkeit:** Zu jedem KI-Beitrag gehören Begründung und Quelle. Protokolliert werden Eingabe, Modellversion, Stand der Wissensbasis, Ausgabe und die menschliche Entscheidung.
+- **Qualität der Wissensbasis:** Negativliste, Claim-Bibliothek und Evidenzregister sind die **Referenzdaten** der KI. Wie Stammdaten brauchen sie einen Owner, Versionierung und eine Aktualisierung bei Rechtsänderungen.
+- **Informationssicherheit:** Zugriffsrechte, Trennung der Daten, keine Nutzung von Unternehmensdaten zum Modelltraining, festgelegter Speicherort.
+- **Verhältnismäßigkeit:** KMU sollten zunächst bestehende, datenschutzkonform lizenzierte Standardwerkzeuge mit klaren Regeln nutzen, statt eigene Modelle zu entwickeln.
+
+#### 13.3.3 Organisatorische Punkte
+
+- **KI-Nutzungsrichtlinie**, verknüpft mit der Claims-Policy: zugelassene Tools, zulässige Daten, Pflichtschritte.
+- **Use-Case-Register** mit Zweck, Owner, Kategorie (Kap. 13.5.2), Validierung und Review-Datum.
+- **Rollen:** Use-Case-Owner, Wissensbasis-Owner, Compliance-Aufsicht, IT/Informationssicherheit, Datenschutz, Betriebsrat.
+- **Schulung zur KI-Kompetenz** mit Claim-Beispielen: Was die KI gut kann, wo sie irrt, was nie an sie delegiert wird.
+- **Dokumentation** des KI-Beitrags im Claim-Dossier.
+
+### 13.4 Auswirkungen auf CMS und IKS
+
+#### 13.4.1 Grundgedanke
+
+KI verändert die Kontrollarchitektur auf zwei Wegen **[A]**:
+
+1. **Neue Risiken:** Als Claim-Quelle erzeugt KI Aussagen in großer Zahl und in Echtzeit. Das CMS muss KI-generierte Kommunikation deshalb ausdrücklich in den Risikobereich „Claims“ aufnehmen.
+2. **Neue Kontrollabhängigkeit:** Ist KI Teil einer Kontrolle, ist diese nur so verlässlich wie Validierung, Änderungssteuerung und Referenzdaten der KI. Das IKS braucht deshalb eine **„Kontrolle über die Kontrolle“** – vergleichbar mit den IT-generellen Kontrollen, die im Finanzbereich automatisierte Kontrollen absichern.
+
+#### 13.4.2 Auswirkungen auf das CMS (Grundelemente nach IDW PS 980)
+
+| Grundelement | Auswirkung durch KI | Maßnahme **[E]** |
+|---|---|---|
+| **Compliance-Kultur** | Risiko der Verantwortungsdiffusion („die KI hat es geprüft“); Chance: Prüfungen werden leichter zugänglich | Klare Botschaft der Leitung: „KI unterstützt, Menschen verantworten“; gemeldete KI-Fehler werden nicht sanktioniert |
+| **Compliance-Ziele** | Für KI-gestützte Abläufe fehlen Ziele | Zum Beispiel: keine Veröffentlichung umweltbezogener KI-Inhalte ohne Claim-ID; Mindest-Trefferquote im Screening |
+| **Compliance-Risiken** | Neue Szenarien: Massenfehler, Halluzination, Vertraulichkeit, Art. 50, Datenschutz, Mitbestimmung, Zweckentfremdung | Risikoanalyse je Use Case um KI-Szenarien ergänzen |
+| **Compliance-Programm** | Regeln für KI-Nutzung und KI-Kontrollen fehlen | KI-Nutzungsrichtlinie, Guardrails, Freigabeprozess für Use Cases, KI-spezifische Kontrollen (Kap. 13.4.4) |
+| **Compliance-Organisation** | Unklar ist, wer für Tool, Regeln und Wissensbasis zuständig ist | Rollen und RACI (Kap. 13.4.5) |
+| **Compliance-Kommunikation** | Die Nutzer kennen die Grenzen der KI nicht | Schulung zur KI-Kompetenz (Art. 4 KI-VO) mit Claim-Fällen; Meldeweg für KI-Fehlleistungen |
+| **Überwachung & Verbesserung** | Die Leistung der KI verändert sich unbemerkt | Leistungsmonitoring (Trefferquoten, Übersteuerungen durch Menschen), Regressionstests nach Updates, jährliche Wirksamkeitsprüfung. Als Maßstab für die Prüfung von KI-Systemen kann IDW PS 861 dienen [B19][S35] |
+
+#### 13.4.3 Auswirkungen auf das IKS
+
+- **Verschiebung der Kontrolltypen:** Aus der manuellen Kontrolle (ein Mensch prüft) wird eine IT-abhängige manuelle Kontrolle (ein Mensch prüft den KI-Vorschlag) oder eine automatisierte Kontrolle (ein KI-Filter blockiert). Je stärker automatisiert, desto wichtiger werden **IT-generelle Kontrollen** (Zugriffe, Änderungen, Betrieb) und die **Validierung**.
+- **Vom System erzeugte Informationen:** Verlassen sich Menschen auf KI-erzeugte Listen, etwa „alle gefundenen Claims“ oder „alle ablaufenden Zertifikate“, müssen deren **Vollständigkeit und Richtigkeit** geprüft sein. Sonst läuft die nachgelagerte Kontrolle ins Leere. Das entspricht der Prüfung vom Unternehmen erzeugter Informationen (IPE) in der Abschlussprüfung **[A]**.
+- **Fehlerarten und Schwellen:** Präventive Screening-Kontrollen werden auf eine hohe **Trefferquote** ausgelegt. „Unauffällige“ Ergebnisse werden stichprobenartig geprüft. Ein KI-Negativbefund ist bei Klasse A/B **nie** alleinige Freigabegrundlage.
+- **Validierung vor dem Einsatz:** Grundlage ist ein Testset mit bekannten Fällen – etwa historische Claims, Grenzfälle aus Kap. 2.7 und Bilder – mit Zielwerten. Das Ergebnis ist ein Validierungsbericht, der zur Freigabe gehört.
+- **Änderungssteuerung:** Modellversion, Prompts und Regeln sowie die Wissensbasis werden versioniert, getestet und freigegeben.
+- **Audit Trail:** Zu jedem KI-Beitrag werden Eingabe, Modell und Version, Stand der Wissensbasis, Ausgabe mit Quellen und die menschliche Entscheidung festgehalten (übernommen oder verworfen, mit Begründung).
+- **Funktionstrennung:** Wer Regeln und Negativliste pflegt, gibt nicht zugleich Claims frei. Administrationsrechte werden getrennt vergeben.
+
+#### 13.4.4 Ergänzung der Claim-Risk-Control-Matrix (Kap. 8.2)
+
+| ID | Risiko | Kontrolle | Typ | Frequenz | Owner | Kontrollnachweis | KMU-Min. |
+|---|---|---|---|---|---|---|---|
+| C23 | Unkontrollierter KI-Einsatz („Schatten-KI“) | Use-Case-Register und Freigabepflicht; Liste zugelassener Tools | P/M | laufend | Compliance/IT | Register, Toolliste | ✓ |
+| C24 | Unzuverlässige KI-gestützte Kontrolle | Validierung vor dem Go-live mit Testset und Zielwert für die Trefferquote | P/M | vor dem Einsatz und nach Änderungen | Use-Case-Owner | Validierungsbericht | ✓ (vereinfachtes Testset) |
+| C25 | Unbemerkte Verhaltensänderung | Änderungssteuerung für Modell, Prompt und Wissensbasis mit Regressionstest | P/M | je Änderung | IT/Compliance | Change-Log, Testprotokoll | ✓ |
+| C26 | Übersehene Verstöße | Stichprobe der von der KI als unauffällig eingestuften Fälle | D/M | monatlich bzw. quartalsweise | Compliance | Stichprobenprotokoll | ✓ |
+| C27 | Automation Bias | Begründungspflicht bei Übernahme der KI-Einstufung (Klasse A/B); das KI-Ergebnis ist nie alleinige Freigabegrundlage | P/M | je Claim | Prüfer | Prüfvermerk | ✓ |
+| C28 | Halluzinierte Fakten | Zitatpflicht: jede Zahl und Tatsache mit Evidenz-Link; ohne Quelle keine Übernahme | P/M (A) | je Ausgabe | Claim-Owner | Dossier | ✓ |
+| C29 | Massenhafte allgemeine Claims durch generative KI | Geschlossene Generierung, Output-Filter, Stichprobe; Freigabe der Vorlage | P/D, A+M | laufend | Marketing/E-Commerce | Filter-Logs, Stichproben | (falls genutzt) |
+| C30 | Claims in Echtzeit durch Chatbot | Antworten nur aus freigegebener Wissensbasis, Eskalation an Menschen, Red-Teaming vor dem Go-live, Monitoring der Dialoge | P/D | vor dem Einsatz und laufend | Kundenservice/Compliance | Testbericht, Monitoring-Report | (falls genutzt) |
+| C31 | Veraltete Wissensbasis | Pflegeprozess für Negativliste und Claim-Bibliothek mit Owner, Versionierung und Trigger bei Rechtsänderung | P/M | quartalsweise und anlassbezogen | Wissensbasis-Owner | Versionshistorie | ✓ |
+| C32 | Verstoß gegen Vertraulichkeit oder Datenschutz | Datenklassifizierung, zugelassene Tools, AV-Vertrag, kein Training mit Unternehmensdaten, DSFA wo nötig | P/M | je Use Case | Datenschutz/Informationssicherheit | Verträge, DSFA | ✓ |
+| C33 | Verstoß gegen Art. 50 KI-VO | Prüfung der Offenlegung (Chatbot) und Kennzeichnung (Deepfakes); Klärung der Rolle als Anbieter oder Betreiber | P/M | je Use Case | Compliance | Checkliste | (falls genutzt) |
+| C34 | Zweckentfremdung zur Mitarbeiterbewertung | Zweckbindung in Richtlinie bzw. Betriebsvereinbarung; beschränkter Zugriff auf Protokolle | P/M | laufend | HR/Compliance | Betriebsvereinbarung, Rechtekonzept | ✓ |
+| C35 | Risiko durch den Anbieter | Due Diligence des Anbieters; Vertragsklauseln zu Datenverwendung, Speicherort, Mitteilung von Änderungen und Exit | P/M | vor dem Einsatz und jährlich | Einkauf/IT | Due-Diligence-Checkliste | ✓ |
+
+#### 13.4.5 Rollen und RACI für den KI-Einsatz
+
+*Abkürzungen wie in Kap. 7.2. UC-Owner = Use-Case-Owner, WB-Owner = Wissensbasis-Owner (Negativliste, Claim-Bibliothek), ISB = Informationssicherheit, DSB = Datenschutz, BR = Betriebsrat.*
+
+| Aktivität | GF | UC-Owner | WB-Owner | Comp | IT/ISB | DSB | BR | IA/extern |
+|---|---|---|---|---|---|---|---|---|
+| KI-Nutzungsrichtlinie erlassen | **A** | C | C | R | C | C | C | I |
+| Use-Case-Freigabe K1–K3 | I | R | C | **A** | C | C | C | – |
+| Use-Case-Freigabe K4–K5 | **A** | R | C | R | C | C | C | I |
+| Validierung vor dem Einsatz | I | **A**/R | C | C | C | – | – | I |
+| Pflege von Negativliste und Claim-Bibliothek | – | C | **A**/R | C | – | – | – | – |
+| Änderungssteuerung für Modell und Prompt | – | R | C | C | **A** | – | – | – |
+| Leistungsmonitoring der KI | I | R | C | **A** | C | – | – | I |
+| Wirksamkeitsprüfung | I | C | C | C | C | C | – | **A**/R |
+
+### 13.5 Welche Freigaben notwendig sind
+
+#### 13.5.1 Zwei Freigabeebenen
+
+- **Ebene 1 – Freigabe des KI-Einsatzes (System):** vor der Inbetriebnahme, bei jeder wesentlichen Änderung und periodisch.
+- **Ebene 2 – Freigabe der Ergebnisse (Claims):** nach der bestehenden Kompetenzordnung (Kap. 6.6).
+
+**Grundsatz [E][A]:** Ebene 1 ersetzt Ebene 2 **nicht**. Es gibt nur eine eng begrenzte Ausnahme für Masseninhalte: Setzt die KI Umweltaussagen ausschließlich aus **bereits freigegebenen Claim-Bausteinen** zusammen (geschlossene Generierung), können Freigabe der Vorlage, automatischer Filter und Stichprobe an die Stelle der Einzelfreigabe treten. Jede neue oder abweichende Umweltaussage braucht weiterhin eine Einzelfreigabe nach ihrer Klasse.
+
+#### 13.5.2 Freigabematrix nach Use-Case-Kategorie
+
+| Kategorie | Beispiele | Freigabe des Einsatzes (Ebene 1) | Freigabe der Ergebnisse (Ebene 2) | Erneute Freigabe |
+|---|---|---|---|---|
+| **K1 – Interne Assistenz** | Recherche, Zusammenfassungen, Entwürfe, Policy-Assistent (U8, U12) | Standardfreigabe über die Liste zugelassener Tools (IT/ISB + DSB); keine Einzelfreigabe je Use Case | Die nutzende Person verantwortet das Ergebnis. In Claims fließt es nur über den Claim-Prozess | jährlich (Toolliste) |
+| **K2 – Prüfunterstützung** | Screening, Vorklassifizierung, Evidenz-Extraktion, Scope- und Konsistenzabgleich (U2–U7, U13, U14) | Compliance (fachlich) + IT/ISB + DSB; **Validierungsbericht ist Pflicht** | Ein Mensch bestätigt. Ein KI-Negativbefund ist bei Klasse A/B nie alleinige Grundlage | nach Modell- oder Regeländerung; jährlich |
+| **K3 – Monitoring** | Markt-, Kanal-, Rechts- und Wettbewerbsmonitoring; Incident-Assistent (U1, U8–U11) | Compliance + DSB (+ Legal bei Crawling, Wettbewerbern und Incidents) | Triage durch den Claim-Owner; Maßnahmen laufen über den Claim-Prozess | jährlich |
+| **K4 – Content für die Außenkommunikation** | Produkttexte, Social Posts, Bilder (U15, U17) | Leitung Marketing + Compliance (Guardrails, Claim-Bibliothek); bei großem Volumen oder Umweltbezug zusätzlich die **GF** | Bei Umweltbezug: Claim-Freigabe nach Klasse. Bei geschlossener Generierung: Freigabe der Vorlage + Stichprobe | bei jeder Änderung von Vorlage oder Modell; halbjährlich |
+| **K5 – Kundeninteraktion in Echtzeit** | Chatbot, Voicebot, KI-Beratung (U16) | **GF** (wie Klasse A) + Compliance + DSB + ISB (+ BR bei Beschäftigtendaten); Red-Teaming-Bericht vor dem Go-live; Prüfung nach Art. 50 | Eine Einzelfreigabe ist nicht möglich. Deshalb nur Antworten aus freigegebener Wissensbasis, Eskalation an Menschen und Monitoring der Dialoge | quartalsweise; bei jeder Änderung |
+
+#### 13.5.3 Grundsätze für Freigaben mit KI-Beteiligung [E]
+
+1. **KI ist kein zweites Augenpaar.** Das Vier-Augen-Prinzip verlangt zwei verantwortliche Menschen.
+2. **Eine KI-Vorprüfung senkt die Freigabestufe nicht.** Die einzige Ausnahme ist die geschlossene Generierung (Kap. 13.5.1).
+3. **Den KI-Beitrag im Dossier kennzeichnen:** Tool, Version, Ausgabe, übernommen oder verworfen.
+4. **Jede wesentliche Änderung** an Modell, Prompt, Regeln oder Wissensbasis ist eine neue Freigabe auf Ebene 1.
+5. **Keine Veröffentlichung umweltbezogener KI-Inhalte ohne Claim-ID.**
+6. **Stopp-Recht:** Compliance kann einen KI-Use-Case bei Auffälligkeiten sofort aussetzen.
+
+#### 13.5.4 Go-Live-Steckbrief (Checkliste für Freigaben auf Ebene 1)
+
+1. Zweck und adressiertes Kontrollziel; Kategorie K1–K5
+2. Datenarten und Klassifizierung (personenbezogen, vertraulich, Geschäftsgeheimnis)
+3. Anbieter, Modell und Version; Speicherort; ist die Nutzung der Daten zum Training ausgeschlossen?
+4. Rolle nach KI-VO (Anbieter oder Betreiber) und Einstufung; ist ein Hochrisiko-Fall nach Anhang III Nr. 4 ausgeschlossen?
+5. Pflichten nach Art. 50 (Chatbot, synthetische Inhalte, Deepfakes)
+6. Datenschutz (Rechtsgrundlage, AV-Vertrag, ggf. DSFA); Prüfung von NDAs und Geheimnisschutz
+7. Validierungsergebnis: Testset, Trefferquote und Genauigkeit, bekannte Schwächen
+8. Design der menschlichen Aufsicht: wer prüft was, Stichproben, Eskalation
+9. Rückfallebene bei Ausfall oder Aussetzung
+10. Protokollierung und Aufbewahrung
+11. Schulung der Nutzerinnen und Nutzer
+12. Beteiligung des Betriebsrats
+13. Kosten und Nutzen, Owner, Datum des nächsten Reviews
+
+### 13.6 Wesentliche Anforderungen im Überblick
+
+| # | Anforderung | Inhalt | Grundlage | Qualität | KMU-Minimum |
+|---|---|---|---|---|---|
+| M1 | Zweckbindung und Use-Case-Register | Jeder KI-Einsatz ist beschrieben, freigegeben und einer Kategorie zugeordnet | CMS/IKS; Rollenklärung nach KI-VO | **[E]** | ✓ |
+| M2 | Menschliche Letztverantwortung | KI entscheidet nicht über Einstufung, Freigabe oder Veröffentlichung | UWG-Zurechnung; Organisationspflicht der GF | **[G/I/E]** | ✓ |
+| M3 | Quellengebundenheit | Keine Tatsache ohne Evidenz-Link; KI-Ausgaben sind keine Belege | Art. 12 UGP-RL; Anhang Nr. 4a („nachweisen kann“) | **[I/E]** | ✓ |
+| M4 | Geschlossene Generierung | Umweltaussagen nur aus freigegebenen Bausteinen | § 5 UWG, Anhang Nr. 4a | **[E]** | ✓ (falls generative KI genutzt wird) |
+| M5 | Validierung und Leistungsziele | Testset, Trefferquote vor Genauigkeit, Grenzfälle | IKS | **[E]** | ✓ (vereinfacht) |
+| M6 | Änderungssteuerung und Versionierung | Modell, Prompt, Regeln, Wissensbasis | IKS (IT-generelle Kontrollen) | **[E]** | ✓ |
+| M7 | Protokollierung und Dossier | Der KI-Beitrag ist nachvollziehbar dokumentiert | Verteidigungsfähigkeit (Kap. 4.5) | **[E]** | ✓ |
+| M8 | Pflege der Wissensbasis | Negativliste und Claim-Bibliothek sind aktuell und versioniert | Rechtsentwicklung | **[E]** | ✓ |
+| M9 | Transparenz nach KI-VO | Offenlegung bei Chatbots, Kennzeichnung bei Deepfakes | Art. 50 KI-VO | **[G]** | falls Chatbot oder Bildgenerierung |
+| M10 | KI-Kompetenz | Schulung zu Möglichkeiten und Grenzen | Art. 4 KI-VO | **[G]** | ✓ |
+| M11 | Datenschutz und Vertraulichkeit | Rechtsgrundlage, AV-Vertrag, DSFA, Geheimhaltungsmaßnahmen, NDA-Prüfung | DSGVO; GeschGehG | **[G]** | ✓ |
+| M12 | Informationssicherheit und Anbietersteuerung | Zugriffe, Speicherort, Trainingsausschluss, Exit | IKS; ggf. DORA | **[E]** | ✓ |
+| M13 | Mitbestimmung | Beteiligung des Betriebsrats bei betrieblichen KI-Tools | BetrVG §§ 87, 90, 80 | **[G/I]** | falls Betriebsrat |
+| M14 | Keine Zweckentfremdung zur Mitarbeiterbewertung | Protokolle werden nicht zur Leistungsbeurteilung genutzt | KI-VO Anhang III Nr. 4; BetrVG | **[G/I]** | ✓ |
+| M15 | Verhältnismäßigkeit | Angemessener Aufwand; Standardtools statt Eigenentwicklung | Sorgfaltspflicht (§ 43 GmbHG) | **[E]** | ✓ |
+
+### 13.7 Vorteile und Risiken
+
+#### 13.7.1 Wesentliche Vorteile
+
+| Vorteil | Wirkt auf | Voraussetzung |
+|---|---|---|
+| **Vollständigkeit auch bei großem Volumen:** Scans über tausende Seiten, Listings und Dateien | KZ1 – das schwierigste Kontrollziel (Kap. 4.3) | Zugang zu allen Kanälen; Stichproben |
+| **Geschwindigkeit:** Dossier und Fundstellen in Minuten statt Tagen | KZ7; Time-to-Evidence (Kap. 4.5) | Strukturiertes Register und strukturierte Dossiers |
+| **Gültigkeitsüberwachung:** Ablaufende Zertifikate und Lizenzen werden automatisch erkannt | KZ5 | Zuverlässige Extraktion (Vier-Augen-Prüfung der kritischen Felder) |
+| **Einheitlicher Prüfmaßstab:** Für alle Claims gelten dieselben Regeln | KZ2 | Gepflegte Negativliste und Policy |
+| **Konsistenz über Dokumente hinweg:** Widersprüche zwischen Bericht und Werbung werden sichtbar | Prinzip 7 (Kap. 4.3) | Zugriff auf alle relevanten Dokumente |
+| **Enablement:** schneller zu spezifischen, belegten Formulierungen; weniger Greenhushing | Geschäftsnutzen | Claim-Bibliothek mit Evidenz |
+| **Ressourcenentlastung für KMU:** Kontrolltiefe ohne großes Compliance-Team | Verhältnismäßigkeit | Standardtools mit klaren Regeln |
+| **Frühwarnung** zu Rechtsentwicklung, Markt und Wettbewerb | KZ8 | Gepflegte Quellen |
+| **Bessere Dokumentation:** automatische Protokolle und Dossiers | KZ7 | Protokollierung ist aktiviert |
+| **Skalierung und Mehrsprachigkeit:** gleiche Aussagen in allen Märkten | KZ4 | Übersetzungsregeln mit Claim-Treue |
+
+#### 13.7.2 Wesentliche Risiken
+
+| Risiko | Betroffene Assertion bzw. betroffenes Kontrollziel | Gegenmaßnahme | Restrisiko **[A]** |
+|---|---|---|---|
+| **Halluzination** (erfundene Zahlen, Normen, Zertifikate) | Tatsächlichkeit, Richtigkeit | Quellengebundenheit (M3), Zitatpflicht (C28) | mittel |
+| **Übersehene Verstöße und Automation Bias** | Vollständigkeit, Zulässigkeit | Trefferquote als Ziel, Stichproben (C26), Begründungspflicht (C27) | mittel |
+| **Skaleneffekt von Fehlern:** Ein fehlerhafter Prompt erzeugt tausende unzulässige Texte | alle | Geschlossene Generierung, Filter, stufenweiser Rollout (C29) | mittel bis hoch (K4) |
+| **Claims in Echtzeit** (Chatbot) | Zulässigkeit, Autorisierung | Bindung an die Wissensbasis, Eskalation, Red-Teaming (C30) | hoch ohne diese Auflagen |
+| **Nicht nachvollziehbare Begründung** | Nachvollziehbarkeit gegenüber Gerichten | Begründung und Quelle je Ausgabe; der Mensch dokumentiert seine eigene Würdigung | mittel |
+| **Abfluss vertraulicher Daten, Verlust des Geheimnisschutzes** | – | Datenklassifizierung, zugelassene Tools, Trainingsausschluss (C32) | mittel |
+| **Datenschutzverstöße** (Monitoring, Chats) | – | AV-Vertrag, DSFA, Datenminimierung | niedrig bis mittel |
+| **Prompt Injection und Manipulation** | Integrität der Kontrolle | Eingaben als Daten behandeln, Rechte begrenzen, Ausgaben validieren | niedrig bis mittel |
+| **Abhängigkeit vom Anbieter, Modelländerungen** | Stabilität der Kontrolle | Versionierung, Regressionstests, Exit-Plan (C25, C35) | mittel |
+| **Verlust von Fachkompetenz:** Menschen verlernen die eigene Beurteilung | Organisation | Schulung; Menschen führen weiterhin Stichproben selbst durch | mittel (langfristig) |
+| **Werbung mit der KI-Prüfung** („KI-geprüft“) | Zulässigkeit | Nicht bewerben | niedrig bei klarer Regel |
+| **Konflikte mit Arbeitsrecht und Mitbestimmung** | Umsetzung | Betriebsvereinbarung, Zweckbindung (C34) | niedrig bis mittel |
+| **Falsches Sicherheitsgefühl der Geschäftsführung** | Organisationspflicht | Management-Reporting mit Fehlerraten und Übersteuerungen | mittel |
+
+#### 13.7.3 Netto-Bewertung
+
+| | **Beherrschbares Risiko** | **Hohes Risiko** |
+|---|---|---|
+| **Hoher Nutzen** | **Quick Wins:** U1 Discovery, U4 Evidenz und Ablauf, U6 Konsistenz, U8 Rechtsmonitoring, U12 Policy-Assistent | **Nur mit starker Governance:** U15 generative Produkttexte, U16 Chatbot |
+| **Mittlerer Nutzen** | **Mit Auflagen:** U2 Screening, U3 Bilder und Icons, U5 Scope, U7 Formulierungsassistent, U9–U11 Monitoring und Incident, U13 Lieferantendaten | **Nur mit starker Governance bzw. nicht als Beleg:** U14 PCF-Zuordnung, U17 Bildwelten, U18 synthetisches Verbraucherpanel |
+
+> **Fazit [A]:** Den größten Nettonutzen hat KI als **Such-, Abgleichs- und Überwachungsinstrument im Hintergrund** der Claim-Governance. Das höchste Risiko entsteht dort, wo KI **selbst nach außen spricht**: bei Produkttexten in großem Umfang, Chatbots und Bildwelten. Für KMU empfiehlt sich daher die Reihenfolge: *erst KI als Kontrollinstrument, dann – wenn überhaupt – KI als Claim-Quelle.*
+
+### 13.8 Einführungspfad für KMU
+
+| Stufe | Zeitraum | Inhalte |
+|---|---|---|
+| **1 – Regeln und Quick Wins** | 0–3 Monate | KI-Nutzungsrichtlinie und Liste zugelassener Tools; Discovery-Scan zur Unterstützung der Inventur (U1); Ablaufüberwachung (U4); Policy-Assistent (U12); Schulung zur KI-Kompetenz |
+| **2 – Prüfunterstützung** | 3–6 Monate | Vorprüfung und Vorklassifizierung im Freigabeprozess (U2, U3) mit Validierungsbericht; Konsistenzabgleich (U6); Rechts- und Marktmonitoring (U8, U9) |
+| **3 – Integration** | 6–12 Monate | Filter vor der Veröffentlichung in CMS/DAM/PIM; Incident-Assistent (U11); Plausibilisierung von Lieferantendaten (U13); Leistungsmonitoring und erste Wirksamkeitsprüfung |
+| **4 – KI als Claim-Quelle** (nur bei Bedarf) | ab 12 Monaten | Generative Produkttexte (U15) nur mit geschlossener Generierung; Chatbot (U16) nur mit Bindung an die Wissensbasis, Freigabe durch die GF und Red-Teaming |
+
+### 13.9 Offene Fragen zum KI-Einsatz
+
+1. Werten Gerichte KI-gestütztes Screening als Ausdruck einer **angemessenen Organisation**, und welchen Beweiswert haben KI-Protokolle? Rechtsprechung gibt es dazu noch nicht **[A]**.
+2. Die **Leitlinien der Kommission zu Art. 50** sind angekündigt, und der finale Verhaltenskodex (06/2026) wird noch auf Angemessenheit geprüft [B17][B18]. Das betrifft vor allem Chatbots und Bildgenerierung.
+3. **Haftungsverteilung zwischen KI-Anbieter und Unternehmen:** Anbieter begrenzen ihre Haftung typischerweise stark. Welche Vertragsstandards sich durchsetzen, ist offen **[A]**.
+4. **Reichweite der Mitbestimmung** bei KI-gestützten Compliance-Tools mit Nutzerprotokollen **[I]**.
+5. **Datenschutz beim Monitoring** von Influencer- und Social-Media-Inhalten **[I]**.
+6. Wie tief muss eine **Wirksamkeitsprüfung** von KI-Kontrollen bei KMU gehen? Ist IDW PS 861 dafür verhältnismäßig oder eher als Orientierung geeignet **[A]**?
+7. **Für unser Beratungsangebot:** Wie sind KI-gestützte Claim-Checks für Mandanten nach dem RDG einzuordnen? Der BGH hat einen Vertragsdokumentengenerator nicht als Rechtsdienstleistung gewertet (BGH, 09.09.2021 – I ZR 113/20), eine Einzelfallbewertung konkreter Claims liegt aber näher an der Rechtsdienstleistung [P21]. Hinzu kommt die Frage, wie die Berufspflichten beim Einsatz von KI mit Mandatsdaten umzusetzen sind **[I]**.
+
+---
+
 ## Anhang A – Quellenverzeichnis
 
 > **Hinweis zur Quellenlage:** Primärquellen (P) sind mit Fundstelle angegeben, konnten in dieser Arbeitsumgebung aber **nicht im Original eingesehen** werden (Netzwerkrichtlinie). Ihr Inhalt wurde über die genannten Behörden- (B) und Sekundärquellen (S) trianguliert. **Vor externer Verwendung sind die Primärtexte zu prüfen.**
@@ -1718,6 +2035,9 @@ Die rationale Reaktion vieler KMU – *nichts mehr sagen* – ist gesamtwirtscha
 | P17 | Tribunal judiciaire de Paris, 23.10.2025 (TotalEnergies) | Zusammenfassungen siehe S30 |
 | P18 | BGH-Rechtsprechung zur Rückrufpflicht aus Unterlassungstiteln (u. a. I ZR 109/14 „Hot Sox“; I ZB 34/15 „RESCUE-Produkte“; I ZR 208/15 „Luftentfeuchter“) | Zusammenfassungen siehe S22 |
 | P19 | Kommissionsvorschlag COM(2022) 143 vom 30.03.2022 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52022PC0143 |
+| P20 | ArbG Hamburg, Beschluss vom 16.01.2024 – 24 BVGa 1/24 (ChatGPT, Mitbestimmung) | https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=ArbG+Hamburg&Datum=16.01.2024&Aktenzeichen=24+BVGa+1/24 |
+| P21 | BGH, Urteil vom 09.09.2021 – I ZR 113/20 („Vertragsdokumentengenerator“, RDG) | https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=09.09.2021&Aktenzeichen=I+ZR+113%2F20 |
+| P22 | Weitere Gesetze in geltender Fassung: DSGVO; GeschGehG (§ 2); UrhG (§ 44b); BetrVG (§§ 80, 87, 90); StGB (§ 203); BRAO (§ 43e); StBerG (§ 62a); WPO (§ 50a) | https://www.gesetze-im-internet.de/ · https://eur-lex.europa.eu/eli/reg/2016/679/oj |
 
 ### Behörden, offizielle Leitlinien, Standardsetzer, Verbände
 
@@ -1739,6 +2059,10 @@ Die rationale Reaktion vieler KMU – *nichts mehr sagen* – ist gesamtwirtscha
 | B14 | COSO: Achieving Effective Internal Control over Sustainability Reporting (ICSR), 2023 | https://www.coso.org/guidance-on-ic |
 | B15 | Rat der EU: Pressemitteilung vom 07.05.2026 (Einigung Digital Omnibus on AI) | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ |
 | B16 | DIHK u. a.: Verbändestellungnahme zum Diskussionsentwurf des 3. UWG-ÄndG (14.03.2025) | https://www.dihk.de/resource/blob/129914/36745144dbb9851f84ed0878d66107e2/recht-verbaende-stellungnahme-diskussionsentwurf-uwg-data.pdf |
+| B17 | EU AI Office: Code of Practice on marking and labelling of AI-generated content (Entwürfe ab 12/2025; finale Fassung 06/2026) | https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content |
+| B18 | Europäische Kommission: FAQ zu den Transparenzpflichten nach Art. 50 KI-VO | https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act |
+| B19 | IDW PS 861 (03.2023): Prüfung von KI-Systemen | https://www.idw.de/idw/idw-aktuell/neu-idw-pruefungsstandard-fuer-ki-systeme.html |
+| B20 | AI Act Service Desk der Kommission: Anhang III und Art. 50 | https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3 · https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50 |
 
 ### Sekundärquellen (Kanzleien, WP-Gesellschaften, Fachmedien) – als solche gekennzeichnet
 
@@ -1777,8 +2101,12 @@ Die rationale Reaktion vieler KMU – *nichts mehr sagen* – ist gesamtwirtscha
 | S31 | LTO: LG Frankfurt untersagt Apple-Watch-Werbung mit „CO₂-neutral“ | https://www.lto.de/recht/nachrichten/n/306o824-lg-frankfurt-apple-watch-greenwashing-duh-uwg |
 | S32 | Gleiss Lutz: The new EU Packaging Regulation – key requirements from August 2026 | https://www.gleisslutz.com/en/know-how/new-eu-packaging-regulation-key-requirements-august-2026 |
 | S33 | Ecovis KSO: EmpCo-Richtlinie 2026 – neue UWG-Regeln für Umweltaussagen (zitiert die Kommissionsstudie 2020) | https://ecovis-kso.com/blog/die-empco-richtlinie-tritt-in-kraft/ |
+| S34 | William Fry: AI Act Articles 50(1) and 50(2); Blck Alpaca: Art. 50 für Chatbots (Anbieterrolle) | https://www.williamfry.com/knowledge/part-1-ai-act-articles-501-and-502-transparency-obligations/ · https://blckalpaca.at/en/knowledge-base/ai-agents/eu-ai-act-for-ai-agents/art-50-fuer-chatbots-und-agents |
+| S35 | Rödl & Partner: Prüfung von KI-Systemen nach IDW PS 861 | https://www.roedl.com/insights/pruefung-ki-systeme-idw-ps-861/ |
+| S36 | Jones Day: Draft Code of Practice on AI Labelling and Transparency (01/2026) | https://www.jonesday.com/en/insights/2026/01/european-commission-publishes-draft-code-of-practice-on-ai-labelling-and-transparency |
+| S37 | Gleiss Lutz; LTO: ArbG Hamburg zu ChatGPT und Mitbestimmung | https://www.gleisslutz.com/de/know-how/arbeitsgericht-hamburg-zu-chatgpt-kein-mitbestimmungsrecht-des-betriebsrats · https://www.lto.de/recht/hintergruende/h/arbg-hamburg-24bvga-1-24-chatgpt-einsatz-arbeit-beteiligung-betriebsrat |
 
-Nicht gesondert aufgeführt sind allgemein bekannte Normen und Standards, die als Referenz genannt werden, ohne dass daraus Rechtsaussagen abgeleitet werden: ISO 9001, 14001, 14020, 14021, 14024, 14064-1, 14067, 14068-1, 31000, ISO/IEC 42001 und 17065, ISO 37301, IDW PS 980, EN 13432, EN 45552/45554, GHG Protocol, PEF-Empfehlung (EU) 2021/2279, COSO, IIA Three Lines Model, ESMA-Leitlinien zu Fondsnamen und die HCVO (EG) 1924/2006.
+Nicht gesondert aufgeführt sind allgemein bekannte Normen und Standards, die als Referenz genannt werden, ohne dass daraus Rechtsaussagen abgeleitet werden: ISO 9001, 14001, 14020, 14021, 14024, 14064-1, 14067, 14068-1, 31000, ISO/IEC 42001, 23894 und 17065, NIST AI RMF, ISO 37301, IDW PS 980, EN 13432, EN 45552/45554, GHG Protocol, PEF-Empfehlung (EU) 2021/2279, COSO, IIA Three Lines Model, ESMA-Leitlinien zu Fondsnamen und die HCVO (EG) 1924/2006.
 
 ---
 
@@ -1807,7 +2135,16 @@ Nicht gesondert aufgeführt sind allgemein bekannte Normen und Standards, die al
 | **CPC** | Consumer Protection Cooperation – Netzwerk der Verbraucherschutzbehörden (VO (EU) 2017/2394) |
 | **Abhilfeklage** | Kollektive Leistungsklage qualifizierter Verbraucherverbände nach dem VDuG |
 | **RCM** | Risk-Control-Matrix – Zuordnung von Risiken zu Kontrollen, Verantwortlichen und Nachweisen |
+| **Automation Bias** | Neigung, automatisierten Vorschlägen (z. B. einer KI-Einstufung) ungeprüft zu folgen |
+| **Geschlossene Generierung** | Generative KI setzt Aussagen nur aus vorab freigegebenen, belegten Bausteinen zusammen, statt frei zu formulieren |
+| **Halluzination** | Plausibel klingende, aber erfundene KI-Ausgabe (z. B. Zahlen, Normen, Zertifikate) |
+| **Human-in-the-Loop** | Ein Mensch prüft und entscheidet, bevor ein KI-Ergebnis wirksam wird |
+| **IPE (Information Produced by the Entity)** | Vom Unternehmen bzw. von seinen Systemen erzeugte Informationen, deren Vollständigkeit und Richtigkeit geprüft sein muss, bevor sich Kontrollen darauf stützen |
+| **IT-generelle Kontrollen (ITGC)** | Kontrollen über Zugriffe, Änderungen und Betrieb von IT-Systemen; Voraussetzung für verlässliche automatisierte Kontrollen |
+| **Prompt Injection** | Manipulation einer KI durch versteckte Anweisungen in verarbeiteten Inhalten (z. B. Webseiten, Dokumente) |
+| **Recall / Precision** | Trefferquote (Anteil gefundener echter Verstöße) bzw. Genauigkeit (Anteil echter Verstöße unter allen Treffern) |
+| **Red-Teaming** | Gezielter Test eines KI-Systems mit Angriffs- und Grenzfall-Eingaben vor dem Go-live |
 
 ---
 
-*Ende des Research-Dokuments. Für die gemeinsame Weiterarbeit am Strawman empfiehlt sich vorab die Klärung der offenen Rückfragen (siehe „Arbeitsannahmen“) und die Verifizierung der Primärtexte (Kap. 12.5).*
+*Ende des Research-Dokuments. Für die gemeinsame Weiterarbeit am Strawman empfiehlt sich vorab die Klärung der offenen Rückfragen (siehe „Arbeitsannahmen“) und die Verifizierung der Primärtexte (Kap. 12.5). Der KI-Einsatz ist in Kap. 13 vertieft.*
