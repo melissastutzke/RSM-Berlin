@@ -51,7 +51,7 @@ Der Pitch richtet sich an die Geschäftsführung mittelständischer Unternehmen 
 | Folie | Aussage | Quelle | Status |
 |---|---|---|---|
 | 2 | Seit 27.09.2026 gilt das neue UWG; verboten sind u. a. allgemeine Umweltaussagen ohne Nachweis (Anhang Nr. 4a), Siegel ohne Zertifizierungssystem (Nr. 2a) und Neutralitätsaussagen auf Basis von Kompensation (Nr. 4c) | [1][2] | P |
-| 2 | 51 % von 476 Websites mit Umweltaussagen verstießen sieben Wochen vor dem Stichtag gegen die Anforderungen; 36 % erfüllten alle | [15] | St |
+| 2 | Von 345 Firmen, die aktiv mit Nachhaltigkeitsaussagen werben, wiesen 176 (51 %) sieben Wochen vor dem Stichtag mindestens einen Verstoß auf; 167 (48 %) kommunizierten regelkonform (Auswertung von 476 Websites; auf Websiteebene erfüllten 36 % alle Kriterien) | [15] | St |
 | 2 | 92 Verfahren der Deutschen Umwelthilfe zu „klimaneutral“ seit Mai 2022 | [16] | S (Verband) |
 | 2 | Nach einer Unterlassungserklärung kostet jeder erneute Verstoß typischerweise 5.000 € und mehr | [18] | S |
 | 2 | Alte Posts und Lagerware machen Wiederholungen wahrscheinlich; Abmahnfristen sind kurz | MA Kap. 12.2 und 15.2; RB Kap. 9.1 | E |
