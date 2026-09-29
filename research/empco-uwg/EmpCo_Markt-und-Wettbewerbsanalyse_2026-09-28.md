@@ -4,10 +4,10 @@
 
 | | |
 |---|---|
-| **Stand** | 28.09.2026 – einen Tag nach Anwendungsbeginn der EmpCo-Regeln in Deutschland |
+| **Stand** | 28.09.2026 – einen Tag nach Anwendungsbeginn der EmpCo-Regeln in Deutschland; ergänzt am 29.09.2026 (Kap. 15) |
 | **Zweck** | Markt- und Wettbewerbsanalyse als Grundlage für ein eigenes Beratungsangebot. **Keine** rechtliche Grundlagenrecherche; dafür siehe die Research-Basis v1.0 im selben Ordner („RB“) |
 | **Leitfrage** | Wenn EmpCo für den Kunden zunächst nach zusätzlichem Compliance-Aufwand aussieht: Wie wird genau dieser Aufwand zum Ausgangspunkt für bessere Governance, effizientere Prozesse, bessere Daten, Automatisierung und weitere Mehrwerte – und warum sollte der Kunde dafür uns beauftragen? |
-| **Status** | Entwurf v1.0. Quellenlage und Annahmen: siehe Lesehinweise |
+| **Status** | Entwurf v1.1 mit Realitätscheck und Korrekturen vom 29.09.2026. Quellenlage und Annahmen: siehe Lesehinweise |
 
 ---
 
@@ -22,9 +22,9 @@
 | **[Hypothese]** | **C – Hypothese:** was daraus möglicherweise folgt, ohne Beleg |
 | **[Ansatz]** | **D – Eigener Beratungsansatz:** was wir daraus entwickeln könnten |
 
-**Standardregel, damit die Tabellen lesbar bleiben:** Kapitel 2 enthält, soweit nicht anders markiert, **[Beleg]**-Aussagen. Die Kapitel 1 und 3–6 sind **[Beobachtung]**, die Kapitel 7–12 **[Ansatz]**. Abweichungen sind einzeln gekennzeichnet.
+**Standardregel, damit die Tabellen lesbar bleiben:** Kapitel 2 enthält, soweit nicht anders markiert, **[Beleg]**-Aussagen. Die Kapitel 1 und 3–6 sind **[Beobachtung]**, die Kapitel 7–12 **[Ansatz]**. Abweichungen sind einzeln gekennzeichnet. In Kapitel 15 ist jede Aussage einzeln gekennzeichnet.
 
-Quellen: **[Q01]–[Q34]**, vollständig im Anhang. Verweise auf die Research-Basis erscheinen als „RB Kap. x“.
+Quellen: **[Q01]–[Q47]**, vollständig im Anhang. Verweise auf die Research-Basis erscheinen als „RB Kap. x“.
 
 ### Methodik und Quellenlage – bitte vor Weiterverwendung lesen
 
@@ -75,13 +75,15 @@ Quellen: **[Q01]–[Q34]**, vollständig im Anhang. Verweise auf die Research-Ba
    - neu für Wirtschaftsprüfer: die Prüfung von Umsetzungsplänen für Zukunftsaussagen **[Beobachtung]**.
 4. **Der Claim-Check wird zur Massenware.**
    - Kostenlose KI-Scanner und Quick-Checks drücken den Einstiegspreis gegen null.
-   - Anbieter sind Softwarefirmen, Prüfdienstleister und vereinzelt Big 4 (Deloitte Österreich) [Q04][Q30][Q32] **[Beobachtung]**.
+   - Anbieter sind Softwarefirmen, Verbände, Prüfdienstleister, vereinzelt Big 4 (Deloitte Österreich) und Next 10 (Rödl mit einem Screening) [Q04][Q30][Q32][Q35][Q41] **[Beobachtung]**.
 5. **Governance wird angesprochen, aber kaum als Produkt angeboten.**
    - PwC: Anti-Greenwashing-Framework mit Ursprung im Finanzsektor.
    - EY: Einordnung ins Compliance-Management-System (CMS) in einem Gastbeitrag; in Österreich Daten und Prozesse.
    - Forvis Mazars: Greenwashing als eigene Risikokategorie.
    - Deloitte Legal: „Identify. Verify. Manage.“
-   - Ein fertiges, mittelstandstaugliches „Claims-Modul im CMS/IKS“ ist nicht sichtbar [Q01][Q05][Q06][Q11][Q18] **[Beobachtung]**.
+   - Rödl: Screening mit Dokumentation und vertraglichen Nachweispflichten bei Lieferanten (Nachtrag 29.09.2026) [Q35].
+   - Managementberatungen und Software positionieren den Dauerprozess (Kap. 15.1) [Q36][Q37].
+   - Ein fertiges, mittelstandstaugliches „Claims-Modul im CMS/IKS“ mit Kontrolltests ist nicht sichtbar [Q01][Q05][Q06][Q11][Q18] **[Beobachtung]**.
 6. **„Turn compliance into value“ ist eine Nischenposition.**
    - Explizit vertreten nur von KPMG (Wettbewerbsvorteile, Innovation, Geschäftsmodelle über den Produktlebenszyklus) und Simon-Kucher („Chancen“ für die Verpackungsindustrie).
    - Bei PwC taucht es nur im Titel eines Rechtsblogs auf [Q08][Q12][Q27] **[Beleg]**.
@@ -93,7 +95,7 @@ Quellen: **[Q01]–[Q34]**, vollständig im Anhang. Verweise auf die Research-Ba
    - Claim-Governance als Managementsystem im bestehenden CMS/IKS,
    - Verteidigungsfähigkeit (Belege in 48 Stunden),
    - Claim-Bibliothek als Hilfe gegen „Greenhushing“ (aus Vorsicht nicht mehr kommunizieren),
-   - Nachweiskette zu den Lieferanten,
+   - Nachweiskette zu den Lieferanten (teilweise besetzt, Kap. 15.1),
    - KI-Kontrolle mit Kontrollen über die KI,
    - Monitoring als Service,
    - ein Claim-System für mehrere Regelwerke (Verpackungsverordnung PPWR, Ökodesign-Verordnung ESPR) **[Beobachtung][Hypothese]**.
@@ -115,6 +117,13 @@ Quellen: **[Q01]–[Q34]**, vollständig im Anhang. Verweise auf die Research-Ba
     - Die Veröffentlichungen verdichten sich seit Juli 2026.
     - Nach dem Stichtag verschiebt sich die Kundenfrage von „Was gilt?“ zu „Wie halten wir das dauerhaft?“.
     - Wer das Governance-Narrativ jetzt besetzt, findet einen noch weitgehend leeren Raum **[Hypothese]**.
+14. **Realitätscheck (Kap. 15, ergänzt am 29.09.2026):**
+    - Zwölf USPs gibt es nicht. Tragfähig ist ein Kernangebot, die „prüffeste Claim-Governance“ aus U1, U2 und U7; der Rest sind Bausteine oder Themen für später.
+    - Die Alleinstellung ist kleiner als oben dargestellt: Rödl hat ein Screening mit Lieferantenverträgen, Managementberatungen und Software positionieren den Dauerprozess [Q35]–[Q40].
+    - Verkaufbar ist das Angebot vor allem mit Anlass, besonders nach einer Unterlassungserklärung, und mit kleineren Einstiegen für kleinere Mittelständler [Q41][Q42].
+    - Besonders betroffen sind Lebensmittel und Getränke, Drogerie und Kosmetik, Verpackung und Zulieferer, Energie, Handel sowie Reise und Mobilität [Q43].
+    - EmpCo schreibt keine Prüfung von Claims vor. Drittprüfung gibt es nur bei Siegeln und beim Umsetzungsplan für Zukunftsaussagen; der Prüfungsgrad ist dort offen [Q45].
+    - Die Integration in CMS, IKS oder ISO-Systeme ist konzeptionell einfach und praktisch anspruchsvoll; Kap. 15.6 nennt zwölf typische Schwachstellen **[Beobachtung][Hypothese]**.
 
 ---
 
@@ -156,7 +165,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | # | Leistung | Belege | Kommerzielle Logik | Typische Käufer | Unterscheidbarkeit [Hypothese] |
 |---|---|---|---|---|---|
 | 1 | **Wissen und Updates** (Webcasts, Artikel, Podcasts) | Deloitte Legal [Q01], KPMG Law [Q09], Rödl [Q21], RSM Ebner Stolz [Q17], Baker Tilly [Q19], Ecovis [Q22], Kanzleien [Q29], IHK [Q33] | Lead-Generierung, kostenlos | Legal, Marketing | sehr gering |
-| 2 | **Quick-Check bzw. Claim-Screening** | Deloitte Österreich (kostenlos) [Q04], Grant Thornton Österreich (kompakt, KI-gestützt) [Q16], TÜV Rheinland [Q30], Tools [Q32] | Einstieg, oft kostenlos | Marketing, Compliance | gering, sinkend |
+| 2 | **Quick-Check bzw. Claim-Screening** | Deloitte Österreich (kostenlos) [Q04], Grant Thornton Österreich (kompakt, KI-gestützt) [Q16], Rödl (Screening) [Q35], TÜV Rheinland [Q30], Tools [Q32] | Einstieg, oft kostenlos | Marketing, Compliance | gering, sinkend |
 | 3 | **Relevanz- bzw. Readiness-Bewertung** | Grant Thornton Österreich [Q16], Forvis Mazars [Q18], BDO (als Vorgehen) [Q14] | kleines Projekt | Compliance, Nachhaltigkeit | gering |
 | 4 | **Strukturierte Prüfung einzelner Claims** (Belege, Transparenz, Konsistenz) | EY Österreich [Q05], Grant Thornton Österreich [Q16], BDO [Q14] | Projekt, abhängig vom Volumen | Marketing, Legal | mittel |
 | 5 | **Rechtliche Bewertung im Einzelfall** | Legal-Arme der Big 4, Kanzleien [Q29] | nach Stunden | Legal | mittel (Reputation) |
@@ -274,7 +283,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 |---|---|---|---|---|---|
 | **Baker Tilly** | Rechtsinformation | Beitrag „EmpCo-Richtlinie: Ab September gelten neue Regeln“; kein spezifisches Angebot gefunden | n. e. | Compliance | [Q19] |
 | **Crowe Kleeberg** (Mitglied von Crowe Global) | fachlich, aus Sicht der Prüfung | Beiträge zu Umsetzungsplänen (16.09.2026), zu den IDW-Mustervermerken und zur Altbestandsregel (je 25.09.2026); Prüfleistung wird nur mittelbar angesprochen | n. e. | Compliance, Prüfung | [Q20] |
-| **Rödl & Partner** | Recht und Compliance, mit Blick auf das Image | „Zwischen Image und Compliance – Umweltwerbung unter neuen Maßstäben“ (28.07.2026); „EmpCo Countdown: Nachhaltigkeitswerbung läuft die Zeit davon“; kein spezifisches Angebot gefunden | n. e. | Compliance, Risiko, Reputation | [Q21] |
+| **Rödl & Partner** | Recht und Compliance, mit Blick auf das Image; dazu ein Screening-Produkt | „Zwischen Image und Compliance – Umweltwerbung unter neuen Maßstäben“ (28.07.2026); „EmpCo Countdown: Nachhaltigkeitswerbung läuft die Zeit davon“; **„RÖDL EmpCo Screening“**: Claims-Inventur, Rechts- und Faktencheck, Dokumentation der Datenbasis, vertragliche Verankerung von Nachweispflichten bei Lieferanten (Nachtrag 29.09.2026) | u. a. Stadtwerke | Compliance, Risiko, Reputation | [Q21][Q35] |
 | **Ecovis** | Rechtsinformation | Blogbeitrag zu den neuen UWG-Regeln | n. e. | Compliance | [Q22] |
 | *ETL, PKF* | – | keine EmpCo-Inhalte gefunden | – | – | – |
 
@@ -311,7 +320,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | **A „Avoid the risk“** | Deloitte [Q02][Q04], EY Deutschland [Q06], PwC [Q11], KPMG [Q08], Grant Thornton [Q15], Forvis Mazars [Q18], Rödl [Q21], Baker Tilly [Q19], RSM Ebner Stolz [Q17] | hoch (mindestens 9 von 13) | Risiko-, Behörden- und Abmahnsprache; „bis zu 4 % Bußgeld“ (greift nur bei koordinierten grenzüberschreitenden CPC-Aktionen, § 19 UWG; RB Kap. 1.5, 9.3) | Checks, Forensik, Rechtsprüfung | gering |
 | **B „Get compliant“** | nahezu alle [Q01]–[Q22] | sehr hoch (12 von 13) | Updates, Checklisten, Fristen | Updates, Webcasts, Checks | sehr gering |
 | **C „Build trust“** | EY Österreich [Q05], Deloitte Österreich [Q04], Forvis Mazars [Q18], Simon-Kucher [Q27], KPMG („ernsthaftere Nachhaltigkeitskommunikation“) [Q08] | mittel (5 von 13) | „verlässliche“, „glaubwürdige“, „transparente“ Kommunikation | Kommunikationsberatung, Umformulieren von Claims | gering bis mittel |
-| **D „Transform processes / governance“** | PwC [Q11][Q12], EY [Q05][Q06], Deloitte Legal [Q01], Grant Thornton Österreich [Q16], BDO [Q14], Forvis Mazars [Q18] | mittel (6 von 13), meist als Methode oder Empfehlung | „Governance“, „Prozesse“, „Identify. Verify. Manage.“ | Framework (PwC), Prozessentwicklung (Grant Thornton Österreich) | mittel; Potenzial hoch |
+| **D „Transform processes / governance“** | PwC [Q11][Q12], EY [Q05][Q06], Deloitte Legal [Q01], Grant Thornton Österreich [Q16], BDO [Q14], Forvis Mazars [Q18], Rödl [Q35] | mittel (7 von 13), meist als Methode oder Empfehlung | „Governance“, „Prozesse“, „Identify. Verify. Manage.“ | Framework (PwC), Prozessentwicklung (Grant Thornton Österreich), Screening mit Lieferantenverträgen (Rödl) | mittel; Potenzial hoch |
 | **E „Turn compliance into value“** | KPMG [Q08], Simon-Kucher [Q27], PwC (nur Blogtitel) [Q12]; indirekt McKinsey [Q24], Bain [Q26], Deloitte Insights [Q28] | niedrig (3 von 13) | „Chance“, „Wettbewerbsvorteil“, „Innovation“ | Produkt- und Prozessanalyse (KPMG), Studien | hoch, aber selten mit einer Leistung unterlegt |
 | **F „Digitalize / automate“** | EY Österreich [Q05], Grant Thornton Österreich [Q16], PwC [Q11]; Software [Q32] | bei Beratungen niedrig (3 von 13), bei Software hoch | KI-Tool, „automatisch“, digitale Tools | KI-Screening | sinkt, weil Scans zur Massenware werden |
 | **G „Prüfpflicht / Assurance“** (zusätzlich identifiziert) | Grant Thornton [Q15], Crowe Kleeberg [Q20], BDO [Q14]; Wirtschaftsprüferkammer [Q23]; Prüfdienstleister [Q30] | mittel (3 von 13, dazu der Berufsstand) | Prüfpflicht, Mustervermerke, unabhängige Prüfung | Prüfung von Umsetzungsplänen, Verifizierung | mittel; durch IDW-Standards zunehmend einheitlich |
@@ -320,7 +329,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | **J „Greenwashing im Finanzsektor“** (zusätzlich) | Deloitte [Q03], PwC [Q11][Q13] | Nische | Sustainable Finance | Frameworks | mittel |
 | **K „Claim-Lebenszyklus im System“** (zusätzlich) | Bynder, Six (Software) [Q32] | nur Software | „Find, prove, retire“ | DAM-Workflows | hoch; bei Beratungen unbesetzt |
 
-**Lesart:** Die Narrative A und B tragen nahezu die gesamte Kommunikation. Die Narrative mit der höchsten Unterscheidbarkeit (E, I, K) sind entweder kaum mit Leistungen unterlegt (E, I) oder liegen bei Softwareanbietern (K). Das Governance-Narrativ D ist angekündigt, aber nur bei PwC und Grant Thornton Österreich als Leistung ausformuliert.
+**Lesart:** Die Narrative A und B tragen nahezu die gesamte Kommunikation. Die Narrative mit der höchsten Unterscheidbarkeit (E, I, K) sind entweder kaum mit Leistungen unterlegt (E, I) oder liegen bei Softwareanbietern (K). Das Governance-Narrativ D ist angekündigt, aber nur bei PwC und Grant Thornton Österreich als Leistung ausformuliert, in Teilen auch bei Rödl (Nachtrag, Kap. 15.1).
 
 ---
 
@@ -342,7 +351,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | Forvis Mazars | ● | ◐ („Erfolgsgeschichten“) | ◐ (Risikokategorie) | ○ | [Q18] | mittel |
 | Baker Tilly | ● | ○ | ○ | ○ | [Q19] | gering (ein Beitrag) |
 | Crowe Kleeberg | ● | ○ | ○ | ○ | [Q20] | mittel |
-| Rödl & Partner | ● | ○ (nur „Image“) | ○ | ○ | [Q21] | mittel |
+| Rödl & Partner | ● | ○ (nur „Image“) | ◐ (Screening mit Lieferantenverträgen) | ○ | [Q21][Q35] | mittel |
 | Ecovis | ● | ○ | ○ | ○ | [Q22] | gering |
 | Simon-Kucher | ◐ | ● | ○ | ○ | [Q27] | hoch (eine Pressemitteilung) |
 | McKinsey, Bain | – | ● (indirekt) | ○ | ○ | [Q24][Q26] | nicht EmpCo-spezifisch |
@@ -363,8 +372,8 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 |---|---|---|
 | **Stark verbreitet** | EmpCo als Rechts- und Compliance-Thema mit Projektlogik; erster Schritt ist die Inventur und Einzelprüfung der Claims; Warnung vor Abmahnung und Bußgeld; Rechtsupdates | 12 von 13 Beratungen; Kanzleien; IHKs [Q01]–[Q22][Q29][Q33] |
 | **Verbreitet** | Belege und Daten als Kern (EY Österreich, PwC, BDO, Grant Thornton Österreich); KI-Screening (EY Österreich, Grant Thornton Österreich, Software); Prüfung von Umsetzungsplänen als Leistung der Wirtschaftsprüfer | [Q05][Q11][Q14]–[Q16][Q20][Q23][Q32] |
-| **Nische** | Governance-Framework (PwC); Integration ins CMS bzw. Risikomanagement (EY Deutschland im Gastbeitrag, Forvis Mazars als Empfehlung); Chancen und Innovation (KPMG, Simon-Kucher); Produktlebenszyklus (KPMG) | [Q06][Q08][Q11][Q18][Q27] |
-| **Lücke (White Space)** | Claims als dauerhaftes Managementsystem im CMS/IKS für den Mittelstand; Claim-Lebenszyklus als Beratungsleistung; Nachweiskette zu Lieferanten; Verteidigungsfähigkeit als messbares Ziel; Kontrollen über die KI; Monitoring als Service; ein System für mehrere Regelwerke | siehe Kap. 6 |
+| **Nische** | Governance-Framework (PwC); Integration ins CMS bzw. Risikomanagement (EY Deutschland im Gastbeitrag, Forvis Mazars als Empfehlung); Chancen und Innovation (KPMG, Simon-Kucher); Produktlebenszyklus (KPMG); Screening mit Lieferantenverträgen (Rödl); Dauerprozess bei Managementberatungen und Software (Nachtrag) | [Q06][Q08][Q11][Q18][Q27][Q35][Q36][Q37] |
+| **Lücke (White Space)** | Claims als dauerhaftes Managementsystem im CMS/IKS für den Mittelstand; Claim-Lebenszyklus als Beratungsleistung; Nachweiskette zu Lieferanten (teilweise besetzt, Kap. 15.1); Verteidigungsfähigkeit als messbares Ziel; Kontrollen über die KI; Monitoring als Service; ein System für mehrere Regelwerke | siehe Kap. 6 |
 
 **Antwort auf die beiden Leitfragen:**
 
@@ -375,7 +384,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
   - Risikomanagement: Forvis Mazars, EY Deutschland,
   - Wettbewerbsvorteile: KPMG, Simon-Kucher.
 
-  Mit konkreten Leistungen unterlegt ist das bisher nur bei PwC (Framework) und Grant Thornton Österreich (Prozessentwicklung, KI-Screening). Die überwiegende Kommunikation bleibt auf Zulässigkeit und Risikovermeidung fokussiert.
+  Mit konkreten Leistungen unterlegt ist das bisher nur bei PwC (Framework) und Grant Thornton Österreich (Prozessentwicklung, KI-Screening), teilweise auch bei Rödl (Screening mit Lieferantenverträgen) [Q35]. Die überwiegende Kommunikation bleibt auf Zulässigkeit und Risikovermeidung fokussiert.
 
 ### 4.4 Weitere Beobachtungen
 
@@ -393,7 +402,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | Leistung | Wer sie anbietet (Belege) | Warum Pflichtprogramm | Konsequenz für uns [Ansatz] |
 |---|---|---|---|
 | Rechtsupdates, Webcasts, FAQ | alle [Q01]–[Q22], Kanzleien [Q29], IHK [Q33] | kostenlos und überall verfügbar | nur Content-Marketing, kein Umsatzträger |
-| Claim-Inventur und Ampel-Einstufung | BDO (Methode) [Q14], Grant Thornton Österreich [Q16], Deloitte Österreich [Q04], Tools [Q32] | Tools erledigen das in Minuten, teils kostenlos | per KI einbauen, aber nicht als eigenes Produkt verkaufen |
+| Claim-Inventur und Ampel-Einstufung | BDO (Methode) [Q14], Grant Thornton Österreich [Q16], Deloitte Österreich [Q04], Rödl (Screening) [Q35], Tools [Q32] | Tools erledigen das in Minuten, teils kostenlos | per KI einbauen, aber nicht als eigenes Produkt verkaufen |
 | Einzelprüfung von Claims (fachlich und rechtlich) | EY Österreich [Q05], Grant Thornton Österreich [Q16], BDO [Q14], Kanzleien [Q29] | Kernkompetenz vieler Anbieter | muss sein (über die Rechtsanwaltseinheit), steht aber im Preiswettbewerb |
 | Schulungen und Workshops für das Marketing | Forvis Mazars [Q18], EY Österreich [Q05] | Standard | Baustein in Paketen |
 | Quick- bzw. Readiness-Check | Deloitte Österreich [Q04], Forvis Mazars [Q18], TÜV [Q30], Tools [Q32] | oft kostenlos | als Einstieg nur mit echtem Zusatznutzen (Paket P1) |
@@ -409,15 +418,15 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 
 | # | Hypothese | Marktbefund | Kundennutzen | Ergebnis | Begründung |
 |---|---|---|---|---|---|
-| W1 | **Claim-Governance** als dauerhafter Prozess | PwC-Framework mit Ursprung im Finanzsektor [Q11]; „Compliance-Prozesse“ bei Grant Thornton Österreich [Q16]; sonst Projektlogik | hoch | **teilweise besetzt – für den Mittelstand weitgehend frei** | Kein mittelstandstaugliches, festpreisfähiges Governance-Produkt sichtbar |
+| W1 | **Claim-Governance** als dauerhafter Prozess | PwC-Framework mit Ursprung im Finanzsektor [Q11]; „Compliance-Prozesse“ bei Grant Thornton Österreich [Q16]; Dauerprozess bei Managementberatungen und Software sowie in der Fachpresse (Nachtrag) [Q36][Q37][Q38] | hoch | **teilweise besetzt** – als prüffähiges Kontrollsystem für den Mittelstand frei | Der Prozess selbst wird Allgemeingut; frei ist die Verbindung mit Kontrolltests und Prüfung (Kap. 15.1) |
 | W2 | **Claim-Lebenszyklus-Management** | nur Software (Bynder: „find, prove, retire“) [Q32] | hoch | **bestätigt** – bei Beratungen frei | Mit DAM- und PIM-Anbietern zusammenarbeiten statt selbst entwickeln |
 | W3 | **Belegmanagement** | Aufbau von Belegen (EY Österreich), Verifizierung (BDO) [Q05][Q14] | hoch | **teilweise** | Verteidigungsfähigkeit bzw. „Belege in 48 Stunden“ ist als Ziel nirgends sichtbar |
-| W4 | **Integration ins bestehende CMS/IKS** | Gastbeitrag EY Deutschland [Q06], Empfehlung Forvis Mazars [Q18] | hoch | **bestätigt** – als Narrativ vorhanden, nicht als Produkt | Natürliches Terrain von WP-Gesellschaften (Methodik der CMS- und IKS-Prüfung) |
-| W5 | **Data Governance** | Datenmanagement bei PwC [Q11], Daten bei EY Österreich [Q05] | mittel bis hoch | **teilweise** | Nicht sichtbar: eine definierte Datenlinie je Claim und der Abgleich mit Nachhaltigkeitsberichten nach VSME oder CSRD |
+| W4 | **Integration ins bestehende CMS/IKS** | Gastbeitrag EY Deutschland [Q06], Empfehlung Forvis Mazars [Q18]; EmpCo für Unternehmen mit EMAS oder ISO 14001 bei Managementsystem-Beratern (Nachtrag) [Q40] | hoch | **teilweise bestätigt** – als Narrativ vorhanden, als CMS/IKS-Produkt nicht sichtbar | Natürliches Terrain von WP-Gesellschaften (Methodik der CMS- und IKS-Prüfung) |
+| W5 | **Data Governance** | Datenmanagement bei PwC [Q11], Daten bei EY Österreich [Q05]; Datenspur je Claim in ESG-Software (Nachtrag) [Q37] | mittel bis hoch | **teilweise** | Die Datenlinie gibt es als Software-Funktion; nicht sichtbar ist die Verbindung mit Kontrollen, Prüfung und dem Abgleich mit VSME oder CSRD |
 | W6 | **KI-Governance und KI-Einsatz** | KI-Screening bei EY Österreich, Grant Thornton Österreich und in Tools; Kontrollen über die KI nicht gefunden | mittel bis hoch | **teilweise** – das Screening ist besetzt, die Kontrolle über die KI frei | Die COSO-Leitlinie zu generativer KI (02/2026) liefert den Kontrollrahmen; IDW PH 9.315DE.3 (07/2026) rückt KI-Anwendungen im Unternehmen in den Blick der Abschlussprüfung. Wie weit das auf nichtfinanzielle Kontrollen wie Claims reicht, ist offen (RB Kap. 14) |
 | W7 | **Process Mining** | nicht gefunden | im Mittelstand gering bis mittel | **Lücke bestätigt, aber wenig Substanz** | Marketingprozesse haben selten Ereignisprotokolle. Besser: Kartierung, wo Claims entstehen, per Prozess-Walkthrough; Process Mining nur bei Großunternehmen mit DAM/PIM-Workflows |
 | W8 | **Transformation des Marketings** | Kommunikationsstrategie (Forvis Mazars), Agenturen, Simon-Kucher [Q18][Q27][Q31] | mittel | **teilweise** | Eine Claim-Bibliothek mit modularen, belegten Bausteinen (wie in der Pharma-Werbung) ist im EmpCo-Markt nicht sichtbar |
-| W9 | **Lieferanten-Governance** | im EmpCo-Beratungsmarkt nicht gefunden; Lieferketten-Plattform bei Bureau Veritas [Q30] | hoch bei Herstellern und B2B2C | **bestätigt** | Einkaufsbedingungen, Zertifikatsprüfung, Nachweise für B2B-Kunden |
+| W9 | **Lieferanten-Governance** | Rödl verankert Nachweispflichten vertraglich bei Lieferanten (Nachtrag) [Q35]; Lieferketten-Plattformen (Bureau Veritas, IntegrityNext) und B2B-Plattformen (Unite) [Q30][Q39] | hoch bei Herstellern und B2B2C | **teilweise besetzt** | Frei ist die Verbindung aus Einkaufsbedingungen, Wareneingangskontrolle und Nachweispaket für B2B-Kunden |
 | W10 | **Kontinuierliches Monitoring** | Scanner liefern Momentaufnahmen, DAM-Tools Ablaufdaten [Q32] | hoch | **bestätigt** – als Service mit menschlicher Sichtung frei | Wiederkehrender Umsatz |
 | W11 | *Neu:* **Verteidigungsfähigkeit und Abmahn-Readiness** | Forensik erst nach dem Vorwurf (Deloitte 2024) [Q02] | hoch | **bestätigt** | Messbar über die Zeit bis zum vollständigen Beleg |
 | W12 | *Neu:* **B2B-Nachweispaket** (Kunden fordern Belege entlang der Lieferkette) | nicht gefunden; der Druck im B2B ist belegt (Bain) [Q26] | mittel bis hoch | **bestätigt** | Zulieferer müssen Belege für die Claims ihrer Kunden liefern |
@@ -446,6 +455,8 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 ## 7. Potential USPs
 
 *Alle USPs sind **[Ansatz]**. Die Marktlücken stützen sich auf Kap. 2–6. Herleitung: Lücke → Kundenproblem → USP.*
+
+> **Hinweis nach dem Realitätscheck (Kap. 15):** Streng genommen sind die folgenden zwölf Ansätze keine USPs, sondern Differenzierungsansätze. Tragfähig ist ein Kernangebot aus U1, U2 und U7. Die Marktlücken von U4, U10 und U11 sind kleiner als ursprünglich beschrieben und unten korrigiert.
 
 | USP | Lücke | Kundenproblem |
 |---|---|---|
@@ -521,7 +532,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | Feld | Inhalt |
 |---|---|
 | **Customer Pain** | Viele Claims beruhen auf Angaben von Lieferanten, etwa zu Rezyklat, Herkunft oder Sozialstandards. Handel und Kunden verlangen Nachweise, und B2B-Zulieferer werden entlang der Kette in die Pflicht genommen (RB Kap. 2.2, 7.6). Laut Bain kaufen B2B-Einkäufer zunehmend bei nachhaltigeren Lieferanten [Q26] |
-| **Market Gap** | Im EmpCo-Beratungsmarkt kein Angebot mit Lieferantenfokus gefunden. Prüfdienstleister verifizieren einzelne Claims (Bureau Veritas mit Lieferkettenplattform); Einkaufsbedingungen und Verträge werden nicht adressiert [Q30] **[Beobachtung]** |
+| **Market Gap** | *Korrigiert am 29.09.2026:* Rödl verankert Nachweispflichten vertraglich bei Lieferanten, im Beispiel für Stadtwerke [Q35]. Lieferketten-Plattformen (Bureau Veritas, IntegrityNext) sammeln Lieferantendaten; B2B-Plattformen wie Unite fordern ihre Lieferanten zur Prüfung der Claims auf [Q30][Q39]. Nicht sichtbar ist die Verbindung aus Einkaufsbedingungen, Wareneingangskontrolle und einem fertigen Nachweispaket für B2B-Kunden **[Beobachtung]** |
 | **Unser Ansatz** | Nachweisklauseln in den Einkaufsbedingungen, Validierung von Zertifikaten beim Wareneingang, Selbstauskünfte der Lieferanten und ein fertiges Nachweispaket für die eigenen B2B-Kunden |
 | **Konkrete Leistung** | Klauselset (über die Rechtsanwaltseinheit), Prozess für Lieferantenbelege, Zertifikatsregister, Nachweispaket für B2B-Kunden |
 | **Business Value** | Nachweise werden im B2B zum Verkaufsargument. Weniger Rückfragen, Schutz gegen Regress. Die Daten lassen sich auch für Lieferkettenpflichten und VSME nutzen |
@@ -532,7 +543,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | **Satz für den Partner** | „Ein großer Teil Ihrer Belege liegt bei Ihren Lieferanten. Wir verankern die Nachweispflichten in Ihrem Einkauf – dann sind die Belege da, wenn der Handel oder ein Abmahner fragt, und Sie können sie auch Ihren eigenen Kunden liefern.“ |
 | **Vorteile** | Strukturelle Lücke; hohe Relevanz für den Industrie-Mittelstand; Anschluss an Einkaufs- und ESG-Projekte |
 | **Nachteile und Risiken** | Lieferanten sind von Compliance-Anfragen ermüdet. Die Umsetzung dauert. Zahlungsbereitschaft entsteht vor allem, wenn der Handel Druck macht |
-| **Konkurrenzreaktion** | Prüfdienstleister können über Plattformen nachziehen, bleiben aber bei der Verifizierung einzelner Claims |
+| **Konkurrenzreaktion** | Rödl kann sein Screening zu einem Lieferantenmodul ausbauen; Plattformen und Prüfdienstleister bleiben bei Daten und der Verifizierung einzelner Claims |
 
 ### U5 – „KI-Claim-Kontrolle mit Kontrolle über die KI“
 
@@ -629,7 +640,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | Feld | Inhalt |
 |---|---|
 | **Customer Pain** | Viele Mittelständler sind nach ISO 9001 oder 14001 zertifiziert. ISO 14001 (Ziff. 7.4.1) verlangt verlässliche Umweltkommunikation, doch Claims werden im Audit bisher nicht geprüft (RB Kap. 5.2, 5.3) |
-| **Market Gap** | Zertifizierer prüfen Managementsysteme, die EmpCo-Beratung prüft Claims. Die Verbindung – Claim-Stichprobe im internen Audit, Produktänderung als Anlass für eine Claim-Prüfung – wird nicht angeboten **[Beobachtung]** |
+| **Market Gap** | *Korrigiert am 29.09.2026:* Managementsystem-Berater adressieren EmpCo bereits für Unternehmen mit EMAS oder ISO 14001 [Q40]; Zertifizierer bieten EmpCo-Prüfungen als eigene Leistung an [Q30]. Eine Claim-Stichprobe im internen Audit und Produktänderungen als Auslöser für Claim-Prüfungen sind als Standardleistung nicht sichtbar **[Beobachtung]** |
 | **Unser Ansatz** | Das Claims-Modul wird in die gemeinsame Grundstruktur der ISO-Normen eingebaut; das interne Audit enthält eine Claim-Stichprobe; die Managementbewertung greift die Ergebnisse auf |
 | **Konkrete Leistung** | Verfahrensanweisungen, Audit-Checkliste, Schulung der internen Auditoren |
 | **Business Value** | Nutzt vorhandene Strukturen ohne neue Kosten; das Zertifikat gewinnt an Aussagekraft |
@@ -647,7 +658,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | Feld | Inhalt |
 |---|---|
 | **Customer Pain** | Die Zahlen hinter den Claims – Rezyklatanteil, CO₂-Reduktion, Haltbarkeit – stammen aus ERP, PLM, Ökobilanz-Tools und von Lieferanten. Sie sind verteilt, uneinheitlich und nicht versioniert. Widersprüche zwischen Nachhaltigkeitsbericht und Werbung werden zum Beweismittel (RB Kap. 4.3) |
-| **Market Gap** | EY Österreich (Aufbau von Belegen), PwC (Datenmanagement) und BDO (Verifizierung) decken Teile ab. Nicht sichtbar ist ein Design der Datenlinie je Claim samt Abgleich mit VSME oder CSRD [Q05][Q11][Q14] **[Beobachtung]** |
+| **Market Gap** | *Korrigiert am 29.09.2026:* EY Österreich (Aufbau von Belegen), PwC (Datenmanagement) und BDO (Verifizierung) decken Teile ab. ESG-Software wie verso bietet bereits eine Datenspur von der Quelle bis zum Claim [Q37]. Nicht sichtbar ist die Verbindung mit Kontrollen, Prüfung und dem Abgleich mit VSME oder CSRD [Q05][Q11][Q14] **[Beobachtung]** |
 | **Unser Ansatz** | Modell der Datenverantwortlichen, Datenlinie je Claim-Typ, Versionierung, Konsistenzabgleich mit dem Nachhaltigkeitsbericht |
 | **Konkrete Leistung** | Datenlandkarte, RACI für die Datenverantwortung, Konsistenzkontrolle, Attribute im PIM (auch für Informationspflichten wie das GARAN-Label) |
 | **Business Value** | Einmal erhobene Daten dienen mehrfach: Bericht, Werbung, Kundenanfragen, Produktpass. Weniger Nacharbeit |
@@ -658,7 +669,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 | **Satz für den Partner** | „Die Zahlen hinter Ihren Claims liegen heute in fünf Systemen. Wir sorgen dafür, dass Werbung, Nachhaltigkeitsbericht und Kundenanfragen aus derselben geprüften Quelle schöpfen.“ |
 | **Vorteile** | Gut anschlussfähig (VSME, Produktpass); strategisch |
 | **Nachteile und Risiken** | IT-lastig; längere Projekte; das Budget liegt bei CIO oder CFO |
-| **Konkurrenzreaktion** | IT-Beratungen können die Datenlinie bauen, bringen aber keine Claim- und Prüfungslogik mit |
+| **Konkurrenzreaktion** | ESG-Software liefert die Datenlinie als Funktion, IT-Beratungen können sie bauen; beide bringen keine Claim- und Prüfungslogik mit |
 
 ### U12 – „Cockpit für die Geschäftsführung“ (Risikoappetit, Sign-off, Beirat)
 
@@ -701,7 +712,7 @@ Die Frage lautet: Welche Leistung kauft ein Kunde am Ende tatsächlich ein?
 
 ## 8. Productized Services
 
-*Aufwände und Preislogik sind **[Hypothese]** und an Pilotprojekten zu kalibrieren.*
+*Aufwände und Preislogik sind **[Hypothese]** und an Pilotprojekten zu kalibrieren. Die Umfänge gelten für Kunden mit vielen Produkten und Kanälen; den Zuschnitt für kleinere Unternehmen zeigt Kap. 15.2.*
 
 | Paket | Für wen und Anlass | Inhalt | Ergebnis | Aufwand zur Orientierung | Preislogik | Folgeleistung |
 |---|---|---|---|---|---|---|
@@ -802,6 +813,8 @@ flowchart LR
 
 U6 (Monitoring) ist kein eigener Differentiator, sondern das Geschäftsmodell hinter U2 und U5. Es erscheint deshalb in den Paketen.
 
+> **Hinweis nach dem Realitätscheck (Kap. 15):** D1 und D2 tragen als Argumente. D3 ist ein Baustein, kein Alleinstellungsmerkmal. D4 ist durch Rödl und Plattformen teilweise besetzt. D5 ist eine Nische für später.
+
 ### D1 – Claims ins CMS/IKS (U1)
 
 - **Warum wir?** Wir prüfen und gestalten Kontrollsysteme täglich. Claims werden nach derselben Logik gesteuert wie Finanzinformationen. Rechtsanwälte, Prüfer und Nachhaltigkeitsexpertinnen sitzen unter einem Dach.
@@ -866,7 +879,7 @@ U6 (Monitoring) ist kein eigener Differentiator, sondern das Geschäftsmodell hi
 | „Das hat unsere Kanzlei schon geprüft.“ | „Die Kanzlei sagt Ihnen, welche Claims heute zulässig sind. Wir sorgen dafür, dass das morgen noch stimmt und dass Sie es in 48 Stunden belegen können.“ |
 | „Den Check haben wir kostenlos bekommen.“ | „Der Scan zeigt, wo Sie heute stehen. Ob neue Claims sauber entstehen und ob Belege auslaufen, sagt er nicht.“ |
 | „Das ist Marketing-Sache.“ | „Die Haftung liegt beim Unternehmen, auch für Agenturen, und die Organisationspflicht bei der Geschäftsführung. Deshalb gehört das Thema in Ihr Kontrollsystem.“ |
-| „Zu teuer für uns.“ | „Die Mindest-Governance kommt mit zehn Bausteinen aus, zum Festpreis, und nutzt Ihre vorhandenen Strukturen. Eine einzige Vertragsstrafe oder ein Rückruf kostet schnell mehr.“ |
+| „Zu teuer für uns.“ | „Die Mindest-Governance kommt mit zehn Bausteinen aus, zum Festpreis, und nutzt Ihre vorhandenen Strukturen. Teuer wird es nach einer Unterlassungserklärung: Dann kostet jeder erneute Verstoß typischerweise 5.000 € und mehr, und bei vielen Kanälen und Altbeständen sind Wiederholungen wahrscheinlich.“ [Q42] |
 | „Wir kommunizieren einfach nicht mehr grün.“ | „Dann verschenken Sie Differenzierung, und Ihre B2B-Kunden fragen trotzdem nach Belegen. Mit einer freigegebenen Bibliothek können Sie belegt kommunizieren, statt zu schweigen.“ |
 | „Wir warten erst mal ab, ob jemand abmahnt.“ | „Die Frist nach einer Abmahnung beträgt wenige Tage. Was Sie dann nicht belegen können, wird zum Prozessrisiko – auch wenn Sie inhaltlich recht haben.“ |
 
@@ -886,6 +899,7 @@ U6 (Monitoring) ist kein eigener Differentiator, sondern das Geschäftsmodell hi
 10. **Über EmpCo hinausdenken.** Ein Claim-System für mehrere Regelwerke (PPWR, ESPR, Recht auf Reparatur, KI-Aussagen) verhindert, dass die Nachfrage nach dem Stichtag abbricht.
 11. **Das Zeitfenster nutzen.** In den nächsten 6–12 Monaten folgen die ersten Abmahnungen, die Entscheidung zu § 15b und die Produktisierung durch Wettbewerber. Jetzt sollten Pilotkunden, Fallstudien und ein Vergleichswert zur Verteidigungsfähigkeit entstehen **[Hypothese]**.
 12. **Eigene Thought Leadership aufbauen.** Eine kurze Studie wie „Claim-Readiness im Mittelstand“ mit dem 48-Stunden-Test als Messgröße würde das Governance-Narrativ mit eigenen Daten besetzen **[Hypothese]**.
+13. **Ein Kernangebot statt zwölf USPs.** Nach dem Realitätscheck trägt die prüffeste Claim-Governance (U1, U2, U7) mit Einstiegen über echte Anlässe und zwei bis drei Fokusbranchen (Kap. 15.7) **[Ansatz]**.
 
 ---
 
@@ -899,9 +913,181 @@ U6 (Monitoring) ist kein eigener Differentiator, sondern das Geschäftsmodell hi
 
 ---
 
+## 15. Realitätscheck: USPs, Branchen, Assurance und Integration
+
+*Ergänzt am 29.09.2026 nach kritischen Rückfragen. Grundlage sind eine Nachrecherche im breiteren Markt ([Q35]–[Q47], wieder nur über Suchergebnisse) und die Research-Basis. Das Kapitel relativiert Kap. 6–8 und 11; bei Widersprüchen gilt Kap. 15. Jede Aussage ist einzeln gekennzeichnet.*
+
+### 15.1 Sind es echte USPs?
+
+Ein USP muss vier Tests bestehen: Er ist **einzigartig** (heute nicht angeboten), **relevant** (echter Schmerz mit Budget), **glaubwürdig lieferbar** (Kompetenz, Unabhängigkeit, RDG) und **schwer kopierbar** (Vorsprung von mindestens zwölf Monaten).
+
+Die Nachrecherche zeigt, dass der breitere Markt weiter ist als die in Kap. 2 untersuchten Häuser **[Beobachtung]**:
+
+- **Rödl & Partner** bietet ein „RÖDL EmpCo Screening“ an: Claims-Inventur, Rechts- und Faktencheck, Dokumentation der Datenbasis und vertragliche Verankerung von Nachweispflichten bei Lieferanten, im Beispiel für Stadtwerke und deren Energie- und Technologielieferanten [Q35]. Kap. 2.2 ist entsprechend korrigiert.
+- **Managementberatungen und Software** positionieren den Dauerprozess:
+  - plenum: Freigabeprozesse, Dokumentationskonzepte, Richtlinien und Schulungen [Q36],
+  - verso: „erfassen, prüfen, freigeben, pflegen“ und eine Datenspur von der Quelle bis zum Claim [Q37],
+  - Arqum und Zukunftswerk: EmpCo für Organisationen mit EMAS, ISO 14001 oder ÖKOPROFIT [Q40].
+- **Die Fachpresse** beschreibt ein zentrales Claim-Register und einen dauerhaften Prüf- und Freigabeprozess bereits als gute Praxis [Q38].
+- **Lieferantendaten** sammeln Plattformen wie IntegrityNext. B2B-Plattformen wie Unite fordern ihre Lieferanten auf, die Umweltclaims im Katalog zu prüfen [Q39].
+
+**Folge:** „Claims als Dauerprozess“ wird zum Pflichtprogramm. Unterscheidend bleibt nur die **Kombination** aus prüffähigen Kontrollen (IKS/CMS-Logik mit Kontrolltests), eigener Rechtsberatung und Prüfvermerk. Diese Kombination haben die meisten Next-10-Häuser strukturell ebenfalls. Der mögliche Vorsprung ist deshalb ein **Zeit- und Positionierungsvorsprung**, kein struktureller **[Hypothese]**.
+
+| USP | Urteil | Begründung | Verkaufbar? |
+|---|---|---|---|
+| U1 Claims ins CMS/IKS | **Kern**, nur im Paket | Register und Freigabe werden Allgemeingut [Q36][Q38]; unterscheidend bleiben prüffähige Kontrollen mit Tests | mittel; ohne Anlass zäh |
+| U2 Belege in 48 Stunden | **Kern**, stärkstes Argument | konkret und messbar; als Ziel nirgends gefunden, aber schnell kopierbar | hoch nach einer Abmahnung |
+| U7 Prüfbar ab Entwurf | **Kern** bei Zukunftsaussagen | Prüfpflicht sichert Nachfrage, einheitliche Mustervermerke führen aber zu Preiskampf; für einen Prüfvermerk zur Governance ist keine Nachfrage belegt | hoch, wo Pflicht |
+| U3 Claim-Bibliothek | Baustein mit echtem Nutzen | Agenturen und DAM-Anbieter können das auch | im Paket |
+| U6 Monitoring | Geschäftsmodell, kein USP | Software-Abos und Kanzleien bieten das an | hoch nach einer Unterlassungserklärung |
+| U9 Starter zum Festpreis | Preisform, kein USP | sofort kopierbar | wenn der Preis passt (Kap. 15.2) |
+| U12 Cockpit | Baustein von U1 | zu klein für ein eigenes Produkt | nur im Paket |
+| U4 Lieferanten-Nachweise | geschwächt | Rödl deckt Verträge ab [Q35]; Plattformen sammeln Lieferantendaten [Q39] | mittel, bei Druck vom Handel |
+| U5 Kontrolle über die KI | Nische, später | Botschaft ist frei, der Mittelstand zahlt dafür heute aber kaum | gering |
+| U10 ISO-Integration | kein USP | Managementsystem-Berater und Zertifizierer sind da [Q40][Q30] | nur als Baustein |
+| U11 Datenlinie | kein USP | ESG-Software positioniert genau das [Q37] | gering; lange IT-Projekte |
+| U8 Mehrere Regelwerke | Vision, kein Produkt | heute kein Kaufanlass | gering |
+
+**Ergebnis [Ansatz]:** Kein Haus hat zwölf USPs. Tragfähig ist **ein Kernangebot, die „prüffeste Claim-Governance“ aus U1, U2 und U7**, mit U3, U6, U9 und U12 als Bausteinen. U4 taugt als Angebot für Zulieferer unter Handelsdruck. U5, U8, U10 und U11 sollten nicht als USP vermarktet werden.
+
+### 15.2 Verkaufbarkeit und Preisrealität
+
+- **Eine Erstabmahnung ist billig.** Bei einem Gegenstandswert von 20.000–50.000 € liegen die zu erstattenden Abmahnkosten typischerweise bei 1.300–2.000 € netto; Verbände rechnen Pauschalen von 250–400 € ab [Q42]. Hinzu kommen die eigenen Anwaltskosten. Als Angstargument trägt das nur einen kleinen Check **[Beobachtung]**.
+- **Teuer wird die Wiederholung.** Nach einer Unterlassungserklärung wird für jeden erneuten Verstoß eine Vertragsstrafe fällig, typischerweise 5.000 € und mehr [Q42]. Alte Posts, Marktplatz-Listings und Lagerware machen Wiederholungen wahrscheinlich. **Das ist der eigentliche Kaufanlass für Governance und Monitoring [Hypothese].**
+- **Die Durchsetzung ist real.**
+  - Die Deutsche Umwelthilfe hat seit Mai 2022 92 Verfahren zu „klimaneutral“ geführt und leitet weitere ein [Q43].
+  - Die Wettbewerbszentrale hat Umwelt und Nachhaltigkeit zum Schwerpunkt gemacht [Q43].
+  - In einer Auswertung von 476 Unternehmenswebsites mit Umweltaussagen, sieben Wochen vor dem Stichtag, verstießen 51 % gegen die Anforderungen; nur 36 % erfüllten alle [Q44].
+- **Der Check ist kein Produkt.** Der Händlerbund bietet einen EmpCo-Check für einmalig 49,90 € netto an, Dokumentenprüfungen gibt es ab 129 €, der TÜV und viele Tools prüfen kostenlos [Q41][Q30] **[Beleg]**.
+- **Die günstigste Alternative des Kunden ist Schweigen.** Wer nicht werben muss, streicht Claims (Greenhushing). Käufer sind die Unternehmen, die weiter werben müssen oder wollen (Kap. 15.3) **[Hypothese]**.
+- **Die Umfänge in Kap. 8 passen nur für größere Kunden.** Realistischer Zuschnitt **[Hypothese]**:
+
+| Kundenprofil | Typischer Anlass | Passender Einstieg | Umfang zur Orientierung |
+|---|---|---|---|
+| Klein (50–250 Beschäftigte, wenige Claims und Kanäle) | Abmahnung, Anfrage eines Händlers | Vorlagenpaket, Workshop, Kurz-Check der wichtigsten Kanäle | 2–5 Personentage |
+| Mittel (250–1.000 Beschäftigte, Marke mit mehreren Kanälen) | Unterlassungserklärung, Relaunch, Druck vom Handel | Verteidigungs-Check und schlanker Starter | 8–20 Personentage |
+| Groß (über 1.000 Beschäftigte, viele Produkte, ggf. CSRD) | Konsistenz mit dem Bericht, Werbung mit Klimazielen | Starter, Claims-Modul, Prüfung des Umsetzungsplans | 25–60 Personentage |
+
+### 15.3 Welche Branchen sind besonders betroffen?
+
+EmpCo gilt für alle Branchen und Unternehmensgrößen, sobald sich Aussagen an Verbraucher richten (RB Kap. 2.1). Besonders betroffen sind Branchen mit
+1. vielen Claims auf Verpackung und Website,
+2. Kompensationsclaims wie „klimaneutral“,
+3. Aussagen zu Haltbarkeit, Reparierbarkeit und Updates,
+4. einem Fokus der Durchsetzer.
+
+Die vollständige Übersicht steht in RB Kap. 2.6. Hier die Bewertung aus Anbietersicht:
+
+| Branche | Warum besonders betroffen | Belege | Attraktivität für ein Mittelstandsangebot [Hypothese] |
+|---|---|---|---|
+| Lebensmittel und Getränke, inkl. Lieferanten von Handelsmarken | viele Verpackungsclaims, Welle von „klimaneutral“, lange Vorläufe bei Verpackungen | DUH-Verfahren u. a. gegen Netto, REWE stoppt „klimaneutral“ [Q43]; BGH I ZR 98/23 zu Fruchtgummi (RB) | **hoch**: viele Mittelständler, Druck vom Handel |
+| Drogerie, Kosmetik, Reinigungsmittel | „biologisch abbaubar“, „natürlich“, Eigenlabels | DUH gegen dm und Rossmann [Q43]; RB Kap. 2.6 | **hoch** |
+| Verpackung und B2B2C-Zulieferer | „recycelbar“, Rezyklatanteil; Kunden verlangen Nachweise; PPWR-Kennzeichnung ab 2028 | RB Kap. 2.6; Unite [Q39] | **hoch**: Nachweisdruck von Kunden |
+| Energie: Stadtwerke, Gas, Heizöl, Kraftstoffe | Ökostrom, „klimaneutrales“ Gas oder Heizöl, Kompensation | DUH-Verfahren gegen Gasversorger, Mineralölkonzerne und einen Heizölhändler [Q43]; Rödl-Angebot für Stadtwerke [Q35] | **mittel**: stark betroffen, aber Rödl ist präsent und viele Stadtwerke sind Prüfungsmandanten |
+| Handel und E-Commerce | Icons, Filter, Eigenmarken, „grüner Versand“ | Netto [Q43]; Zalando-Präzedenz (RB Kap. 2.7) | **mittel**: große Händler haben eigene Rechtsabteilungen, kleine Onlinehändler sind preissensibel [Q41] |
+| Reise, Mobilität, Logistik | Kompensationsclaims (Nr. 4c) | DUH gegen Eurowings und TUI [Q43]; CPC-Aktion gegen Airlines (RB Kap. 2.6) | **mittel** |
+| Elektronik und Haushaltsgeräte | Haltbarkeit, Software-Updates, Verbrauchsmaterial (Nr. 23d ff.) | RB Kap. 2.6 | **mittel**: in Deutschland vor allem Großunternehmen |
+| Textil und Mode | Recyclingfasern, Sozialclaims, Siegel | Zalando, Shein (RB) | **mittel** |
+| Bau, Handwerk, Immobilien | „energieeffizient“, „nachhaltig bauen“ | RB Kap. 2.6 | **mittel** |
+| Dienstleistungen, Freizeit, Sport | „klimaneutral“ bei Versand, Fotodiensten, Vereinen | DUH gegen Fleurop, CEWE, FC Mainz 05 [Q43] | **niedrig bis mittel** |
+| Finanzdienstleistungen | „nachhaltige Geldanlage“ | RB Kap. 2.6 (SFDR, ESMA) | **niedrig**: Spezialrecht, Big 4 stark |
+
+**Empfehlung [Ansatz]:** zwei bis drei Fokusbranchen, etwa Lebensmittel und Getränke, Drogerie und Kosmetik sowie Verpackung und B2B2C-Zulieferer. Energie nur selektiv, wegen Wettbewerb und Unabhängigkeit.
+
+### 15.4 Welcher Assurance-Grad steht hinter EmpCo?
+
+**Kurz: EmpCo schreibt für Claims keine Prüfung vor.** Die Regulierung ist ein Ergebnis- und Beweisregime: Das Unternehmen muss jede Aussage vor der Veröffentlichung belegen können. Kontrolliert wird im Nachhinein durch Mitbewerber, Verbände und Gerichte (RB Kap. 1.1, 1.5) **[Beobachtung]**. Eine Drittprüfung gibt es nur an drei Stellen:
+
+| Element | Drittprüfung vorgeschrieben? | Prüfungsgrad | Anmerkung |
+|---|---|---|---|
+| Umweltaussagen allgemein (§ 5, § 5a UWG) | nein | keiner; Nachweis auf Anforderung des Gerichts (Art. 12 UGP-RL), sekundäre Darlegungslast | Beweislast liegt faktisch beim Werbenden, und zwar vor der Veröffentlichung (RB Kap. 3.12, 4.5) |
+| Allgemeine Umweltaussagen (Nr. 4a) | mittelbar | Zertifizierung der Spitzenleistung (EU Ecolabel, Blauer Engel) | ohne eine solche Zertifizierung sind allgemeine Aussagen verboten |
+| Nachhaltigkeitssiegel (Nr. 2a) | ja, für das Siegelsystem | Zertifizierung mit objektiver Drittüberwachung, in der Praxis Akkreditierung | staatliche Siegel ausgenommen; kein Prüfvermerk zum einzelnen Claim |
+| Zukunftsaussagen (§ 5 Abs. 3 Nr. 4) | ja: regelmäßige Prüfung des Umsetzungsplans durch unabhängige externe Sachverständige | **nicht festgelegt**: begrenzte oder hinreichende Sicherheit; das IDW hat Muster für beide Varianten, ausdrücklich nur zur Transparenz [Q45] | Gegenstand ist der Plan, nicht der Claim; „regelmäßig“ ist offen; die Ergebnisse müssen für Verbraucher zugänglich sein (RB Kap. 3.5) |
+| Zum Vergleich: CSRD-Bericht, nach Omnibus I nur Großunternehmen | ja | nur begrenzte Sicherheit; die Anhebung auf hinreichende Sicherheit ist gestrichen [Q46] | Widersprüche zwischen Bericht und Werbung werden zum Beweisthema |
+| Zum Vergleich: Green-Claims-Richtlinie | wäre: Vorab-Verifizierung mit Konformitätsbescheinigung | – | formell anhängig, faktisch gestoppt (RB Kap. 1.2.2) |
+
+**Folgen [Hypothese]:**
+
+- **Pflichtprüfungen betreffen nur Zukunftsaussagen.** Das ist ein kleines, preissensibles Segment; in der Praxis dürfte begrenzte Sicherheit dominieren.
+- **Eine freiwillige Prüfung schafft keinen Rechtsschutz.** Ob eine Aussage irreführt, entscheiden Gerichte, nicht Prüfer. Der Wert einer Prüfung von Claims-Modul oder Einzelclaims liegt in der Beweisqualität, im Vertrauen von Handel und Banken und in der Überwachung durch die Geschäftsführung. Kein Angebot sollte „Rechtssicherheit durch Prüfung“ versprechen.
+- **Das IDW warnt selbst** vor Rechtsunsicherheit, zusätzlicher Bürokratie sowie zivilrechtlichen und Schadensersatzrisiken [Q45]. Für Prüfer heißt das: Prüfungsgegenstand, Auftragsbedingungen und Haftung sorgfältig abgrenzen.
+
+### 15.5 Ist die Integration in bestehende Systeme so einfach?
+
+**Konzeptionell ja, praktisch nein.** Freigaben, Dokumentenlenkung, Schulung und internes Audit gibt es in vielen Unternehmen bereits (RB Kap. 5.3). In der Praxis stehen sechs Hürden im Weg **[Beobachtung]**:
+
+1. **Die Basis fehlt oft.**
+   - Nach einer älteren Studie von F.A.Z.-Institut und Ebner Stolz haben nur 22 % der Mittelständler mit weniger als 50 Mio. € Umsatz umfassende Compliance-Instrumente, im oberen Mittelstand etwa die Hälfte [Q47].
+   - Eine Studie von 2018 fand 43 % der Unternehmen mit CMS, 29 % im Aufbau und 28 % ohne [Q47]. Beide Zahlen zeigen nur die Größenordnung.
+   - Ein IKS ist im Mittelstand meist auf das Rechnungswesen ausgerichtet; Marketingprozesse sind nicht erfasst **[Hypothese]**.
+2. **Claims entstehen außerhalb der Systeme:** in Agenturen, bei Influencern, im Vertrieb (auch mündlich), in der Produktentwicklung, bei der Verpackungsgestaltung, auf Marktplätzen und in sozialen Medien (RB Kap. 2.7).
+3. **Die Belege kommen von außen:** von Lieferanten, Zertifizierern und aus Ökobilanz-Tools, mit Ablaufdaten und Versionen (RB Kap. 14.6.5).
+4. **Altbestände:** Digitale Inhalte fallen nicht unter § 15b, Verpackungen haben lange Vorläufe, und Marktplatz-Listings liegen teilweise nicht in eigener Hand (RB Kap. 1.3.3, 2.7).
+5. **Werkzeuge fehlen:** Ohne DAM, PIM oder zentralen Freigabe-Workflow lässt sich ein Gate nicht technisch durchsetzen; Freigaben laufen dann per E-Mail **[Hypothese]**.
+6. **Tempo:** Das Marketing arbeitet in Tagen, Managementsysteme in Jahreszyklen. Zu lange Freigabewege führen zu Umgehung oder Schweigen **[Hypothese]**.
+
+Wie weit selbst die Grundlagen fehlen, zeigt die Website-Auswertung: 51 % der Websites mit Umweltaussagen verstießen kurz vor dem Stichtag gegen die Anforderungen [Q44].
+
+**Wirklich einfach ist die Integration nur, wenn drei Bedingungen erfüllt sind [Hypothese]:**
+
+- Es gibt ein gelebtes CMS oder QM mit Dokumentenlenkung und internen Audits.
+- Das Marketing hat einen zentralen Freigabe-Workflow, etwa eine Druckfreigabe oder DAM/PIM.
+- Es gibt wenige Claims und Kanäle.
+
+**Realistischer Zeitbedarf [Hypothese]:**
+
+- Inventur und Bereinigung: 1–3 Monate.
+- Mindest-Governance: 3–6 Monate.
+- Getestete Kontrollen und Monitoring im Regelbetrieb: nach 9–12 Monaten.
+
+**Konsequenz für das Angebot [Ansatz]:** Vor jeder Integration steht ein kurzer Reifegrad-Check. Ohne tragfähiges CMS oder QM beginnt man mit der Mindest-Governance (RB Kap. 6.10), nicht mit der Integration.
+
+### 15.6 Schwachstellen bei der Einbindung ins Managementsystem
+
+Die Schwachstellen leiten sich aus den Normanforderungen, der Durchsetzungspraxis und typischen Strukturen im Mittelstand ab **[Beobachtung]**. Die Gegenmaßnahmen sind **[Ansatz]**.
+
+| Schwachstelle | Ursache | Folge | Gegenmaßnahme |
+|---|---|---|---|
+| **UWG fehlt im Rechtskataster** | Rechtskataster im Umweltmanagement erfassen Umweltrecht, nicht Lauterkeitsrecht | Claim-Pflichten werden weder bewertet noch auditiert | EmpCo/UWG als bindende Verpflichtung aufnehmen (ISO 14001, 6.1.3); Aktualisierung zuweisen (RB Kap. 5.2) |
+| **Marketing liegt außerhalb des Geltungsbereichs** | Managementsysteme decken Standorte und Produktion ab; Marketing, Vertrieb und Agenturen fehlen | Der Hauptentstehungsort der Claims ist ungesteuert | Geltungsbereich erweitern oder Schnittstellenprozess mit Gate definieren |
+| **Zertifikat als Scheinsicherheit** | ISO 14001 und EMAS belegen keine hervorragende Umweltleistung von Produkten (RB Kap. 2.7); Zertifizierer bieten EmpCo-Prüfungen gesondert an, das Zertifizierungsaudit prüft Werbung also nicht [Q30] | „Wir sind zertifiziert, also dürfen wir …“; Werbung mit dem Zertifikat kann selbst irreführen | Nutzung des Zertifikats in der Negativliste regeln; Claim-Stichprobe ins interne Audit |
+| **Kein Auslöser bei Änderungen** | Die Änderungslenkung (ISO 9001, 8.5.6) fragt nicht nach Claims; Lieferanten- oder Rezepturwechsel bleiben folgenlos | Claims veralten unbemerkt | Pflichtfrage „Claim betroffen?“ im Änderungsprozess; Ablaufdaten im Register |
+| **Belege nicht beweisfest** | Daten im Managementsystem dienen der internen Steuerung, nicht öffentlichen Aussagen; Lieferantendaten sind ungeprüft | Beweisnot im Eilverfahren (RB Kap. 3.12) | Belegstandard je Claim-Klasse; Pflichtinhalte des Dossiers; Datenqualitäts-Checks |
+| **Takt passt nicht** | Internes Audit und Managementbewertung laufen jährlich, das Marketing wöchentlich | Fehler bleiben Monate unentdeckt | Laufendes Monitoring; Quartalsbericht an die Geschäftsführung |
+| **Kontrollen nicht nachweisbar** | Freigaben per E-Mail, keine Belege der Durchführung | „Nicht dokumentiert“ gilt als „nicht durchgeführt“; die Organisationspflicht ist nicht belegbar | Register mit Freigabenachweis; Stichprobentests |
+| **Kompetenzlücke bei Auditoren** | Interne Auditoren und Zertifizierer haben keine Kenntnisse im Lauterkeitsrecht | Audits übersehen Claim-Risiken | Schulung, Audit-Checkliste, rechtliche Stichprobe durch Rechtsabteilung oder Kanzlei |
+| **Bürokratie führt zu Umgehung** | Zu lange Freigabewege | Schatten-Claims in sozialen Medien oder völliger Verzicht auf Kommunikation | Risikobasierte Freigabestufen, Claim-Bibliothek, beschleunigter Weg für Standardfälle |
+| **Struktur nach Standort statt nach Marke und Markt** | Managementsysteme sind nach Standorten gebaut, Claims entstehen je Marke und Markt; § 15b gilt nur in Deutschland, Österreich regelt Altbestände anders (RB Kap. 1.3.3, 1.6) | Lücken zwischen Einheiten und Ländern | Claim-Register je Marke und Markt; zentrale Negativliste |
+| **Dritte außerhalb des Systems** | Agenturen, Influencer und Händler werden zugerechnet (§ 8 Abs. 2 UWG) | Verstöße Dritter treffen das Unternehmen | Vertragsklauseln, Freigabepflicht, Stichproben |
+| **Kein Verantwortlicher mit Durchgriff** | QM- oder Umweltbeauftragte haben kein Weisungsrecht gegenüber dem Marketing | Regeln werden ignoriert | Beschluss der Geschäftsführung; benannter Claim-Governance-Owner mit Eskalationsrecht; Kennzahlen im Management-Review |
+
+### 15.7 Konsequenzen und Validierung
+
+**Für das Angebot [Ansatz]:**
+
+1. **Ein Kernangebot statt zwölf USPs:** die prüffeste Claim-Governance (U1, U2, U7) mit Bausteinen.
+2. **Drei Einstiege über echte Anlässe:**
+   - nach Abmahnung oder Unterlassungserklärung: bereinigen, Wiederholungen verhindern, überwachen;
+   - bei Werbung mit Klimazielen: Umsetzungsplan und Prüfung;
+   - bei Nachweisforderungen von Handel oder Plattformen: eine schlanke Variante von U4.
+3. **Reifegrad-Check als Pflichtschritt** vor jeder Integration (Kap. 15.5).
+4. **Zwei bis drei Fokusbranchen** (Kap. 15.3).
+5. **Keine Rechtssicherheit versprechen:** Eine Prüfung verbessert die Belege, schützt aber nicht vor einer Abmahnung (Kap. 15.4).
+6. **Unabhängigkeit vorab klären:** welche Bausteine für Prüfungsmandanten zulässig sind.
+
+**Validierung in sechs Wochen [Ansatz]:**
+
+- 10–12 Gespräche mit Mandanten (Geschäftsführung, Finanzleitung, Marketing) in den Fokusbranchen: Welcher Anlass, welches Budget, ab welchem Preis wird abgesagt?
+- 2–3 Pilotprojekte mit einem messbaren Kriterium, etwa wie viele Folgeaufträge aus dem Einstiegs-Check entstehen.
+- Übersicht, welche Bausteine bei Prüfungsmandanten zulässig sind.
+- Vorher festgelegtes Abbruchkriterium: Wenn aus den Piloten keine Folgeaufträge entstehen, das Thema als Inhalts- und Schulungsangebot führen statt als Produkt.
+
+---
+
 ## Anhang – Quellenverzeichnis
 
-*Alle Quellen wurden am 28.09.2026 über Websuche erfasst; die Seiten selbst waren nicht abrufbar (siehe Methodik). „n. e.“ = Datum nicht ermittelt.*
+*Die Quellen Q01–Q34 wurden am 28.09.2026, Q35–Q47 am 29.09.2026 über Websuche erfasst; die Seiten selbst waren nicht abrufbar (siehe Methodik). „n. e.“ = Datum nicht ermittelt.*
 
 | ID | Anbieter | Veröffentlichung / Angebot | Datum | URL |
 |---|---|---|---|---|
@@ -939,7 +1125,20 @@ U6 (Monitoring) ist kein eigener Differentiator, sondern das Geschäftsmodell hi
 | Q32 | Software | EmpCo-Scanner; EcoClaim; senken „Free Greenwashing Compliance Checker“; everwave „EmpCo-Check: KI-Audit-Tool“; Bynder „EmpCo Directive: Find, prove & retire green claims“; Six Offene Systeme „EmpCo-Richtlinie gegen Greenwashing: Warum Digital Asset Management jetzt noch wichtiger wird“ | 2026 | https://empco-scanner.de/ · https://www.ecoclaim.eu/ · https://www.senken.io/blog/free-greenwashing-compliance-checker-empco-directive · https://everwave.de/der-empco-check-unser-ki-audit-tool-fuer-eure-green-claims/ · https://www.bynder.com/en/blog/empco-directive-green-claims/ · https://www.six.de/blog/empco-richtlinie-gegen-greenwashing-warum-digital-asset-management-jetzt-noch-wichtiger-wird/ |
 | Q33 | Kammern und Verbände | IHK München „Empowering Consumers und Green Claims“; WKO „EmpCo: Neue UWG-Regeln gegen Greenwashing“; Handelskammer Bremen (Veranstaltung) | 2026 | https://www.ihk-muenchen.de/ratgeber/recht/werbung-fairer-wettbewerb/green-claims/ · https://www.wko.at/nachhaltigkeit/eu-richtlinien-greenwashing · https://www.ihk.de/bremen-bremerhaven/system/veranstaltungssuche/vstdetail-tibros/5859716/0?terminId=5314 |
 | Q34 | South Pole (über Sekundärquellen) | Greenhushing-Befunde 2024 (65 % kommunizieren über die Hälfte ihrer Umweltmaßnahmen nicht; 58 % verstärkten ihr Schweigen 2022–2024), zitiert nach Zusammenfassung | 2024 bzw. 10/2025 | https://cleantechnica.com/2025/10/28/greenhushing-when-companies-dont-want-to-publicize-their-climate-progress/ |
+| Q35 | Rödl & Partner | „EmpCo: neue Regelungen für Umweltaussagen“ (mit „RÖDL EmpCo Screening“); „EmpCo: Was Stadtwerke bei Umweltclaims beachten müssen“ | n. e. (2026) | https://www.roedl.com/insights/empco-neue-regelungen-fuer-umweltaussagen/ · https://www.roedl.com/insights/greenwashing-check-energieversorger/ |
+| Q36 | plenum (Managementberatung) | „Greenwashing im Fadenkreuz: EmpCo-Richtlinie krempelt Nachhaltigkeitskommunikation um“ | n. e. (2026) | https://www.plenum.de/greenwashing-im-fadenkreuz-empco-richtlinie-krempelt-nachhaltigkeitskommunikation-um |
+| Q37 | VERSO (ESG-Software) | „EmpCo & Green Claims Directive“ (Blog) | n. e. (2026) | https://verso.de/blog/green-claims-directive-empco/ |
+| Q38 | Haufe Sustainability | „Green Claims: Vom Rechtscheck zum dauerhaften Prüfprozess“ | n. e. (2026) | https://www.haufe.de/sustainability/strategie/green-claims-vom-rechtscheck-zum-dauerhaften-pruefprozess_575772_698090.html |
+| Q39 | Plattformen | Unite: „EU-EmpCo-Richtlinie: Umweltclaims im Katalog prüfen“; IntegrityNext (Nachhaltigkeit in der Lieferkette) | 2026 bzw. n. e. | https://support.unite.eu/de-de/fuer-lieferanten/eu-empco-richtlinie · https://www.integritynext.com/ |
+| Q40 | Managementsystem- und Compliance-Berater | Arqum: „Umsetzung EmpCo-Richtlinie / UWG“; Zukunftswerk eG: „EmpCo-Compliance“ | n. e. | https://arqum.de/leistungen/compliance/umsetzung-empco-richtlinie/ · https://zukunftswerk.org/empowering-consumers-directive-empco |
+| Q41 | Preisanker für Einstiegs-Checks | Händlerbund-Check (einmalig 49,90 € netto); hut.eco „EmpCo-Analyse“ (ab 129 € je Dokument); kostenlose Checker (leadity, Glacier) | 2026 (hut.eco: 14.04.2026) | https://ohn.haendlerbund.de/haendlerbund-news/haendlerbund-check-empco · https://www.hut.eco/wp-content/uploads/2026/04/2026_04_14-angebotsblatt-empco-analyse.pdf · https://leadity.de/kostenlose-tools/empco-check/ · https://www.glacier.eco/de/empco-checker |
+| Q42 | Abmahnkosten | tww.law: „Abmahnung wegen Greenwashing: Was seit dem 27. September 2026 auf Unternehmen zukommt“; Händlerbund: „Abmahnung Green Claims“ | 28.09.2026 bzw. n. e. | https://tww.law/blog/2026/09/28/abmahnung-greenwashing-uwg-2026/ · https://www.haendlerbund.de/de/leistungen/rechtssicherheit/hilfe-bei-abmahnung/abmahnung-green-claims |
+| Q43 | Durchsetzung | Deutsche Umwelthilfe: Zwischenbilanz nach 92 Verfahren; neue Klagen gegen Fleurop, CEWE und FC Mainz 05; Urteil gegen Netto; „Immer mehr Unternehmen stoppen irreführende Werbung“; Wettbewerbszentrale: Umwelt, Klima & Nachhaltigkeit | 2023–2026, n. e. | https://www.duh.de/presse/pressemitteilungen/pressemitteilung/irrefuehrende-werbung-zu-angeblich-klimaneutralen-produkten-deutsche-umwelthilfe-zieht-erfolgreiche/ · https://www.duh.de/presse/pressemitteilungen/pressemitteilung/irrefuehrende-werbung-mit-klimaneutralitaetsversprechen-deutsche-umwelthilfe-leitet-neue-klagen-gegen/ · https://www.duh.de/presse/pressemitteilungen/pressemitteilung/erfolgreiche-klage-der-deutschen-umwelthilfe-gegen-irrefuehrende-werbung-mit-klimaneutralitaet-deut/ · https://www.duh.de/presse/pressemitteilungen/pressemitteilung/klagen-der-deutschen-umwelthilfe-wegen-falscher-werbeversprechen-zu-klimaneutralitaet-wirken-immer/ · https://www.wettbewerbszentrale.de/branchen/umwelt-klima-nachhaltigkeit/ |
+| Q44 | Wortliga und media4nature (Studie) | Auswertung von 476 Unternehmenswebsites mit Umweltaussagen, sieben Wochen vor dem Stichtag; Berichte bei Haufe und onlinemarktplatz.de | 08/2026 | https://media4nature.de/27-9-2026-viele-unternehmen-sind-nicht-bereit-fuer-empco · https://www.haufe.de/sustainability/strategie/studie-jede-zweite-firma-kommuniziert-regelwidrig_575772_697476.html · https://onlinemarktplatz.de/293007/greenwashing-studie-claims-pruefskript/ |
+| Q45 | IDW | „IDW veröffentlicht Mustervermerke zur Prüfung von Umsetzungsplänen für künftige Umweltleistungen“; Pressemitteilung „UWG-Novelle führt zu Rechtsunsicherheit bei Nachhaltigkeitsaussagen“ | 22.09.2026 bzw. 09/2026 | https://www.idw.de/news/idw-veroeffentlicht-mustervermerke-zur-pruefung-von-umsetzungsplaenen-fuer-kuenftige-umweltleistungen.html · https://www.presseportal.de/pm/115568/6351944 |
+| Q46 | CSRD nach Omnibus I | Noerr: „Vereinfachungen der CSRD: Omnibus I“; Rödl: „EU erzielt Einigung im Omnibus-Verfahren zur Nachhaltigkeitsberichterstattung“ | 2025–2026 | https://www.noerr.com/de/insights/vereinfachung-der-csrd-omnibus-i · https://www.roedl.com/insights/eu-erzielt-einigung-im-omnibus-verfahren-zur-nachhaltigkeitsberichterstattung/ |
+| Q47 | Compliance im Mittelstand | F.A.Z.-Institut und Ebner Stolz: „Compliance – Handlungsoptionen im Mittelstand“; AGAMON Consulting: Compliance-Studie | n. e. bzw. 2018 | https://www.ebnerstolz.de/de/ueber-rsm-ebner-stolz/publikationen/studien/compliance-handlungsoptionen-im-mittelstand-14080.html · https://www.pressebox.de/pressemitteilung/agamon-consulting-gmbh/Neue-Compliance-Studie-von-AGAMON-Consulting-offenbart-weiterhin-Nachholbedarf-im-deutschen-Mittelstand/boxid/909185 |
 
 ---
 
-*Ende des Dokuments. Nächste Schritte: Annahmen A1–A6 bestätigen, Rückfragen in Kap. 14 klären, Quellen vor externer Verwendung im Original prüfen, 2–3 Pilotkunden für P1 und P2 identifizieren.*
+*Ende des Dokuments. Nächste Schritte: Annahmen A1–A6 bestätigen, Rückfragen in Kap. 14 klären, Validierung nach Kap. 15.7 starten, Quellen vor externer Verwendung im Original prüfen.*
