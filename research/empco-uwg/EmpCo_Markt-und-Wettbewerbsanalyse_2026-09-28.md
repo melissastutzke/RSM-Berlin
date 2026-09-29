@@ -24,7 +24,7 @@
 
 **Standardregel, damit die Tabellen lesbar bleiben:** Kapitel 2 enthält, soweit nicht anders markiert, **[Beleg]**-Aussagen. Die Kapitel 1 und 3–6 sind **[Beobachtung]**, die Kapitel 7–12 **[Ansatz]**. Abweichungen sind einzeln gekennzeichnet. In Kapitel 15 ist jede Aussage einzeln gekennzeichnet.
 
-Quellen: **[Q01]–[Q47]**, vollständig im Anhang. Verweise auf die Research-Basis erscheinen als „RB Kap. x“.
+Quellen: **[Q01]–[Q54]**, vollständig im Anhang. Verweise auf die Research-Basis erscheinen als „RB Kap. x“.
 
 ### Methodik und Quellenlage – bitte vor Weiterverwendung lesen
 
@@ -122,7 +122,7 @@ Quellen: **[Q01]–[Q47]**, vollständig im Anhang. Verweise auf die Research-Ba
     - Die Alleinstellung ist kleiner als oben dargestellt: Rödl hat ein Screening mit Lieferantenverträgen, Managementberatungen und Software positionieren den Dauerprozess [Q35]–[Q40].
     - Verkaufbar ist das Angebot vor allem mit Anlass, besonders nach einer Unterlassungserklärung, und mit kleineren Einstiegen für kleinere Mittelständler [Q41][Q42].
     - Besonders betroffen sind Lebensmittel und Getränke, Drogerie und Kosmetik, Verpackung und Zulieferer, Energie, Handel sowie Reise und Mobilität [Q43].
-    - EmpCo schreibt keine Prüfung von Claims vor. Drittprüfung gibt es nur bei Siegeln und beim Umsetzungsplan für Zukunftsaussagen; der Prüfungsgrad ist dort offen [Q45].
+    - EmpCo schreibt keine Prüfung von Claims vor. Drittprüfung gibt es nur bei Siegeln und beim Umsetzungsplan für Zukunftsaussagen; der Prüfungsgrad ist dort offen [Q45][Q48][Q53].
     - Die Integration in CMS, IKS oder ISO-Systeme ist konzeptionell einfach und praktisch anspruchsvoll; Kap. 15.6 nennt zwölf typische Schwachstellen **[Beobachtung][Hypothese]**.
 
 ---
@@ -996,16 +996,32 @@ Die vollständige Übersicht steht in RB Kap. 2.6. Hier die Bewertung aus Anbiet
 
 ### 15.4 Welcher Assurance-Grad steht hinter EmpCo?
 
-**Kurz: EmpCo schreibt für Claims keine Prüfung vor.** Die Regulierung ist ein Ergebnis- und Beweisregime: Das Unternehmen muss jede Aussage vor der Veröffentlichung belegen können. Kontrolliert wird im Nachhinein durch Mitbewerber, Verbände und Gerichte (RB Kap. 1.1, 1.5) **[Beobachtung]**. Eine Drittprüfung gibt es nur an drei Stellen:
+**Kurz: EmpCo schreibt für Claims keine Prüfung vor.** Weder die Richtlinie (EU) 2024/825 noch das 3. UWG-Änderungsgesetz sehen ein Genehmigungs- oder Vorabprüfverfahren für Umweltaussagen vor; sie legen nur fest, welche Aussagen unlauter sind [Q48][Q50][Q51]. Eine Vorab-Verifizierung durch unabhängige Prüfer mit Konformitätsbescheinigung enthielt erst der Vorschlag für die Green-Claims-Richtlinie (Art. 10), und der ist nicht verabschiedet [Q53] **[Beleg]**.
+
+Die Regulierung ist ein **Ergebnis- und Beweisregime**:
+
+- **Belegpflicht:**
+  - Die Mitgliedstaaten müssen Gerichten die Befugnis geben, vom Unternehmer Beweise für die Richtigkeit von Tatsachenbehauptungen zu verlangen und unbelegte Behauptungen als unrichtig zu behandeln (Art. 12 UGP-RL) [Q49]. In Deutschland trägt der Werbende regelmäßig eine sekundäre Darlegungslast für Tatsachen aus seiner Sphäre (RB Kap. 3.12).
+  - Allgemeine Umweltaussagen sind stets unlauter, wenn der Unternehmer die anerkannte hervorragende Umweltleistung nicht „nachweisen kann“ (Anhang Nr. 4a UWG) [Q50].
+  - Für Umweltwerbung gelten strenge Anforderungen an Richtigkeit, Eindeutigkeit und Klarheit (BGH, Urteil vom 27.06.2024 – I ZR 98/23, Leitsatz a) [Q54]. Die Leitlinien der Kommission zur UGP-RL behandeln Umweltaussagen in Abschnitt 4.1.1 [Q52] **[Beleg]**.
+- **„Vor der Veröffentlichung“ ist eine Schlussfolgerung:** Die Unlauterkeit tritt mit der Aussage ein, und im Eilverfahren bleibt kaum Zeit, Belege nachträglich zu beschaffen (RB Kap. 3.12, 4.5) **[Beobachtung]**.
+- **Kontrolle im Nachhinein:**
+  - Ansprüche auf Unterlassung und Beseitigung haben Mitbewerber, eingetragene Wirtschaftsverbände, qualifizierte Verbraucherverbände wie die DUH sowie IHK und Handwerkskammern (§ 8 Abs. 1 und 3 UWG). Durchgesetzt wird per Abmahnung (§ 13 UWG) und vor Gericht [Q50].
+  - Behörden werden nur bei grenzüberschreitenden Verstößen tätig (VO (EU) 2017/2394, EU-VSchDG, § 19 UWG; RB Kap. 1.5).
+  - Die UGP-RL überlässt den Mitgliedstaaten, ob gerichtlich oder behördlich durchgesetzt wird (Art. 11 UGP-RL) [Q49] **[Beleg]**.
+
+Eine Drittprüfung gibt es nur an drei Stellen:
 
 | Element | Drittprüfung vorgeschrieben? | Prüfungsgrad | Anmerkung |
 |---|---|---|---|
-| Umweltaussagen allgemein (§ 5, § 5a UWG) | nein | keiner; Nachweis auf Anforderung des Gerichts (Art. 12 UGP-RL), sekundäre Darlegungslast | Beweislast liegt faktisch beim Werbenden, und zwar vor der Veröffentlichung (RB Kap. 3.12, 4.5) |
-| Allgemeine Umweltaussagen (Nr. 4a) | mittelbar | Zertifizierung der Spitzenleistung (EU Ecolabel, Blauer Engel) | ohne eine solche Zertifizierung sind allgemeine Aussagen verboten |
-| Nachhaltigkeitssiegel (Nr. 2a) | ja, für das Siegelsystem | Zertifizierung mit objektiver Drittüberwachung, in der Praxis Akkreditierung | staatliche Siegel ausgenommen; kein Prüfvermerk zum einzelnen Claim |
-| Zukunftsaussagen (§ 5 Abs. 3 Nr. 4) | ja: regelmäßige Prüfung des Umsetzungsplans durch unabhängige externe Sachverständige | **nicht festgelegt**: begrenzte oder hinreichende Sicherheit; das IDW hat Muster für beide Varianten, ausdrücklich nur zur Transparenz [Q45] | Gegenstand ist der Plan, nicht der Claim; „regelmäßig“ ist offen; die Ergebnisse müssen für Verbraucher zugänglich sein (RB Kap. 3.5) |
+| Umweltaussagen allgemein (§ 5, § 5a UWG) | nein | keiner; Nachweis auf Anforderung des Gerichts (Art. 12 UGP-RL) [Q49], sekundäre Darlegungslast | strenge Anforderungen (BGH I ZR 98/23, Leitsatz a) [Q54]; Belege müssen faktisch vor der Veröffentlichung vorliegen (RB Kap. 3.12, 4.5) |
+| Allgemeine Umweltaussagen (Anhang Nr. 4a UWG; Anhang I Nr. 4a UGP-RL) | mittelbar | Zertifizierte Spitzenleistung: EU Ecolabel, offiziell anerkanntes Typ-I-Umweltzeichen nach EN ISO 14024 (Blauer Engel) oder Spitzenleistung nach anderem Unionsrecht (Art. 2 lit. s UGP-RL) [Q48] | ohne eine solche Leistung sind allgemeine Aussagen verboten [Q50] |
+| Nachhaltigkeitssiegel (Anhang Nr. 2a UWG; Anhang I Nr. 2a UGP-RL) | ja, für das Siegelsystem | Zertifizierungssystem mit objektiver Überwachung durch einen Dritten, dessen Kompetenz und Unabhängigkeit auf internationalen, EU- oder nationalen Normen beruhen (Art. 2 lit. r UGP-RL); ErwG 7 nennt z. B. ISO/IEC 17065 [Q48] | staatlich festgesetzte Siegel ausgenommen; kein Prüfvermerk zum einzelnen Claim |
+| Zukunftsaussagen (§ 5 Abs. 3 Nr. 4 UWG; Art. 6 Abs. 2 lit. d UGP-RL) | ja: Umsetzungsplan, der „regelmäßig von einem unabhängigen externen Sachverständigen überprüft wird“ (Art. 6 Abs. 2 lit. d UGP-RL; ErwG 4) [Q48][Q50] | **nicht festgelegt**: begrenzte oder hinreichende Sicherheit; das IDW hat Muster für beide Varianten, ausdrücklich nur zur Transparenz [Q45] | Gegenstand ist der Plan, nicht der Claim; „regelmäßig“ ist offen; die Ergebnisse müssen für Verbraucher zugänglich sein (RB Kap. 3.5) |
 | Zum Vergleich: CSRD-Bericht, nach Omnibus I nur Großunternehmen | ja | nur begrenzte Sicherheit; die Anhebung auf hinreichende Sicherheit ist gestrichen [Q46] | Widersprüche zwischen Bericht und Werbung werden zum Beweisthema |
-| Zum Vergleich: Green-Claims-Richtlinie | wäre: Vorab-Verifizierung mit Konformitätsbescheinigung | – | formell anhängig, faktisch gestoppt (RB Kap. 1.2.2) |
+| Zum Vergleich: Green-Claims-Richtlinie (Vorschlag COM(2023) 166) | wäre: Vorab-Verifizierung durch unabhängige Prüfer mit Konformitätsbescheinigung, bevor der Claim veröffentlicht wird (Art. 10) [Q53] | – | formell anhängig, faktisch gestoppt (RB Kap. 1.2.2) |
+
+*Prüfhinweis: Der Wortlaut von Art. 6 Abs. 2 lit. d und Art. 2 lit. r UGP-RL sowie von Anhang Nr. 4a UWG ist über Sekundärquellen bestätigt. Die Nummern der Erwägungsgründe (4, 7) und der Leitlinien-Abschnitt sind plausibilisiert; die Primärtexte waren in dieser Arbeitsumgebung nicht abrufbar und sind vor externer Verwendung im Amtsblatt zu prüfen.*
 
 **Folgen [Hypothese]:**
 
@@ -1087,7 +1103,7 @@ Die Schwachstellen leiten sich aus den Normanforderungen, der Durchsetzungspraxi
 
 ## Anhang – Quellenverzeichnis
 
-*Die Quellen Q01–Q34 wurden am 28.09.2026, Q35–Q47 am 29.09.2026 über Websuche erfasst; die Seiten selbst waren nicht abrufbar (siehe Methodik). „n. e.“ = Datum nicht ermittelt.*
+*Die Quellen Q01–Q34 wurden am 28.09.2026, Q35–Q54 am 29.09.2026 über Websuche erfasst; die Seiten selbst waren nicht abrufbar (siehe Methodik). „n. e.“ = Datum nicht ermittelt.*
 
 | ID | Anbieter | Veröffentlichung / Angebot | Datum | URL |
 |---|---|---|---|---|
@@ -1138,6 +1154,13 @@ Die Schwachstellen leiten sich aus den Normanforderungen, der Durchsetzungspraxi
 | Q45 | IDW | „IDW veröffentlicht Mustervermerke zur Prüfung von Umsetzungsplänen für künftige Umweltleistungen“; Pressemitteilung „UWG-Novelle führt zu Rechtsunsicherheit bei Nachhaltigkeitsaussagen“ | 22.09.2026 bzw. 09/2026 | https://www.idw.de/news/idw-veroeffentlicht-mustervermerke-zur-pruefung-von-umsetzungsplaenen-fuer-kuenftige-umweltleistungen.html · https://www.presseportal.de/pm/115568/6351944 |
 | Q46 | CSRD nach Omnibus I | Noerr: „Vereinfachungen der CSRD: Omnibus I“; Rödl: „EU erzielt Einigung im Omnibus-Verfahren zur Nachhaltigkeitsberichterstattung“ | 2025–2026 | https://www.noerr.com/de/insights/vereinfachung-der-csrd-omnibus-i · https://www.roedl.com/insights/eu-erzielt-einigung-im-omnibus-verfahren-zur-nachhaltigkeitsberichterstattung/ |
 | Q47 | Compliance im Mittelstand | F.A.Z.-Institut und Ebner Stolz: „Compliance – Handlungsoptionen im Mittelstand“; AGAMON Consulting: Compliance-Studie | n. e. bzw. 2018 | https://www.ebnerstolz.de/de/ueber-rsm-ebner-stolz/publikationen/studien/compliance-handlungsoptionen-im-mittelstand-14080.html · https://www.pressebox.de/pressemitteilung/agamon-consulting-gmbh/Neue-Compliance-Studie-von-AGAMON-Consulting-offenbart-weiterhin-Nachholbedarf-im-deutschen-Mittelstand/boxid/909185 |
+| Q48 | EU-Recht: EmpCo-Richtlinie | Richtlinie (EU) 2024/825 vom 28.02.2024, ABl. L 2024/825 vom 06.03.2024; hier Art. 2 lit. r und s, Art. 6 Abs. 2 lit. d sowie Anhang I Nr. 2a und 4a UGP-RL in der geänderten Fassung, ErwG 4 und 7; Wortlaut über Sekundärquellen bestätigt (u. a. OEKO-TEX) | 06.03.2024 | https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=OJ:L_202400825 · https://eur-lex.europa.eu/eli/dir/2024/825/oj?locale=de · https://www.oeko-tex.com/en/news/infocenter/compliance-with-the-requirements-for-a-certification-system-in-accordance-with-directive-eu-2024-825-ectg-directive/ |
+| Q49 | EU-Recht: UGP-Richtlinie | Richtlinie 2005/29/EG über unlautere Geschäftspraktiken; hier Art. 11 (Durchsetzung) und Art. 12 (Beweisanforderung durch Gerichte und Behörden) | 11.05.2005 | https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex:32005L0029 |
+| Q50 | Deutsches Recht: UWG | UWG in der Fassung des 3. UWG-Änderungsgesetzes (BGBl. 2026 I Nr. 43); hier § 2 Abs. 2, § 5 Abs. 3 Nr. 4, § 8 Abs. 1 und 3, § 13, § 19 sowie Anhang Nr. 2a und 4a; Wortlaut von Anhang Nr. 4a über Sekundärquelle bestätigt (tww.law) | 19.02.2026 | https://www.recht.bund.de/bgbl/1/2026/43/regelungstext.pdf?__blob=publicationFile&v=1 · https://www.gesetze-im-internet.de/uwg_2004/__8.html · https://tww.law/blog/2026/09/21/allgemeine-umweltaussagen-umweltfreundlich-nachhaltig-uwg-2026/ |
+| Q51 | Gesetzgebung | Gesetzentwurf der Bundesregierung zum 3. UWG-Änderungsgesetz, BT-Drs. 21/1855 | 29.09.2025 | https://dserver.bundestag.de/btd/21/018/2101855.pdf |
+| Q52 | Europäische Kommission: Leitlinien | Leitlinien zur Auslegung und Anwendung der Richtlinie 2005/29/EG, ABl. C 526 vom 29.12.2021; hier Abschnitt 4.1.1 (Umweltaussagen) | 29.12.2021 | https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:52021XC1229(05) |
+| Q53 | Europäische Kommission: Green-Claims-Richtlinie | Vorschlag COM(2023) 166 final vom 22.03.2023; hier Art. 10 (Überprüfung und Konformitätsbescheinigung vor Veröffentlichung); Verfahrensstand: Legislative Train des Europäischen Parlaments; Einordnung: A&O Shearman | 22.03.2023 bzw. n. e. | https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A52023PC0166 · https://www.europarl.europa.eu/legislative-train/spotlight-JD%2023-24/file-substantiating-green-claims · https://www.aoshearman.com/en/insights/european-commission-publishes-proposal-for-the-green-claims-directive |
+| Q54 | Rechtsprechung | BGH, Urteil vom 27.06.2024 – I ZR 98/23 („klimaneutral“), Leitsatz a; Pressemitteilung Nr. 138/2024 | 27.06.2024 | https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2024/2024138.html · https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&nr=138206&pos=0&anz=1 · https://medien-internet-und-recht.de/volltext.php?mir_dok_id=3386 |
 
 ---
 
